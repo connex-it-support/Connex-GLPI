@@ -1,0 +1,8 @@
+2017-10-02 14:16:06 [2@ITHELPDESK]
+1 second for "create database schema" @ 2017-10-02 14:16:06 [2@ITHELPDESK]
+0 seconds for "Configure existing entities" @ 2017-10-02 14:16:06 [2@ITHELPDESK]
+0 seconds for "create request type" @ 2017-10-02 14:16:06 [2@ITHELPDESK]
+0 seconds for "create default display preferences" @ 2017-10-17 10:43:56 [2@ITHELPDESK]
+0 seconds for "create database schema" @ 2017-10-17 10:43:56 [2@ITHELPDESK]
+0 seconds for "Upgrade to schema version 2.5" @ 2017-10-17 10:43:56 [2@ITHELPDESK]
+0 seconds for "Upgrade glpi_plugin_formcreator_answers" @ 
