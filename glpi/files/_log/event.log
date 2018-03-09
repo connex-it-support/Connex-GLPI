@@ -1984,3 +1984,9 @@
 [login] 3: Failed login for tdinardo from IP 172.16.6.76
 2018-03-08 08:31:31 [@ITHELPDESK]
 [login] 3: tdinardo log in from IP 172.16.6.76
+2018-03-08 15:11:55 [@ITHELPDESK]
+[login] 3: itservice log in from IP 172.16.6.76
+2018-03-09 08:04:40 [@ITHELPDESK]
+[login] 3: itservice log in from IP 172.16.6.77
+2018-03-09 08:11:07 [@ITHELPDESK]
+[login] 3: tdinardo log in from IP 172.16.6.77

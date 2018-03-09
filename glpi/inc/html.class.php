@@ -2176,7 +2176,7 @@ class Html {
       }
 
       $out = "<span class='form-group-checkbox'>";
-      $out.= "<input type='checkbox' class='new_checkbox' onchange='calcTotal()' ";
+      $out.= "<input type='checkbox' class='new_checkbox' ";
 
       foreach (['id', 'name', 'title', 'value'] as $field) {
          if (!empty($params[$field])) {

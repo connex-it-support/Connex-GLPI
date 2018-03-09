@@ -21956,3 +21956,168 @@ Test
   plugins\formcreator\inc\fields.class.php:118       PluginFormcreatorField->show()
   plugins\formcreator\inc\form.class.php:911         PluginFormcreatorFields::showField()
   plugins\formcreator\front\formdisplay.php:47       PluginFormcreatorForm->displayUserForm()
+2018-03-08 12:51:17 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: quantity
+  Backtrace :
+  plugins\formcreator\inc\question.class.php:864     
+  plugins\formcreator\ajax\question.php:13           PluginFormcreatorQuestion->showForm()
+2018-03-09 08:11:08 [74@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 1
+  Backtrace :
+  ...creator\inc\fields\checkboxesfield.class.php:45 
+  plugins\formcreator\inc\field.class.php:49         PluginFormcreatorCheckboxesField->displayField()
+  plugins\formcreator\inc\fields.class.php:118       PluginFormcreatorField->show()
+  plugins\formcreator\inc\form.class.php:911         PluginFormcreatorFields::showField()
+  plugins\formcreator\front\formdisplay.php:47       PluginFormcreatorForm->displayUserForm()
+2018-03-09 08:11:08 [74@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 2
+  Backtrace :
+  ...creator\inc\fields\checkboxesfield.class.php:45 
+  plugins\formcreator\inc\field.class.php:49         PluginFormcreatorCheckboxesField->displayField()
+  plugins\formcreator\inc\fields.class.php:118       PluginFormcreatorField->show()
+  plugins\formcreator\inc\form.class.php:911         PluginFormcreatorFields::showField()
+  plugins\formcreator\front\formdisplay.php:47       PluginFormcreatorForm->displayUserForm()
+2018-03-09 08:11:08 [74@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 3
+  Backtrace :
+  ...creator\inc\fields\checkboxesfield.class.php:45 
+  plugins\formcreator\inc\field.class.php:49         PluginFormcreatorCheckboxesField->displayField()
+  plugins\formcreator\inc\fields.class.php:118       PluginFormcreatorField->show()
+  plugins\formcreator\inc\form.class.php:911         PluginFormcreatorFields::showField()
+  plugins\formcreator\front\formdisplay.php:47       PluginFormcreatorForm->displayUserForm()
+2018-03-09 08:11:08 [74@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 4
+  Backtrace :
+  ...creator\inc\fields\checkboxesfield.class.php:45 
+  plugins\formcreator\inc\field.class.php:49         PluginFormcreatorCheckboxesField->displayField()
+  plugins\formcreator\inc\fields.class.php:118       PluginFormcreatorField->show()
+  plugins\formcreator\inc\form.class.php:911         PluginFormcreatorFields::showField()
+  plugins\formcreator\front\formdisplay.php:47       PluginFormcreatorForm->displayUserForm()
+2018-03-09 08:11:08 [74@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 5
+  Backtrace :
+  ...creator\inc\fields\checkboxesfield.class.php:45 
+  plugins\formcreator\inc\field.class.php:49         PluginFormcreatorCheckboxesField->displayField()
+  plugins\formcreator\inc\fields.class.php:118       PluginFormcreatorField->show()
+  plugins\formcreator\inc\form.class.php:911         PluginFormcreatorFields::showField()
+  plugins\formcreator\front\formdisplay.php:47       PluginFormcreatorForm->displayUserForm()
+2018-03-09 08:11:08 [74@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 6
+  Backtrace :
+  ...creator\inc\fields\checkboxesfield.class.php:45 
+  plugins\formcreator\inc\field.class.php:49         PluginFormcreatorCheckboxesField->displayField()
+  plugins\formcreator\inc\fields.class.php:118       PluginFormcreatorField->show()
+  plugins\formcreator\inc\form.class.php:911         PluginFormcreatorFields::showField()
+  plugins\formcreator\front\formdisplay.php:47       PluginFormcreatorForm->displayUserForm()
+2018-03-09 08:11:08 [74@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 7
+  Backtrace :
+  ...creator\inc\fields\checkboxesfield.class.php:45 
+  plugins\formcreator\inc\field.class.php:49         PluginFormcreatorCheckboxesField->displayField()
+  plugins\formcreator\inc\fields.class.php:118       PluginFormcreatorField->show()
+  plugins\formcreator\inc\form.class.php:911         PluginFormcreatorFields::showField()
+  plugins\formcreator\front\formdisplay.php:47       PluginFormcreatorForm->displayUserForm()
+2018-03-09 08:11:08 [74@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 8
+  Backtrace :
+  ...creator\inc\fields\checkboxesfield.class.php:45 
+  plugins\formcreator\inc\field.class.php:49         PluginFormcreatorCheckboxesField->displayField()
+  plugins\formcreator\inc\fields.class.php:118       PluginFormcreatorField->show()
+  plugins\formcreator\inc\form.class.php:911         PluginFormcreatorFields::showField()
+  plugins\formcreator\front\formdisplay.php:47       PluginFormcreatorForm->displayUserForm()
+2018-03-09 08:11:08 [74@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 9
+  Backtrace :
+  ...creator\inc\fields\checkboxesfield.class.php:45 
+  plugins\formcreator\inc\field.class.php:49         PluginFormcreatorCheckboxesField->displayField()
+  plugins\formcreator\inc\fields.class.php:118       PluginFormcreatorField->show()
+  plugins\formcreator\inc\form.class.php:911         PluginFormcreatorFields::showField()
+  plugins\formcreator\front\formdisplay.php:47       PluginFormcreatorForm->displayUserForm()
+2018-03-09 08:11:08 [74@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 10
+  Backtrace :
+  ...creator\inc\fields\checkboxesfield.class.php:45 
+  plugins\formcreator\inc\field.class.php:49         PluginFormcreatorCheckboxesField->displayField()
+  plugins\formcreator\inc\fields.class.php:118       PluginFormcreatorField->show()
+  plugins\formcreator\inc\form.class.php:911         PluginFormcreatorFields::showField()
+  plugins\formcreator\front\formdisplay.php:47       PluginFormcreatorForm->displayUserForm()
+2018-03-09 15:46:38 [74@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 1
+  Backtrace :
+  ...creator\inc\fields\checkboxesfield.class.php:43 
+  plugins\formcreator\inc\field.class.php:49         PluginFormcreatorCheckboxesField->displayField()
+  plugins\formcreator\inc\fields.class.php:118       PluginFormcreatorField->show()
+  plugins\formcreator\inc\form.class.php:911         PluginFormcreatorFields::showField()
+  plugins\formcreator\front\formdisplay.php:47       PluginFormcreatorForm->displayUserForm()
+2018-03-09 15:46:38 [74@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 2
+  Backtrace :
+  ...creator\inc\fields\checkboxesfield.class.php:43 
+  plugins\formcreator\inc\field.class.php:49         PluginFormcreatorCheckboxesField->displayField()
+  plugins\formcreator\inc\fields.class.php:118       PluginFormcreatorField->show()
+  plugins\formcreator\inc\form.class.php:911         PluginFormcreatorFields::showField()
+  plugins\formcreator\front\formdisplay.php:47       PluginFormcreatorForm->displayUserForm()
+2018-03-09 15:46:38 [74@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 3
+  Backtrace :
+  ...creator\inc\fields\checkboxesfield.class.php:43 
+  plugins\formcreator\inc\field.class.php:49         PluginFormcreatorCheckboxesField->displayField()
+  plugins\formcreator\inc\fields.class.php:118       PluginFormcreatorField->show()
+  plugins\formcreator\inc\form.class.php:911         PluginFormcreatorFields::showField()
+  plugins\formcreator\front\formdisplay.php:47       PluginFormcreatorForm->displayUserForm()
+2018-03-09 15:46:38 [74@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 4
+  Backtrace :
+  ...creator\inc\fields\checkboxesfield.class.php:43 
+  plugins\formcreator\inc\field.class.php:49         PluginFormcreatorCheckboxesField->displayField()
+  plugins\formcreator\inc\fields.class.php:118       PluginFormcreatorField->show()
+  plugins\formcreator\inc\form.class.php:911         PluginFormcreatorFields::showField()
+  plugins\formcreator\front\formdisplay.php:47       PluginFormcreatorForm->displayUserForm()
+2018-03-09 15:46:38 [74@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 5
+  Backtrace :
+  ...creator\inc\fields\checkboxesfield.class.php:43 
+  plugins\formcreator\inc\field.class.php:49         PluginFormcreatorCheckboxesField->displayField()
+  plugins\formcreator\inc\fields.class.php:118       PluginFormcreatorField->show()
+  plugins\formcreator\inc\form.class.php:911         PluginFormcreatorFields::showField()
+  plugins\formcreator\front\formdisplay.php:47       PluginFormcreatorForm->displayUserForm()
+2018-03-09 15:46:38 [74@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 6
+  Backtrace :
+  ...creator\inc\fields\checkboxesfield.class.php:43 
+  plugins\formcreator\inc\field.class.php:49         PluginFormcreatorCheckboxesField->displayField()
+  plugins\formcreator\inc\fields.class.php:118       PluginFormcreatorField->show()
+  plugins\formcreator\inc\form.class.php:911         PluginFormcreatorFields::showField()
+  plugins\formcreator\front\formdisplay.php:47       PluginFormcreatorForm->displayUserForm()
+2018-03-09 15:46:38 [74@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 7
+  Backtrace :
+  ...creator\inc\fields\checkboxesfield.class.php:43 
+  plugins\formcreator\inc\field.class.php:49         PluginFormcreatorCheckboxesField->displayField()
+  plugins\formcreator\inc\fields.class.php:118       PluginFormcreatorField->show()
+  plugins\formcreator\inc\form.class.php:911         PluginFormcreatorFields::showField()
+  plugins\formcreator\front\formdisplay.php:47       PluginFormcreatorForm->displayUserForm()
+2018-03-09 15:46:38 [74@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 8
+  Backtrace :
+  ...creator\inc\fields\checkboxesfield.class.php:43 
+  plugins\formcreator\inc\field.class.php:49         PluginFormcreatorCheckboxesField->displayField()
+  plugins\formcreator\inc\fields.class.php:118       PluginFormcreatorField->show()
+  plugins\formcreator\inc\form.class.php:911         PluginFormcreatorFields::showField()
+  plugins\formcreator\front\formdisplay.php:47       PluginFormcreatorForm->displayUserForm()
+2018-03-09 15:46:38 [74@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 9
+  Backtrace :
+  ...creator\inc\fields\checkboxesfield.class.php:43 
+  plugins\formcreator\inc\field.class.php:49         PluginFormcreatorCheckboxesField->displayField()
+  plugins\formcreator\inc\fields.class.php:118       PluginFormcreatorField->show()
+  plugins\formcreator\inc\form.class.php:911         PluginFormcreatorFields::showField()
+  plugins\formcreator\front\formdisplay.php:47       PluginFormcreatorForm->displayUserForm()
+2018-03-09 15:46:38 [74@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 10
+  Backtrace :
+  ...creator\inc\fields\checkboxesfield.class.php:43 
+  plugins\formcreator\inc\field.class.php:49         PluginFormcreatorCheckboxesField->displayField()
+  plugins\formcreator\inc\fields.class.php:118       PluginFormcreatorField->show()
+  plugins\formcreator\inc\form.class.php:911         PluginFormcreatorFields::showField()
+  plugins\formcreator\front\formdisplay.php:47       PluginFormcreatorForm->displayUserForm()
