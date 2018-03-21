@@ -41,14 +41,7 @@ abstract class PluginFormcreatorField implements PluginFormcreatorFieldInterface
       echo '<div class="help-block">' . html_entity_decode($this->fields['description']) . '</div>';
 
       echo '<div class="form_field">';
-	  
-	  if ($this->fields['fieldtype'] == "price" ){
-
-		echo '<table width ="80%" align="center">';
-	  }
-	
-	  
-
+	 
       $this->displayField($canEdit);
 	  
 

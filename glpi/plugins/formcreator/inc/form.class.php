@@ -952,7 +952,7 @@ class PluginFormcreatorForm extends CommonDBTM
       echo '</div>';
 	  //Total display
       echo '<div class="center">';
-	  echo '<p class="cost_text" id="total"></p>';
+	  echo '<p class="total_text" id="total"></p>';
 	  echo '</div>';
 	  
       // Display submit button

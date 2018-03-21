@@ -665,3 +665,30 @@ function formcreatorChangeActorAssigned(value) {
       case 'question_supplier' : $('#block_assigned_question_supplier').show();  break;
    }
 }
+
+//The p tag's text should be a format of -> text Cost: $cost -> text is the given parameter. cost is the number value of the cost.
+//Given a p tag id, returns the current cost.
+
+function getCost(text){
+	//if there is nothing in that paragraph, 0 is returned as the cost
+	if (document.getElementById(text).innerHTML =="")  {
+		return 0;
+	}
+	
+	//In the given paragraph, put its value in a temporary holding variable
+	var temp =  document.getElementById(text).innerHTML;
+				
+	//If the parameter is total, will have to index to total's text specifically as the total text contains other costs as well
+	
+	if (text == "total"){
+		temp = temp.substring(temp.indexOf("Total Cost: $")+13); //13 is the length of "Total Cost: $"
+		
+	//Else, index to the dollar sign	
+	} else{
+		temp = temp.substring(temp.indexOf("$")+1); //the +1 removes the dollar sign	
+	}	
+		//The remaining text is a string so will need to parse the value from the text.
+		temp =parseInt( temp ) ;
+		return temp;	
+} //end function
+
