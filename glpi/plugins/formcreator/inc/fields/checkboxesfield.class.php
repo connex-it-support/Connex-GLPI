@@ -3,33 +3,20 @@ class PluginFormcreatorCheckboxesField extends PluginFormcreatorField
 {
    const IS_MULTIPLE    = true;
    public function displayField($canEdit = true) {
-	   
-	   
       if ($canEdit) {
-		
-		 
          echo '<input type="hidden" class="form-control"
                   name="formcreator_field_' . $this->fields['id'] . '" value="" />' . PHP_EOL;
 
          $values = [];
          $values = $this->getAvailableValues();
-		 $prices = [];
-		 $prices = $this->getAvailablePrices();
-
-		 if (!empty($values)) {
+         if (!empty($values)) {
             echo '<div class="checkboxes">';
-			
-			//Top header
-			echo '<tr><td width="50%" align="center">Item</td><td>Cost</td><td>Quantity</td></tr>';
             $i = 0;
-			$fieldID = $this->fields['id'];
-            foreach ($values as $key => $value)  {
-				 echo '<tr><td width="50%" align="center">';
+            foreach ($values as $value) {
                if ((trim($value) != '')) {
                   $i++;
-
                   $current_value = null;
-				  $current_value = $this->getValue();
+                  $current_value = $this->getValue();
                   echo "<div class='checkbox'>";
                   echo Html::getCheckbox(['title'         => $value,
                                           'id'            => 'formcreator_field_'.$this->fields['id'].'_'.$i,
@@ -38,38 +25,13 @@ class PluginFormcreatorCheckboxesField extends PluginFormcreatorField
                                           'zero_on_empty' => false,
                                           'checked' => (!empty($current_value) && in_array($value, $current_value))]);
                   echo '<label for="formcreator_field_'.$this->fields['id'].'_'.$i.'">';
-				  
-				
-				 if ($prices[$key] != null){  
-                  echo '&nbsp;' .$value . '</td><td> $' . $prices[$key];
-				  } else{
-				  echo '&nbsp;' .$value. '</td><td>';
-				  }
-				  
+                  echo '&nbsp;'.$value;
                   echo '</label>';
-				  echo '</div></td><td>';
-	
-
+                  echo "</div>";
                }
-				echo '</td></tr>';
-            } //end for each
-			
-			
-			
-
-		
-			
-			echo '<tr><td colspan="2"><p id ="total" ></p></td></tr>';
-			
+            }
             echo '</div>';
-			echo '</table>';
-
-			
          }
-		 
-		 
-		 
-		 
          echo '<script type="text/javascript">
                   jQuery(document).ready(function($) {
                      jQuery("input[name=\'formcreator_field_' . $this->fields['id']. '[]\']").on("change", function() {
@@ -98,7 +60,7 @@ class PluginFormcreatorCheckboxesField extends PluginFormcreatorField
          } else {
             echo '';
          }
-      } //end else
+      }
    }
 
    public function isValid($value) {
@@ -138,7 +100,6 @@ class PluginFormcreatorCheckboxesField extends PluginFormcreatorField
    }
 
    public function prepareQuestionInputForSave($input) {
-	   
       if (isset($input['values'])) {
          if (empty($input['values'])) {
             Session::addMessageAfterRedirect(
@@ -148,22 +109,11 @@ class PluginFormcreatorCheckboxesField extends PluginFormcreatorField
             return [];
          } else {
             $input['values'] = $this->trimValue($input['values']);
-         //   $input['values'] = addslashes($input['values']);
          }
       }
       if (isset($input['default_values'])) {
          $input['default_values'] = $this->trimValue($input['default_values']);
-         $input['default_values'] = addslashes($input['default_values']);
       }
-
-
-	  if (isset($input['prices'])) {
-		$input['prices'] = $this->trimValue($input['prices']);
-		$input['prices'] = addslashes($input['prices']);
-	  }
-	  
-	  
-
       return $input;
    }
 
@@ -179,7 +129,6 @@ class PluginFormcreatorCheckboxesField extends PluginFormcreatorField
          'dropdown_value' => 0,
          'glpi_objects'   => 0,
          'ldap_values'    => 0,
-		 'prices'		  => 1,
       ];
    }
 

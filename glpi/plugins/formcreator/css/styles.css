@@ -1518,5 +1518,19 @@ span.fc_list_icon {
    #debug-float.plugin_formcreator_debug-float {
       z-index: 1000;
    }
+	
 
+}
+p.cost_text{
+		color: red;
+		font-size: 130%;
+		text-align:center;
+		font-weight: bold;
+}
+
+p.total_text{
+		color: red;
+		font-size: 150%;
+		text-align:center;
+		font-weight: bold;
 }

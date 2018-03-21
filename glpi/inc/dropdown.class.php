@@ -1806,8 +1806,9 @@ class Dropdown {
 
       if (is_array($options) && count($options)) {
          if (isset($options['value']) && strlen($options['value'])) {
-            $options['values'] = [$options['value']];
+			$options['values'] = [$options['value']];
             unset($options['value']);
+
          }
          foreach ($options as $key => $val) {
             $param[$key] = $val;
@@ -1854,7 +1855,7 @@ class Dropdown {
          $output .= implode('<br>', $to_display);
       } else {
 
-         $output  .= "<select name='$field_name' id='$field_id'";
+         $output  .= "<select name='$field_name' id='$field_id' ";
 
          if ($param['tooltip']) {
             $output .= ' title="'.Html::entities_deep($param['tooltip']).'"';
@@ -1864,8 +1865,8 @@ class Dropdown {
             $output .= " onChange='".$param["on_change"]."'";
          }
 
-         if ((is_int($param["size"])) && ($param["size"] > 0)) {
             $output .= " size='".$param["size"]."'";
+         if ((is_int($param["size"])) && ($param["size"] > 0)) {
          }
 
          if ($param["multiple"]) {

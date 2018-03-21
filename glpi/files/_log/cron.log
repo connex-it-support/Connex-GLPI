@@ -6537,3 +6537,639 @@ Internal #1: Launch planningrecall
 Internal #1: Launch ticketrecurrent
 2018-03-09 16:07:29 [74@ITHELPDESK]
 Internal #1: Launch graph
+2018-03-09 16:43:28 [2@ITHELPDESK]
+Internal #1: Launch session
+2018-03-12 08:39:51 [2@ITHELPDESK]
+Internal #1: Launch createinquest
+2018-03-12 08:40:35 [@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-12 08:45:02 [2@ITHELPDESK]
+Internal #1: Launch mailgateerror
+2018-03-12 09:47:26 [2@ITHELPDESK]
+Internal #1: Launch watcher
+2018-03-12 09:56:03 [2@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-12 09:56:17 [74@ITHELPDESK]
+Internal #1: Launch contract
+2018-03-12 10:16:15 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-12 10:56:35 [74@ITHELPDESK]
+Internal #1: Launch queuednotificationclean
+2018-03-12 11:01:43 [2@ITHELPDESK]
+Internal #1: Launch infocom
+2018-03-12 11:01:49 [74@ITHELPDESK]
+Internal #1: Launch temp
+2018-03-12 11:27:20 [74@ITHELPDESK]
+Internal #1: Launch reservation
+2018-03-12 11:35:42 [74@ITHELPDESK]
+Internal #1: Launch ticketrecurrent
+2018-03-12 11:40:43 [74@ITHELPDESK]
+Internal #1: Launch graph
+2018-03-12 11:43:19 [2@ITHELPDESK]
+Internal #1: Launch closeticket
+2018-03-12 11:46:18 [74@ITHELPDESK]
+Internal #1: Launch alertnotclosed
+2018-03-12 11:53:59 [74@ITHELPDESK]
+Internal #1: Launch session
+2018-03-12 11:59:50 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-12 13:00:05 [74@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-12 13:18:56 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-12 13:26:21 [74@ITHELPDESK]
+Internal #1: Launch temp
+2018-03-12 14:39:51 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-12 14:45:26 [74@ITHELPDESK]
+Internal #1: Launch reservation
+2018-03-12 15:03:21 [74@ITHELPDESK]
+Internal #1: Launch ticketrecurrent
+2018-03-12 15:20:27 [74@ITHELPDESK]
+Internal #1: Launch graph
+2018-03-12 16:32:32 [74@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-12 16:38:42 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-12 16:44:18 [74@ITHELPDESK]
+Internal #1: Launch temp
+2018-03-12 16:52:49 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-13 09:05:58 [@ITHELPDESK]
+Internal #1: Launch reservation
+2018-03-13 09:16:18 [74@ITHELPDESK]
+Internal #1: Launch ticketrecurrent
+2018-03-13 09:21:42 [74@ITHELPDESK]
+Internal #1: Launch graph
+2018-03-13 09:29:49 [74@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-13 09:35:39 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-13 09:45:22 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-13 09:52:10 [74@ITHELPDESK]
+Internal #1: Launch temp
+2018-03-13 09:58:52 [74@ITHELPDESK]
+Internal #1: Launch closeticket
+2018-03-13 10:16:14 [74@ITHELPDESK]
+Internal #1: Launch alertnotclosed
+2018-03-13 10:20:21 [2@ITHELPDESK]
+Internal #1: Launch createinquest
+2018-03-13 10:25:16 [74@ITHELPDESK]
+Internal #1: Launch mailgateerror
+2018-03-13 10:37:03 [74@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-13 10:44:06 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-13 10:51:11 [74@ITHELPDESK]
+Internal #1: Launch watcher
+2018-03-13 11:10:05 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-13 11:21:31 [74@ITHELPDESK]
+Internal #1: Launch contract
+2018-03-13 11:31:12 [74@ITHELPDESK]
+Internal #1: Launch reservation
+2018-03-13 11:41:42 [74@ITHELPDESK]
+Internal #1: Launch ticketrecurrent
+2018-03-13 11:45:18 [@ITHELPDESK]
+Internal #1: Launch graph
+2018-03-13 11:52:19 [74@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-13 11:58:41 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-13 12:05:21 [74@ITHELPDESK]
+Internal #1: Launch temp
+2018-03-13 12:16:51 [74@ITHELPDESK]
+Internal #1: Launch queuednotificationclean
+2018-03-13 12:26:29 [74@ITHELPDESK]
+Internal #1: Launch infocom
+2018-03-13 12:35:42 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-13 12:50:48 [74@ITHELPDESK]
+Internal #1: Launch session
+2018-03-13 13:11:19 [74@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-13 14:32:07 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-13 14:44:42 [74@ITHELPDESK]
+Internal #1: Launch reservation
+2018-03-13 14:57:35 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-13 15:07:31 [74@ITHELPDESK]
+Internal #1: Launch ticketrecurrent
+2018-03-13 15:26:11 [74@ITHELPDESK]
+Internal #1: Launch graph
+2018-03-13 15:45:42 [74@ITHELPDESK]
+Internal #1: Launch temp
+2018-03-13 15:51:18 [74@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-13 16:12:07 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-13 16:44:38 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-13 16:59:10 [74@ITHELPDESK]
+Internal #1: Launch reservation
+2018-03-14 08:28:12 [@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-14 08:47:33 [74@ITHELPDESK]
+Internal #1: Launch ticketrecurrent
+2018-03-14 09:21:14 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-14 09:28:41 [74@ITHELPDESK]
+Internal #1: Launch graph
+2018-03-14 09:37:30 [74@ITHELPDESK]
+Internal #1: Launch temp
+2018-03-14 09:54:07 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-14 09:59:46 [74@ITHELPDESK]
+Internal #1: Launch reservation
+2018-03-14 10:10:50 [74@ITHELPDESK]
+Internal #1: Launch closeticket
+2018-03-14 10:26:15 [74@ITHELPDESK]
+Internal #1: Launch alertnotclosed
+2018-03-14 10:32:13 [74@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-14 10:42:57 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-14 10:52:27 [74@ITHELPDESK]
+Internal #1: Launch ticketrecurrent
+2018-03-14 10:57:36 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-14 11:08:07 [74@ITHELPDESK]
+Internal #1: Launch createinquest
+2018-03-14 11:19:58 [74@ITHELPDESK]
+Internal #1: Launch mailgateerror
+2018-03-14 11:34:40 [74@ITHELPDESK]
+Internal #1: Launch graph
+2018-03-14 11:56:50 [74@ITHELPDESK]
+Internal #1: Launch temp
+2018-03-14 12:07:50 [74@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-14 12:13:29 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-14 12:19:37 [74@ITHELPDESK]
+Internal #1: Launch watcher
+2018-03-14 12:25:14 [74@ITHELPDESK]
+Internal #1: Launch reservation
+2018-03-14 12:41:22 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-14 12:52:51 [74@ITHELPDESK]
+Internal #1: Launch contract
+2018-03-14 12:58:20 [74@ITHELPDESK]
+Internal #1: Launch ticketrecurrent
+2018-03-14 13:22:16 [74@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-14 13:28:27 [74@ITHELPDESK]
+Internal #1: Launch queuednotificationclean
+2018-03-14 14:28:57 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-14 14:38:01 [74@ITHELPDESK]
+Internal #1: Launch infocom
+2018-03-14 14:47:19 [74@ITHELPDESK]
+Internal #1: Launch graph
+2018-03-14 14:52:52 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-14 14:58:04 [74@ITHELPDESK]
+Internal #1: Launch session
+2018-03-14 15:03:33 [74@ITHELPDESK]
+Internal #1: Launch temp
+2018-03-14 15:14:28 [74@ITHELPDESK]
+Internal #1: Launch reservation
+2018-03-14 15:21:24 [74@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-14 15:28:02 [74@ITHELPDESK]
+Internal #1: Launch ticketrecurrent
+2018-03-14 15:33:51 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-14 15:43:51 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-14 15:49:24 [74@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-14 15:58:09 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-14 16:03:34 [74@ITHELPDESK]
+Internal #1: Launch graph
+2018-03-14 16:15:31 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-14 16:39:17 [74@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-14 16:46:42 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-14 16:53:19 [74@ITHELPDESK]
+Internal #1: Launch temp
+2018-03-15 08:33:28 [@ITHELPDESK]
+Internal #1: Launch reservation
+2018-03-15 08:49:58 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-15 08:51:14 [2@ITHELPDESK]
+Internal #1: Launch ticketrecurrent
+2018-03-15 08:55:29 [74@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-15 09:22:24 [2@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-15 09:31:28 [2@ITHELPDESK]
+Internal #1: Launch graph
+2018-03-15 09:31:33 [74@ITHELPDESK]
+Internal #1: Launch temp
+2018-03-15 10:04:24 [74@ITHELPDESK]
+Internal #1: Launch closeticket
+2018-03-15 10:35:18 [74@ITHELPDESK]
+Internal #1: Launch alertnotclosed
+2018-03-15 10:41:34 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-15 10:48:00 [74@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-15 11:02:07 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-15 11:15:09 [74@ITHELPDESK]
+Internal #1: Launch reservation
+2018-03-15 11:37:51 [74@ITHELPDESK]
+Internal #1: Launch ticketrecurrent
+2018-03-15 11:38:48 [2@ITHELPDESK]
+Internal #1: Launch graph
+2018-03-15 12:05:32 [74@ITHELPDESK]
+Internal #1: Launch temp
+2018-03-15 12:30:05 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-15 12:46:29 [74@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-15 12:53:50 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-15 13:02:01 [74@ITHELPDESK]
+Internal #1: Launch createinquest
+2018-03-15 13:06:46 [2@ITHELPDESK]
+Internal #1: Launch optimize
+2018-03-15 13:17:39 [74@ITHELPDESK]
+Internal #1: Launch mailgateerror
+2018-03-15 13:26:15 [74@ITHELPDESK]
+Internal #1: Launch reservation
+2018-03-15 14:15:35 [74@ITHELPDESK]
+Internal #1: Launch watcher
+2018-03-15 14:21:24 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-15 14:21:41 [2@ITHELPDESK]
+Internal #1: Launch ticketrecurrent
+2018-03-15 14:30:06 [74@ITHELPDESK]
+Internal #1: Launch graph
+2018-03-15 14:30:51 [2@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-15 14:41:10 [74@ITHELPDESK]
+Internal #1: Launch contract
+2018-03-15 14:41:14 [@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-15 14:56:16 [74@ITHELPDESK]
+Internal #1: Launch temp
+2018-03-15 15:01:17 [74@ITHELPDESK]
+Internal #1: Launch queuednotificationclean
+2018-03-15 15:41:01 [74@ITHELPDESK]
+Internal #1: Launch reservation
+2018-03-15 15:59:13 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-15 16:04:17 [74@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-15 16:07:37 [2@ITHELPDESK]
+Internal #1: Launch infocom
+2018-03-15 16:16:01 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-15 16:24:29 [74@ITHELPDESK]
+Internal #1: Launch session
+2018-03-15 16:32:01 [74@ITHELPDESK]
+Internal #1: Launch ticketrecurrent
+2018-03-15 16:40:49 [74@ITHELPDESK]
+Internal #1: Launch graph
+2018-03-15 16:57:07 [74@ITHELPDESK]
+Internal #1: Launch temp
+2018-03-15 16:57:46 [2@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-16 08:12:37 [@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-16 08:18:25 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-16 08:24:53 [74@ITHELPDESK]
+Internal #1: Launch reservation
+2018-03-16 08:31:16 [@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-16 08:32:27 [74@ITHELPDESK]
+Internal #1: Launch ticketrecurrent
+2018-03-16 08:44:20 [74@ITHELPDESK]
+Internal #1: Launch graph
+2018-03-16 08:45:11 [2@ITHELPDESK]
+Internal #1: Launch temp
+2018-03-16 08:53:10 [74@ITHELPDESK]
+Internal #1: Launch closeticket
+2018-03-16 08:53:23 [2@ITHELPDESK]
+Internal #1: Launch alertnotclosed
+2018-03-16 08:58:15 [74@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-16 09:09:09 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-16 09:19:14 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-16 09:27:40 [74@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-16 09:46:31 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-16 09:54:34 [74@ITHELPDESK]
+Internal #1: Launch reservation
+2018-03-16 10:10:00 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-16 10:20:01 [74@ITHELPDESK]
+Internal #1: Launch ticketrecurrent
+2018-03-16 10:26:11 [74@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-16 10:51:51 [74@ITHELPDESK]
+Internal #1: Launch graph
+2018-03-16 10:57:14 [74@ITHELPDESK]
+Internal #1: Launch temp
+2018-03-16 11:02:45 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-16 11:08:38 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-16 12:04:26 [74@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-16 12:15:06 [74@ITHELPDESK]
+Internal #1: Launch reservation
+2018-03-16 12:22:01 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-16 12:28:57 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-16 12:35:15 [74@ITHELPDESK]
+Internal #1: Launch ticketrecurrent
+2018-03-16 12:50:09 [74@ITHELPDESK]
+Internal #1: Launch graph
+2018-03-16 12:55:21 [74@ITHELPDESK]
+Internal #1: Launch temp
+2018-03-16 14:36:39 [74@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-16 14:54:30 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-16 15:00:26 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-16 15:11:42 [74@ITHELPDESK]
+Internal #1: Launch createinquest
+2018-03-16 15:24:54 [74@ITHELPDESK]
+Internal #1: Launch reservation
+2018-03-16 15:30:04 [74@ITHELPDESK]
+Internal #1: Launch mailgateerror
+2018-03-16 15:35:32 [74@ITHELPDESK]
+Internal #1: Launch ticketrecurrent
+2018-03-16 15:41:27 [74@ITHELPDESK]
+Internal #1: Launch graph
+2018-03-16 15:52:46 [74@ITHELPDESK]
+Internal #1: Launch temp
+2018-03-16 16:02:13 [74@ITHELPDESK]
+Internal #1: Launch watcher
+2018-03-16 16:10:26 [74@ITHELPDESK]
+Internal #1: Launch contract
+2018-03-16 16:11:02 [2@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-16 16:17:20 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-16 16:24:56 [74@ITHELPDESK]
+Internal #1: Launch queuednotificationclean
+2018-03-16 16:30:06 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-16 16:40:56 [74@ITHELPDESK]
+Internal #1: Launch infocom
+2018-03-16 16:47:22 [74@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-16 16:53:07 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-19 08:18:51 [@ITHELPDESK]
+Internal #1: Launch session
+2018-03-19 08:24:57 [74@ITHELPDESK]
+Internal #1: Launch reservation
+2018-03-19 08:25:59 [2@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-19 08:49:42 [74@ITHELPDESK]
+Internal #1: Launch ticketrecurrent
+2018-03-19 08:57:58 [74@ITHELPDESK]
+Internal #1: Launch graph
+2018-03-19 09:17:29 [74@ITHELPDESK]
+Internal #1: Launch temp
+2018-03-19 10:02:16 [74@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-19 10:09:20 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-19 10:18:01 [74@ITHELPDESK]
+Internal #1: Launch closeticket
+2018-03-19 10:30:08 [74@ITHELPDESK]
+Internal #1: Launch alertnotclosed
+2018-03-19 10:31:20 [@ITHELPDESK]
+Internal #1: Launch createinquest
+2018-03-19 10:41:31 [74@ITHELPDESK]
+Internal #1: Launch mailgateerror
+2018-03-19 11:05:25 [74@ITHELPDESK]
+Internal #1: Launch watcher
+2018-03-19 11:10:56 [74@ITHELPDESK]
+Internal #1: Launch contract
+2018-03-19 11:30:39 [74@ITHELPDESK]
+Internal #1: Launch queuednotificationclean
+2018-03-19 11:36:29 [74@ITHELPDESK]
+Internal #1: Launch infocom
+2018-03-19 11:45:25 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-19 11:46:12 [2@ITHELPDESK]
+Internal #1: Launch reservation
+2018-03-19 11:55:32 [74@ITHELPDESK]
+Internal #1: Launch ticketrecurrent
+2018-03-19 12:07:32 [74@ITHELPDESK]
+Internal #1: Launch graph
+2018-03-19 12:12:39 [74@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-19 12:18:58 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-19 12:26:29 [74@ITHELPDESK]
+Internal #1: Launch temp
+2018-03-19 12:40:52 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-19 13:07:35 [2@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-19 13:54:41 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-19 13:55:47 [2@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-19 14:00:54 [2@ITHELPDESK]
+Internal #1: Launch reservation
+2018-03-19 14:04:58 [74@ITHELPDESK]
+Internal #1: Launch ticketrecurrent
+2018-03-19 14:06:17 [2@ITHELPDESK]
+Internal #1: Launch graph
+2018-03-19 14:10:33 [74@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-19 14:11:34 [2@ITHELPDESK]
+Internal #1: Launch temp
+2018-03-19 14:16:38 [2@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-19 14:22:02 [2@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-19 14:31:25 [2@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-19 14:48:06 [2@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-19 14:54:00 [2@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-19 16:02:37 [2@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-19 16:07:58 [2@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-19 16:13:18 [2@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-19 16:16:24 [@ITHELPDESK]
+Internal #1: Launch reservation
+2018-03-19 16:25:52 [104@ITHELPDESK]
+Internal #1: Launch ticketrecurrent
+2018-03-19 16:35:47 [104@ITHELPDESK]
+Internal #1: Launch graph
+2018-03-19 16:36:45 [2@ITHELPDESK]
+Internal #1: Launch temp
+2018-03-19 16:53:40 [104@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-20 08:05:24 [@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-20 08:12:25 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-20 09:01:14 [74@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-20 09:12:37 [74@ITHELPDESK]
+Internal #1: Launch reservation
+2018-03-20 09:23:25 [74@ITHELPDESK]
+Internal #1: Launch ticketrecurrent
+2018-03-20 09:28:36 [74@ITHELPDESK]
+Internal #1: Launch graph
+2018-03-20 09:51:48 [74@ITHELPDESK]
+Internal #1: Launch temp
+2018-03-20 09:57:31 [74@ITHELPDESK]
+Internal #1: Launch closeticket
+2018-03-20 10:03:05 [74@ITHELPDESK]
+Internal #1: Launch alertnotclosed
+2018-03-20 10:11:57 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-20 10:17:19 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-20 10:22:26 [74@ITHELPDESK]
+Internal #1: Launch session
+2018-03-20 10:27:38 [74@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-20 10:34:00 [74@ITHELPDESK]
+Internal #1: Launch reservation
+2018-03-20 10:40:31 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-20 10:45:50 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-20 10:51:41 [74@ITHELPDESK]
+Internal #1: Launch ticketrecurrent
+2018-03-20 11:03:59 [74@ITHELPDESK]
+Internal #1: Launch graph
+2018-03-20 11:10:16 [74@ITHELPDESK]
+Internal #1: Launch createinquest
+2018-03-20 11:17:56 [74@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-20 12:04:16 [74@ITHELPDESK]
+Internal #1: Launch mailgateerror
+2018-03-20 12:16:18 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-20 12:22:16 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-20 12:38:07 [74@ITHELPDESK]
+Internal #1: Launch temp
+2018-03-20 13:58:41 [74@ITHELPDESK]
+Internal #1: Launch watcher
+2018-03-20 14:01:56 [@ITHELPDESK]
+Internal #1: Launch contract
+2018-03-20 14:12:25 [74@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-20 14:17:36 [74@ITHELPDESK]
+Internal #1: Launch queuednotificationclean
+2018-03-20 14:32:21 [74@ITHELPDESK]
+Internal #1: Launch reservation
+2018-03-20 14:55:49 [2@ITHELPDESK]
+Internal #1: Launch infocom
+2018-03-20 15:03:00 [74@ITHELPDESK]
+Internal #1: Launch ticketrecurrent
+2018-03-20 15:19:39 [74@ITHELPDESK]
+Internal #1: Launch graph
+2018-03-20 15:42:35 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-20 16:03:55 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-20 16:11:50 [74@ITHELPDESK]
+Internal #1: Launch temp
+2018-03-20 16:17:36 [74@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-20 16:23:54 [74@ITHELPDESK]
+Internal #1: Launch reservation
+2018-03-20 16:28:55 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-20 16:44:45 [74@ITHELPDESK]
+Internal #1: Launch ticketrecurrent
+2018-03-20 16:49:52 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-20 16:55:00 [74@ITHELPDESK]
+Internal #1: Launch graph
+2018-03-21 08:08:15 [@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-21 08:08:17 [@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-21 08:08:21 [@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-21 08:19:06 [74@ITHELPDESK]
+Internal #1: Launch temp
+2018-03-21 08:56:04 [74@ITHELPDESK]
+Internal #1: Launch reservation
+2018-03-21 08:57:24 [2@ITHELPDESK]
+Internal #1: Launch ticketrecurrent
+2018-03-21 09:01:30 [74@ITHELPDESK]
+Internal #1: Launch graph
+2018-03-21 09:06:57 [74@ITHELPDESK]
+Internal #1: Launch closeticket
+2018-03-21 09:20:55 [74@ITHELPDESK]
+Internal #1: Launch alertnotclosed
+2018-03-21 09:31:27 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-21 09:47:23 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-21 10:06:06 [74@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-21 10:11:00 [2@ITHELPDESK]
+Internal #1: Launch temp
+2018-03-21 10:12:49 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-21 10:18:55 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-21 10:24:34 [74@ITHELPDESK]
+Internal #1: Launch reservation
+2018-03-21 10:33:08 [74@ITHELPDESK]
+Internal #1: Launch ticketrecurrent
+2018-03-21 10:40:33 [74@ITHELPDESK]
+Internal #1: Launch graph
+2018-03-21 10:48:38 [74@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-21 10:54:49 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-21 11:01:42 [74@ITHELPDESK]
+Internal #1: Launch session
+2018-03-21 11:09:42 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-21 11:15:11 [74@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-21 11:20:49 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-21 11:30:21 [2@ITHELPDESK]
+Internal #1: Launch createinquest
+2018-03-21 11:30:28 [74@ITHELPDESK]
+Internal #1: Launch temp
+2018-03-21 11:38:26 [74@ITHELPDESK]
+Internal #1: Launch planningrecall
+2018-03-21 11:43:47 [74@ITHELPDESK]
+Internal #1: Launch olaticket
+2018-03-21 11:49:06 [74@ITHELPDESK]
+Internal #1: Launch reservation
+2018-03-21 11:55:30 [74@ITHELPDESK]
+Internal #1: Launch slaticket
+2018-03-21 12:03:16 [74@ITHELPDESK]
+Internal #1: Launch ticketrecurrent
+2018-03-21 12:08:52 [2@ITHELPDESK]
+Internal #1: Launch graph
+2018-03-21 12:15:26 [2@ITHELPDESK]
+Internal #1: Launch planningrecall

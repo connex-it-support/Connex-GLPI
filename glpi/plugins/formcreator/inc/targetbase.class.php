@@ -747,8 +747,10 @@ EOS;
                              ORDER BY `questions`.`order` ASC";
          $res_questions = $DB->query($query_questions);
 		 
+		 $total = 0;
+		 $total_text="";
          while ($question_line = $DB->fetch_assoc($res_questions)) {
-		
+
             $id    = $question_line['id'];
             if (!PluginFormcreatorFields::isVisible($question_line['id'], $answers_values)) {
                $name = '';
@@ -764,12 +766,11 @@ EOS;
                   $value = "\r\n" . implode("\r\n", $value);
                }
             }
-	echo '<br><br>';
-			print_r($question_line);
-			echo '<br><br>';
+
 			//Set up $value which will replace corresponding tag in destination. It will make a table of the items, prices, and total cost
-			if ($question_line['fieldtype'] == 'price' && $question_line['prices'] !== null){
-				$total = 0;
+			//Quantity is not null so it will be a list of items and quantities
+			if ($question_line['fieldtype'] == 'price' && $question_line['quantity'] != null){
+				$fieldTotal =0;
 				//Prices and values are strings in $question line. We convert the string to an array so we can go through it
 				$prices = explode("\r\n", $question_line['prices']);
 				$items = explode("\r\n", $question_line['values']);
@@ -787,15 +788,41 @@ EOS;
 					//if that item was checked/in the answer array, add the corresponding price to the total variable and fill a row for it in the table
 					//if( in_array($item,$answers)){
 						if($answers[$key]>0 ){
-						$total+= intval($prices[$key]*$answers[$key]);
-						$value.= '<tr><td>'. $item.'</td><td>$'. $prices[$key].'</td><td>'.$answers[$key].'</td><td>'. intval($prices[$key]*$answers[$key]).'</td></tr>';
-					}//end if
+							$fieldTotal+= intval($prices[$key]*$answers[$key]);
+							$value.= '<tr><td>'. $item.'</td><td>$'. $prices[$key].'</td><td>'.$answers[$key].'</td><td>$'. intval($prices[$key]*$answers[$key]).'</td></tr>';
+						
+						}//end if
 				}//end for each
 				//Add total text and closing table tags
-			$value.= '<tr><td colspan="2">TOTAL:</td><td id="total" colspan="2">$'. $total.'</td></tr></tbody></table>';
+			$value.= '<tr><td colspan="2">TOTAL:</td><td id="total" colspan="2">$'. $fieldTotal.'</td></tr></tbody></table>';
+			$total+= $fieldTotal;
+			$total_text.= $question_line['name']." Costs: $".$fieldTotal."<br>";
 			
-			} //end if checkboxes with prices
+			} 
+			// Quantities are null so it is a dropdown
+			else if ($question_line['fieldtype'] == 'price' && $question_line['quantity'] == null){
+				$cost =0;
+				//Prices and values are strings in $question line. We convert the string to an array so we can go through it
+				$prices = explode("\r\n", $question_line['prices']);
+				$items = explode("\r\n", $question_line['values']);
+								echo $question_line['answer'];
+				
+				//Goes through each item in checklist
+				foreach($items as $key => $item){
+					
+					//if that item was checked/in the answer array, add the corresponding price to the total variable and fill a row for it in the table
+					//if( in_array($item,$answers)){
+						if($question_line['answer'] == $item){
+							$cost= intval($prices[$key]);
+							$value= $question_line['answer'].' - $'.$cost;
+							$total+=$cost;
+							$total_text.= $question_line['name']." Costs: $".$cost. "<br>";
+							break;
+					}//end if
+				}//end for each
+				
 			
+			} //end if price type
 			if ($question_line['fieldtype'] !== 'file') {
                $content = str_replace('##question_' . $id . '##', $name, $content);
                $content = str_replace('##answer_' . $id . '##', $value, $content);
@@ -809,6 +836,7 @@ EOS;
                }
             }
          }
+		 $content = str_replace('##total##',$total_text. "Total Cost: $" . $total, $content);
       }
 
       return $content;

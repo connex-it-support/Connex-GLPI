@@ -46,14 +46,29 @@ abstract class PluginFormcreatorField implements PluginFormcreatorFieldInterface
 
 		echo '<table width ="80%" align="center">';
 	  }
+	
+	  
+
       $this->displayField($canEdit);
+	  
+
+	  	  //quantity is not null means there are quantities
+	  if ($this->fields['quantity'] != null){
+		 echo ' 
+			<script type="text/javascript">
+			var id = '.$this->fields['id'].';
+		  var current_total = parseInt( document.getElementById("cost_"+id).innerHTML  ) + parseInt( document.getElementById("total").innerHTML ) ;
+		   document.getElementById("total").innerHTML = current_total;
+	 
+			</script>';
+	  } 
 
       echo '</div>';
 
       echo '</div>';
       $value = is_array($this->getAnswer()) ? json_encode($this->getAnswer()) : $this->getAnswer();
 
-      if ($this->fields['fieldtype'] == 'dropdown') {
+      if ($this->fields['fieldtype'] == 'dropdown' || $this->fields['fieldtype'] == 'price') {
          echo Html::scriptBlock('$(function() {
             formcreatorAddValueOf(' . $this->fields['id'] . ', "'
             . str_replace("\r\n", "\\r\\n", addslashes($this->fields['answer'])) . '");

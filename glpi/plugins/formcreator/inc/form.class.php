@@ -950,7 +950,11 @@ class PluginFormcreatorForm extends CommonDBTM
       }
 
       echo '</div>';
-
+	  //Total display
+      echo '<div class="center">';
+	  echo '<p class="cost_text" id="total"></p>';
+	  echo '</div>';
+	  
       // Display submit button
       echo '<div class="center">';
       echo '<input type="submit" name="submit_formcreator" class="submit_button" value="' . __('Submit Ticket') . '" />';

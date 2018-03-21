@@ -1,6 +1,6 @@
 <?php
 include ("../../../inc/includes.php");
-
+print_r($_POST);
 // Check if plugin is activated...
 $plugin = new Plugin();
 
@@ -45,6 +45,7 @@ if (isset($_REQUEST['id'])
       }
 
       $form->displayUserForm($form);
+
 
    } else {
       Html::displayNotFoundError();

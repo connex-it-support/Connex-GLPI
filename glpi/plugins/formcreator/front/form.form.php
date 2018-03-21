@@ -1,7 +1,6 @@
 <?php
 include ("../../../inc/includes.php");
-
-//print_r($_POST);
+print_r($_POST);
 // Check if plugin is activated...
 $plugin = new Plugin();
 	
@@ -16,13 +15,13 @@ if (isset($_POST["add"])) {
    Session::checkRight("entity", UPDATE);
    $newID = $form->add($_POST);
 
-  // Html::redirect($CFG_GLPI["root_doc"] . '/plugins/formcreator/front/form.form.php?id=' . $newID);
+   //Html::redirect($CFG_GLPI["root_doc"] . '/plugins/formcreator/front/form.form.php?id=' . $newID);
 
 } else if (isset($_POST["update"])) {
    // Edit an existing form
    Session::checkRight("entity", UPDATE);
    $form->update($_POST);
- //  Html::back();
+   //Html::back();
 
 } else if (isset($_POST["delete"])) {
    // Delete a form (is_deleted = true)
