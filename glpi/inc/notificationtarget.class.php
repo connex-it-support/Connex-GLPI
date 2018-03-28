@@ -906,7 +906,7 @@ class NotificationTarget extends CommonDBChild {
    final protected function addItemGroupTechInCharge() {
       if (!empty($this->target_object)) {
          foreach ($this->target_object as $val) {
-            if ($val->fields['groups_id_tech'] > 0) {
+            if (isset($val->fields['groups_id_tech']) && $val->fields['groups_id_tech'] > 0) {
                $this->addForGroup(0, $val->fields['groups_id_tech']);
             }
          }
@@ -1325,8 +1325,9 @@ class NotificationTarget extends CommonDBChild {
                } else {
                   echo "&nbsp;";
                }
-               echo "</td><td>".Notification::getMode($notif->getField('mode'));
-               echo "</td><td>".NotificationEvent::getEventName($itemtype,
+              // echo "</td><td>".Notification::getMode($notif->getField('mode'));
+               echo "</td><td>".Notification_NotificationTemplate::getMode($notif->getField('mode'));
+			   echo "</td><td>".NotificationEvent::getEventName($itemtype,
                                                                 $notif->getField('event'));
                echo "</td>".
                     "<td>".Dropdown::getDropdownName('glpi_notificationtemplates',

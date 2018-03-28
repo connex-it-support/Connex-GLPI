@@ -19,7 +19,7 @@
 class PluginFormcreatorPriceField extends PluginFormcreatorField
 {
 	const IS_MULTIPLE    = true;
-
+	const MAX_QUANTITY	 = 3;
 	
  /**Sets up the field for display. Also adds and modifies the costs paragraphs.
   */
@@ -35,6 +35,8 @@ class PluginFormcreatorPriceField extends PluginFormcreatorField
  		$values = $this->getAvailableValues();
  		$prices = [];
  		$prices = $this->getAvailablePrices();
+ 		$details = [];
+ 		$details = $this->getDetails();
  		$tab_values = [];
  		$fieldID = $this->fields['id'];
  		
@@ -72,7 +74,7 @@ class PluginFormcreatorPriceField extends PluginFormcreatorField
 				  echo '</div></td><td>'; //div ends checkbox
 				  
 				  //add quantity input
-				  echo '<input type="number" id="formcreator_field_'.$this->fields['id'].'_'.$i.'" name="formcreator_field_'.$this->fields['id'].'[]" min="0" max="9" value="0"  onchange=\'calcTotal()\' style="width: 4em" >';
+				  echo '<input type="number" id="formcreator_field_'.$this->fields['id'].'_'.$i.'" name="formcreator_field_'.$this->fields['id'].'[]" min="0" max='.self::MAX_QUANTITY.' value="0"  onchange=\'calcTotal()\' style="width: 4em" >';
 
 				}
 				echo '</td></tr>';
@@ -248,6 +250,15 @@ class PluginFormcreatorPriceField extends PluginFormcreatorField
 						//matched value condition
 						if (str == item[i-1]){
 							
+							
+							// Display for details of item
+							
+							//Gets the detail for the item and lists them out
+							var detail = '. json_encode($details). ';
+							detail = "Hardware Info:<br><ul><li>" + detail[i-1] + "</ul>";
+							detail = detail.replace(/\,/g, "</li><li>");
+							document.getElementById("detail_"+field).innerHTML = detail;
+							
 							//Set display for current section
 							display = "'.$this->fields['name'].' Costs: $" +price[i-1];
 							document.getElementById("cost_"+field).innerHTML = display;
@@ -288,7 +299,8 @@ class PluginFormcreatorPriceField extends PluginFormcreatorField
 
 			echo '<tr><td colspan="2"></td></tr>';
             echo '</div>'; //end div form field
-            echo '</table>';	
+            echo '</table>';
+			echo '<p id ="detail_'.$fieldID.'" ></p>';	
             echo '<p class="cost_text" id ="cost_'.$fieldID.'" ></p>';		
 
             

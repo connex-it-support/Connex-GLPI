@@ -296,7 +296,7 @@ class NotificationTargetTicket extends NotificationTargetCommonITILObject {
             = $item->convertContentForNotification($data['##ticket.description##'],
                                                    $item);
 
-      $data['##ticket.content##'] = $data['##ticket.description##'];
+  //    $data['##ticket.content##'] = $data['##ticket.description##'];
       // Specific data
       $data['##ticket.urlvalidation##']
                         = $this->formatURL($options['additionnaloption']['usertype'],

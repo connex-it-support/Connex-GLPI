@@ -140,6 +140,15 @@ abstract class PluginFormcreatorField implements PluginFormcreatorFieldInterface
    public function getAvailablePrices() {
       return explode("\r\n", $this->fields['prices']);
    }
+    /**
+    * Gets the details for the field
+    *
+    * @return array
+    */
+   public function getDetails() {
+      return explode("\r\n", $this->fields['detail']);
+   }
+   
    
    /**
     * Is the field valid for thegiven value ?

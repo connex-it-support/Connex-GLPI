@@ -115,6 +115,7 @@ CREATE TABLE IF NOT EXISTS `glpi_plugin_formcreator_questions` (
   `uuid` varchar(255) DEFAULT NULL,
   `prices` text,
   `quantity` text,
+  `detail` text,
   PRIMARY KEY (`id`),
   INDEX `plugin_formcreator_sections_id` (`plugin_formcreator_sections_id`),
   FULLTEXT KEY `Search` (`name`,`description`)

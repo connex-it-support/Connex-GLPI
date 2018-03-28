@@ -750,7 +750,7 @@ EOS;
 		 $total = 0;
 		 $total_text="";
          while ($question_line = $DB->fetch_assoc($res_questions)) {
-
+			
             $id    = $question_line['id'];
             if (!PluginFormcreatorFields::isVisible($question_line['id'], $answers_values)) {
                $name = '';
@@ -760,8 +760,9 @@ EOS;
                $value = PluginFormcreatorFields::getValue($question_line, $question_line['answer']);
             }
             if (is_array($value)) {
-                  $value = '<br />' . implode('<br />', $value);
+                  
                if ($CFG_GLPI['use_rich_text']) {
+				   $value = '<br />' . implode('<br />', $value);
                } else {
                   $value = "\r\n" . implode("\r\n", $value);
                }
@@ -805,7 +806,7 @@ EOS;
 				//Prices and values are strings in $question line. We convert the string to an array so we can go through it
 				$prices = explode("\r\n", $question_line['prices']);
 				$items = explode("\r\n", $question_line['values']);
-								echo $question_line['answer'];
+				$details = explode("\r\n", $question_line['detail']);
 				
 				//Goes through each item in checklist
 				foreach($items as $key => $item){
@@ -814,7 +815,14 @@ EOS;
 					//if( in_array($item,$answers)){
 						if($question_line['answer'] == $item){
 							$cost= intval($prices[$key]);
-							$value= $question_line['answer'].' - $'.$cost;
+							$value= '<strong>' . $question_line['answer'].' - $'.$cost . '</strong>';
+							
+							
+							//Adds the details of the hardware selected
+						    $details = "<br>Hardware Info:<br><br><ul><li>" . $details[$key] . "</li></ul>";
+							$details = str_replace(",", "</li><li>", $details);
+							
+							$value.= $details;
 							$total+=$cost;
 							$total_text.= $question_line['name']." Costs: $".$cost. "<br>";
 							break;

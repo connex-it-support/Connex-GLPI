@@ -42034,3 +42034,2077 @@ Test
   plugins\formcreator\inc\fields.class.php:118       PluginFormcreatorField->show()
   plugins\formcreator\inc\form.class.php:911         PluginFormcreatorFields::showField()
   plugins\formcreator\front\formdisplay.php:47       PluginFormcreatorForm->displayUserForm()
+2018-03-22 12:33:39 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-22 12:33:39 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-22 12:33:39 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.36Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-22 12:33:39 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-22 12:34:04 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-22 12:34:04 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-22 12:34:04 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.39Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-22 12:34:04 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-22 12:34:13 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-22 12:34:13 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-22 12:34:13 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.39Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-22 12:34:13 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-22 12:34:18 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-22 12:34:18 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-22 12:34:18 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.002", 16.39Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-22 12:34:18 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-22 14:38:17 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-22 14:38:17 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-22 14:38:17 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.40Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-22 14:38:17 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-22 14:58:08 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-22 14:58:08 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-22 14:58:08 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.40Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-22 14:58:08 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-22 15:20:05 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-22 15:20:05 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-22 15:20:05 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.002", 16.39Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-22 15:20:05 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-22 16:00:50 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-22 16:00:50 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-22 16:00:50 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.000", 16.39Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-22 16:00:50 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-22 16:10:56 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-22 16:10:56 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-22 16:10:56 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.000", 16.39Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-22 16:10:56 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-22 16:11:42 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-22 16:11:42 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-22 16:11:42 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.000", 16.39Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-22 16:11:42 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-22 16:12:22 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-22 16:12:22 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-22 16:12:22 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.000", 16.39Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-22 16:12:22 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-22 16:15:51 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-22 16:15:51 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-22 16:15:51 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.000", 16.39Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-22 16:15:51 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-23 08:23:47 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-23 08:23:47 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-23 08:23:47 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.000", 16.39Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-23 08:23:47 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-23 08:57:25 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-23 08:57:25 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-23 08:57:25 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.000", 16.39Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-23 08:57:25 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-23 09:15:08 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-23 09:15:08 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-23 09:15:08 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.000", 16.39Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-23 09:15:08 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-23 09:16:20 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-23 09:16:20 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-23 09:16:20 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.000", 16.39Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-23 09:16:20 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-23 09:26:43 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-23 09:26:43 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-23 09:26:43 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.000", 16.39Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-23 09:26:43 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-23 09:40:37 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-23 09:40:37 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-23 09:40:37 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.39Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-23 09:40:37 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-23 09:49:32 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-23 09:49:32 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-23 09:49:32 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.40Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-23 09:49:32 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-23 09:58:59 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-23 09:58:59 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-23 09:58:59 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.40Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-23 09:58:59 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-23 09:59:20 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-23 09:59:20 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-23 09:59:20 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.40Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-23 09:59:20 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-23 10:00:03 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-23 10:00:03 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-23 10:00:03 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.40Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-23 10:00:03 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-23 10:00:04 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-23 10:00:04 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-23 10:00:04 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.40Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-23 10:00:04 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-23 12:01:05 [2@ITHELPDESK]
+  *** PHP Warning(2): Cannot modify header information - headers already sent by (output started at C:\inetpub\wwwroot\glpi\front\notificationtemplatetranslation.form.php:41)
+  Backtrace :
+  :                                                  
+  inc\html.class.php:1114                            header()
+  inc\html.class.php:1434                            Html::includeHeader()
+  front\notificationtemplatetranslation.form.php:77  Html::header()
+2018-03-23 12:01:05 [2@ITHELPDESK]
+  *** PHP Warning(2): Cannot modify header information - headers already sent by (output started at C:\inetpub\wwwroot\glpi\front\notificationtemplatetranslation.form.php:41)
+  Backtrace :
+  :                                                  
+  inc\html.class.php:1116                            header()
+  inc\html.class.php:1434                            Html::includeHeader()
+  front\notificationtemplatetranslation.form.php:77  Html::header()
+2018-03-23 12:01:05 [2@ITHELPDESK]
+  *** PHP Warning(2): Cannot modify header information - headers already sent by (output started at C:\inetpub\wwwroot\glpi\front\notificationtemplatetranslation.form.php:41)
+  Backtrace :
+  :                                                  
+  inc\html.class.php:1952                            header()
+  inc\html.class.php:1119                            Html::header_nocache()
+  inc\html.class.php:1434                            Html::includeHeader()
+  front\notificationtemplatetranslation.form.php:77  Html::header()
+2018-03-23 12:01:05 [2@ITHELPDESK]
+  *** PHP Warning(2): Cannot modify header information - headers already sent by (output started at C:\inetpub\wwwroot\glpi\front\notificationtemplatetranslation.form.php:41)
+  Backtrace :
+  :                                                  
+  inc\html.class.php:1953                            header()
+  inc\html.class.php:1119                            Html::header_nocache()
+  inc\html.class.php:1434                            Html::includeHeader()
+  front\notificationtemplatetranslation.form.php:77  Html::header()
+2018-03-23 12:11:58 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-23 12:11:58 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-23 12:11:58 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.40Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-23 12:11:58 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-23 12:13:23 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-23 12:13:23 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-23 12:13:23 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.40Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-23 12:13:23 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-23 12:26:45 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-23 12:26:45 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-23 12:26:45 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.40Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-23 12:26:45 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-23 12:39:57 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-23 12:39:57 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-23 12:39:57 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.40Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-23 12:39:57 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 10:10:59 [104@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 10:10:59 [104@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 10:10:59 [104@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.21Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 10:10:59 [104@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 10:11:48 [104@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 10:11:48 [104@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 10:11:48 [104@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.21Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 10:11:48 [104@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 10:12:40 [104@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 10:12:40 [104@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 10:12:40 [104@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.21Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 10:12:40 [104@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 10:12:50 [104@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 10:12:50 [104@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 10:12:50 [104@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.21Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 10:12:50 [104@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 10:34:06 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 10:34:06 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 10:34:06 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.000", 16.39Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 10:34:06 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 10:34:30 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 10:34:30 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 10:34:30 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.40Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 10:34:30 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 10:38:57 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 10:38:57 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 10:38:57 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.39Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 10:38:57 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 10:41:04 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: groups_id_tech
+  Backtrace :
+  inc\notificationtarget.class.php:909               
+  inc\notificationtarget.class.php:1050              NotificationTarget->addItemGroupTechInCharge()
+  inc\notificationeventabstract.class.php:86         NotificationTarget->addForTarget()
+  inc\notificationevent.class.php:164                NotificationEventAbstract::raise()
+  inc\notificationevent.class.php:207                NotificationEvent::raiseEvent()
+  inc\ticket.class.php:6451                          NotificationEvent::debugEvent()
+  inc\commonglpi.class.php:1010                      Ticket->showDebug()
+  inc\commonglpi.class.php:456                       CommonGLPI->showDebugInfo()
+  ajax\common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-03-26 10:43:43 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: groups_id_tech
+  Backtrace :
+  inc\notificationtarget.class.php:909               
+  inc\notificationtarget.class.php:1050              NotificationTarget->addItemGroupTechInCharge()
+  inc\notificationeventabstract.class.php:86         NotificationTarget->addForTarget()
+  inc\notificationevent.class.php:164                NotificationEventAbstract::raise()
+  inc\notificationevent.class.php:207                NotificationEvent::raiseEvent()
+  inc\ticket.class.php:6451                          NotificationEvent::debugEvent()
+  inc\commonglpi.class.php:1010                      Ticket->showDebug()
+  inc\commonglpi.class.php:456                       CommonGLPI->showDebugInfo()
+  ajax\common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-03-26 10:44:25 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 10:44:25 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 10:44:25 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.41Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 10:44:25 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 10:44:30 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 10:44:30 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 10:44:30 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.61Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 10:44:30 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 11:08:52 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: groups_id_tech
+  Backtrace :
+  inc\notificationtarget.class.php:909               
+  inc\notificationtarget.class.php:1050              NotificationTarget->addItemGroupTechInCharge()
+  inc\notificationeventabstract.class.php:86         NotificationTarget->addForTarget()
+  inc\notificationevent.class.php:164                NotificationEventAbstract::raise()
+  inc\notificationevent.class.php:207                NotificationEvent::raiseEvent()
+  inc\ticket.class.php:6451                          NotificationEvent::debugEvent()
+  inc\commonglpi.class.php:1010                      Ticket->showDebug()
+  inc\commonglpi.class.php:456                       CommonGLPI->showDebugInfo()
+  ajax\common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-03-26 11:10:40 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: groups_id_tech
+  Backtrace :
+  inc\notificationtarget.class.php:909               
+  inc\notificationtarget.class.php:1050              NotificationTarget->addItemGroupTechInCharge()
+  inc\notificationeventabstract.class.php:86         NotificationTarget->addForTarget()
+  inc\notificationevent.class.php:164                NotificationEventAbstract::raise()
+  inc\notificationevent.class.php:207                NotificationEvent::raiseEvent()
+  inc\ticket.class.php:6451                          NotificationEvent::debugEvent()
+  inc\commonglpi.class.php:1010                      Ticket->showDebug()
+  inc\commonglpi.class.php:456                       CommonGLPI->showDebugInfo()
+  ajax\common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-03-26 11:10:58 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 11:10:58 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 11:10:58 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.61Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 11:10:58 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 11:21:39 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 11:21:39 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 11:21:39 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.61Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 11:21:39 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 11:36:30 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 11:36:30 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 11:36:30 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.61Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 11:36:30 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 11:40:05 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 11:40:05 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 11:40:05 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.61Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 11:40:05 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 11:40:57 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 11:40:57 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 11:40:57 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.61Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 11:40:57 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 11:41:42 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 11:41:42 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 11:41:42 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.62Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 11:41:42 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 11:41:57 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 11:41:57 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 11:41:57 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.61Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 11:41:57 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 11:43:41 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 11:43:41 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 11:43:41 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.61Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 11:43:41 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 11:45:30 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 11:45:30 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 11:45:30 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.61Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 11:45:30 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 11:46:39 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 11:46:39 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 11:46:39 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.61Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 11:46:39 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 11:47:13 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 11:47:13 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 11:47:13 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.61Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 11:47:13 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 11:54:44 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 11:54:44 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 11:54:44 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.62Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 11:54:44 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 11:55:08 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 11:55:08 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 11:55:08 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.62Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 11:55:08 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 11:57:15 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 11:57:15 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 11:57:15 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.62Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 11:57:15 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 12:09:17 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 12:09:17 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:127               Toolbox::deprecated()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 12:09:17 [2@ITHELPDESK]
+  From Toolbox::deprecated() in C:\inetpub\wwwroot\glpi\inc\toolbox.class.php line 477 (0.001", 16.62Mio)
+  getNotificationTargets() method is deprecated (NotificationTargetSavedsearch_Alert) 
+2018-03-26 12:09:17 [2@ITHELPDESK]
+  Backtrace :
+  inc\toolbox.class.php:478                          Toolbox::backtrace()
+  inc\notificationtarget.class.php:1618              Toolbox::deprecated()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->__call()
+  ...tificationtargetsavedsearch_alert.class.php:124 NotificationTarget->getNotificationTargets()
+  inc\notificationtarget.class.php:128               NotificationTargetSavedsearch_Alert->getNotificationTargets()
+  inc\notificationtarget.class.php:291               NotificationTarget->__construct()
+  inc\notificationtarget.class.php:310               NotificationTarget::getInstance()
+  inc\notificationevent.class.php:92                 NotificationTarget::getInstanceByType()
+  inc\notification.class.php:269                     NotificationEvent::getEventName()
+  inc\search.class.php:5017                          Notification::getSpecificValueToDisplay()
+  inc\search.class.php:1136                          Search::giveItem()
+  inc\search.class.php:98                            Search::constructDatas()
+  inc\search.class.php:81                            Search::showList()
+  front\notification.php:44                          Search::show()
+2018-03-26 12:54:39 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: groups_id_tech
+  Backtrace :
+  inc\notificationtarget.class.php:909               
+  inc\notificationtarget.class.php:1050              NotificationTarget->addItemGroupTechInCharge()
+  inc\notificationeventabstract.class.php:86         NotificationTarget->addForTarget()
+  inc\notificationevent.class.php:164                NotificationEventAbstract::raise()
+  inc\notificationevent.class.php:207                NotificationEvent::raiseEvent()
+  inc\ticket.class.php:6451                          NotificationEvent::debugEvent()
+  inc\commonglpi.class.php:1010                      Ticket->showDebug()
+  inc\commonglpi.class.php:456                       CommonGLPI->showDebugInfo()
+  ajax\common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-03-27 14:53:31 [104@ITHELPDESK]
+  *** PHP Warning(2): include(C:\inetpub\wwwroot\glpi\vendor\composer/../phpmailer/phpmailer/class.phpmailer.php): failed to open stream: No such file or directory
+  Backtrace :
+  vendor\composer\ClassLoader.php:444                
+  vendor\composer\ClassLoader.php:444                Composer\Autoload\includeFile()
+  vendor\composer\ClassLoader.php:322                Composer\Autoload\includeFile()
+  :                                                  Composer\Autoload\ClassLoader->loadClass()
+  inc\notificationmailing.class.php:68               spl_autoload_call()
+  inc\notificationeventmailing.class.php:53          NotificationMailing::isUserAddressValid()
+  inc\notificationtarget.class.php:516               NotificationEventMailing::getTargetField()
+  inc\notificationtarget.class.php:702               NotificationTarget->addToRecipientsList()
+  inc\notificationtarget.class.php:1076              NotificationTarget->addForGroup()
+  inc\notificationeventabstract.class.php:86         NotificationTarget->addForTarget()
+  inc\notificationevent.class.php:164                NotificationEventAbstract::raise()
+  inc\ticketfollowup.class.php:470                   NotificationEvent::raiseEvent()
+  inc\commondbtm.class.php:929                       TicketFollowup->post_addItem()
+  front\ticketfollowup.form.php:47                   CommonDBTM->add()
+2018-03-27 14:53:32 [104@ITHELPDESK]
+  *** PHP Warning(2): include(): Failed opening 'C:\inetpub\wwwroot\glpi\vendor\composer/../phpmailer/phpmailer/class.phpmailer.php' for inclusion (include_path='.;C:\php\pear')
+  Backtrace :
+  vendor\composer\ClassLoader.php:444                
+  vendor\composer\ClassLoader.php:444                Composer\Autoload\includeFile()
+  vendor\composer\ClassLoader.php:322                Composer\Autoload\includeFile()
+  :                                                  Composer\Autoload\ClassLoader->loadClass()
+  inc\notificationmailing.class.php:68               spl_autoload_call()
+  inc\notificationeventmailing.class.php:53          NotificationMailing::isUserAddressValid()
+  inc\notificationtarget.class.php:516               NotificationEventMailing::getTargetField()
+  inc\notificationtarget.class.php:702               NotificationTarget->addToRecipientsList()
+  inc\notificationtarget.class.php:1076              NotificationTarget->addForGroup()
+  inc\notificationeventabstract.class.php:86         NotificationTarget->addForTarget()
+  inc\notificationevent.class.php:164                NotificationEventAbstract::raise()
+  inc\ticketfollowup.class.php:470                   NotificationEvent::raiseEvent()
+  inc\commondbtm.class.php:929                       TicketFollowup->post_addItem()
+  front\ticketfollowup.form.php:47                   CommonDBTM->add()
+2018-03-28 09:14:55 [2@ITHELPDESK]
+  *** PHP Notice(8): Use of undefined constant MAX_QUANTITY - assumed 'MAX_QUANTITY'
+  Backtrace :
+  ...\formcreator\inc\fields\pricefield.class.php:75 
+  plugins\formcreator\inc\field.class.php:45         PluginFormcreatorPriceField->displayField()
+  plugins\formcreator\inc\fields.class.php:118       PluginFormcreatorField->show()
+  plugins\formcreator\inc\form.class.php:911         PluginFormcreatorFields::showField()
+  plugins\formcreator\front\formdisplay.php:47       PluginFormcreatorForm->displayUserForm()
+2018-03-28 09:14:55 [2@ITHELPDESK]
+  *** PHP Notice(8): Use of undefined constant MAX_QUANTITY - assumed 'MAX_QUANTITY'
+  Backtrace :
+  ...\formcreator\inc\fields\pricefield.class.php:75 
+  plugins\formcreator\inc\field.class.php:45         PluginFormcreatorPriceField->displayField()
+  plugins\formcreator\inc\fields.class.php:118       PluginFormcreatorField->show()
+  plugins\formcreator\inc\form.class.php:911         PluginFormcreatorFields::showField()
+  plugins\formcreator\front\formdisplay.php:47       PluginFormcreatorForm->displayUserForm()
+2018-03-28 09:14:55 [2@ITHELPDESK]
+  *** PHP Notice(8): Use of undefined constant MAX_QUANTITY - assumed 'MAX_QUANTITY'
+  Backtrace :
+  ...\formcreator\inc\fields\pricefield.class.php:75 
+  plugins\formcreator\inc\field.class.php:45         PluginFormcreatorPriceField->displayField()
+  plugins\formcreator\inc\fields.class.php:118       PluginFormcreatorField->show()
+  plugins\formcreator\inc\form.class.php:911         PluginFormcreatorFields::showField()
+  plugins\formcreator\front\formdisplay.php:47       PluginFormcreatorForm->displayUserForm()
+2018-03-28 09:14:55 [2@ITHELPDESK]
+  *** PHP Notice(8): Use of undefined constant MAX_QUANTITY - assumed 'MAX_QUANTITY'
+  Backtrace :
+  ...\formcreator\inc\fields\pricefield.class.php:75 
+  plugins\formcreator\inc\field.class.php:45         PluginFormcreatorPriceField->displayField()
+  plugins\formcreator\inc\fields.class.php:118       PluginFormcreatorField->show()
+  plugins\formcreator\inc\form.class.php:911         PluginFormcreatorFields::showField()
+  plugins\formcreator\front\formdisplay.php:47       PluginFormcreatorForm->displayUserForm()
+2018-03-28 09:14:55 [2@ITHELPDESK]
+  *** PHP Notice(8): Use of undefined constant MAX_QUANTITY - assumed 'MAX_QUANTITY'
+  Backtrace :
+  ...\formcreator\inc\fields\pricefield.class.php:75 
+  plugins\formcreator\inc\field.class.php:45         PluginFormcreatorPriceField->displayField()
+  plugins\formcreator\inc\fields.class.php:118       PluginFormcreatorField->show()
+  plugins\formcreator\inc\form.class.php:911         PluginFormcreatorFields::showField()
+  plugins\formcreator\front\formdisplay.php:47       PluginFormcreatorForm->displayUserForm()
+2018-03-28 09:14:55 [2@ITHELPDESK]
+  *** PHP Notice(8): Use of undefined constant MAX_QUANTITY - assumed 'MAX_QUANTITY'
+  Backtrace :
+  ...\formcreator\inc\fields\pricefield.class.php:75 
+  plugins\formcreator\inc\field.class.php:45         PluginFormcreatorPriceField->displayField()
+  plugins\formcreator\inc\fields.class.php:118       PluginFormcreatorField->show()
+  plugins\formcreator\inc\form.class.php:911         PluginFormcreatorFields::showField()
+  plugins\formcreator\front\formdisplay.php:47       PluginFormcreatorForm->displayUserForm()
+2018-03-28 09:14:55 [2@ITHELPDESK]
+  *** PHP Notice(8): Use of undefined constant MAX_QUANTITY - assumed 'MAX_QUANTITY'
+  Backtrace :
+  ...\formcreator\inc\fields\pricefield.class.php:75 
+  plugins\formcreator\inc\field.class.php:45         PluginFormcreatorPriceField->displayField()
+  plugins\formcreator\inc\fields.class.php:118       PluginFormcreatorField->show()
+  plugins\formcreator\inc\form.class.php:911         PluginFormcreatorFields::showField()
+  plugins\formcreator\front\formdisplay.php:47       PluginFormcreatorForm->displayUserForm()
+2018-03-28 09:14:55 [2@ITHELPDESK]
+  *** PHP Notice(8): Use of undefined constant MAX_QUANTITY - assumed 'MAX_QUANTITY'
+  Backtrace :
+  ...\formcreator\inc\fields\pricefield.class.php:75 
+  plugins\formcreator\inc\field.class.php:45         PluginFormcreatorPriceField->displayField()
+  plugins\formcreator\inc\fields.class.php:118       PluginFormcreatorField->show()
+  plugins\formcreator\inc\form.class.php:911         PluginFormcreatorFields::showField()
+  plugins\formcreator\front\formdisplay.php:47       PluginFormcreatorForm->displayUserForm()
+2018-03-28 09:14:55 [2@ITHELPDESK]
+  *** PHP Notice(8): Use of undefined constant MAX_QUANTITY - assumed 'MAX_QUANTITY'
+  Backtrace :
+  ...\formcreator\inc\fields\pricefield.class.php:75 
+  plugins\formcreator\inc\field.class.php:45         PluginFormcreatorPriceField->displayField()
+  plugins\formcreator\inc\fields.class.php:118       PluginFormcreatorField->show()
+  plugins\formcreator\inc\form.class.php:911         PluginFormcreatorFields::showField()
+  plugins\formcreator\front\formdisplay.php:47       PluginFormcreatorForm->displayUserForm()
+2018-03-28 09:14:55 [2@ITHELPDESK]
+  *** PHP Notice(8): Use of undefined constant MAX_QUANTITY - assumed 'MAX_QUANTITY'
+  Backtrace :
+  ...\formcreator\inc\fields\pricefield.class.php:75 
+  plugins\formcreator\inc\field.class.php:45         PluginFormcreatorPriceField->displayField()
+  plugins\formcreator\inc\fields.class.php:118       PluginFormcreatorField->show()
+  plugins\formcreator\inc\form.class.php:911         PluginFormcreatorFields::showField()
+  plugins\formcreator\front\formdisplay.php:47       PluginFormcreatorForm->displayUserForm()
+2018-03-28 09:14:55 [2@ITHELPDESK]
+  *** PHP Notice(8): Use of undefined constant MAX_QUANTITY - assumed 'MAX_QUANTITY'
+  Backtrace :
+  ...\formcreator\inc\fields\pricefield.class.php:75 
+  plugins\formcreator\inc\field.class.php:45         PluginFormcreatorPriceField->displayField()
+  plugins\formcreator\inc\fields.class.php:118       PluginFormcreatorField->show()
+  plugins\formcreator\inc\form.class.php:911         PluginFormcreatorFields::showField()
+  plugins\formcreator\front\formdisplay.php:47       PluginFormcreatorForm->displayUserForm()
+2018-03-28 09:14:55 [2@ITHELPDESK]
+  *** PHP Notice(8): Use of undefined constant MAX_QUANTITY - assumed 'MAX_QUANTITY'
+  Backtrace :
+  ...\formcreator\inc\fields\pricefield.class.php:75 
+  plugins\formcreator\inc\field.class.php:45         PluginFormcreatorPriceField->displayField()
+  plugins\formcreator\inc\fields.class.php:118       PluginFormcreatorField->show()
+  plugins\formcreator\inc\form.class.php:911         PluginFormcreatorFields::showField()
+  plugins\formcreator\front\formdisplay.php:47       PluginFormcreatorForm->displayUserForm()
+2018-03-28 10:05:31 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: detail
+  Backtrace :
+  plugins\formcreator\inc\question.class.php:892     
+  plugins\formcreator\ajax\question.php:13           PluginFormcreatorQuestion->showForm()
+2018-03-28 10:33:15 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: detail
+  Backtrace :
+  plugins\formcreator\inc\question.class.php:892     
+  plugins\formcreator\ajax\question.php:13           PluginFormcreatorQuestion->showForm()
+2018-03-28 10:33:28 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: detail
+  Backtrace :
+  plugins\formcreator\inc\question.class.php:892     
+  plugins\formcreator\ajax\question.php:13           PluginFormcreatorQuestion->showForm()
+2018-03-28 14:18:59 [104@ITHELPDESK]
+  *** PHP Notice(8): Use of undefined constant details - assumed 'details'
+  Backtrace :
+  plugins\formcreator\inc\targetbase.class.php:819   
+  ...ins\formcreator\inc\targetticket.class.php:1086 PluginFormcreatorTargetBase->parseTags()
+  plugins\formcreator\inc\form_answer.class.php:894  PluginFormcreatorTargetTicket->save()
+  plugins\formcreator\inc\form_answer.class.php:645  PluginFormcreatorForm_Answer->generateTarget()
+  plugins\formcreator\inc\form.class.php:1180        PluginFormcreatorForm_Answer->saveAnswers()
+  plugins\formcreator\front\form.form.php:92         PluginFormcreatorForm->saveForm()
+2018-03-28 14:18:59 [104@ITHELPDESK]
+  *** PHP Notice(8): Use of undefined constant details - assumed 'details'
+  Backtrace :
+  plugins\formcreator\inc\targetbase.class.php:819   
+  ...ins\formcreator\inc\targetticket.class.php:1092 PluginFormcreatorTargetBase->parseTags()
+  plugins\formcreator\inc\form_answer.class.php:894  PluginFormcreatorTargetTicket->save()
+  plugins\formcreator\inc\form_answer.class.php:645  PluginFormcreatorForm_Answer->generateTarget()
+  plugins\formcreator\inc\form.class.php:1180        PluginFormcreatorForm_Answer->saveAnswers()
+  plugins\formcreator\front\form.form.php:92         PluginFormcreatorForm->saveForm()
+2018-03-28 14:23:01 [104@ITHELPDESK]
+  *** PHP Notice(8): Use of undefined constant details - assumed 'details'
+  Backtrace :
+  plugins\formcreator\inc\targetbase.class.php:819   
+  ...ins\formcreator\inc\targetticket.class.php:1086 PluginFormcreatorTargetBase->parseTags()
+  plugins\formcreator\inc\form_answer.class.php:894  PluginFormcreatorTargetTicket->save()
+  plugins\formcreator\inc\form_answer.class.php:645  PluginFormcreatorForm_Answer->generateTarget()
+  plugins\formcreator\inc\form.class.php:1180        PluginFormcreatorForm_Answer->saveAnswers()
+  plugins\formcreator\front\form.form.php:92         PluginFormcreatorForm->saveForm()
+2018-03-28 14:23:01 [104@ITHELPDESK]
+  *** PHP Notice(8): Use of undefined constant details - assumed 'details'
+  Backtrace :
+  plugins\formcreator\inc\targetbase.class.php:819   
+  ...ins\formcreator\inc\targetticket.class.php:1092 PluginFormcreatorTargetBase->parseTags()
+  plugins\formcreator\inc\form_answer.class.php:894  PluginFormcreatorTargetTicket->save()
+  plugins\formcreator\inc\form_answer.class.php:645  PluginFormcreatorForm_Answer->generateTarget()
+  plugins\formcreator\inc\form.class.php:1180        PluginFormcreatorForm_Answer->saveAnswers()
+  plugins\formcreator\front\form.form.php:92         PluginFormcreatorForm->saveForm()
+2018-03-28 14:38:04 [104@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: -1
+  Backtrace :
+  plugins\formcreator\inc\targetbase.class.php:819   
+  ...ins\formcreator\inc\targetticket.class.php:1086 PluginFormcreatorTargetBase->parseTags()
+  plugins\formcreator\inc\form_answer.class.php:894  PluginFormcreatorTargetTicket->save()
+  plugins\formcreator\inc\form_answer.class.php:645  PluginFormcreatorForm_Answer->generateTarget()
+  plugins\formcreator\inc\form.class.php:1180        PluginFormcreatorForm_Answer->saveAnswers()
+  plugins\formcreator\front\form.form.php:92         PluginFormcreatorForm->saveForm()
+2018-03-28 14:38:04 [104@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: -1
+  Backtrace :
+  plugins\formcreator\inc\targetbase.class.php:819   
+  ...ins\formcreator\inc\targetticket.class.php:1092 PluginFormcreatorTargetBase->parseTags()
+  plugins\formcreator\inc\form_answer.class.php:894  PluginFormcreatorTargetTicket->save()
+  plugins\formcreator\inc\form_answer.class.php:645  PluginFormcreatorForm_Answer->generateTarget()
+  plugins\formcreator\inc\form.class.php:1180        PluginFormcreatorForm_Answer->saveAnswers()
+  plugins\formcreator\front\form.form.php:92         PluginFormcreatorForm->saveForm()

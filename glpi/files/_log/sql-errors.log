@@ -1839,3 +1839,34 @@
   inc\search.class.php:98                            Search::constructDatas()
   inc\search.class.php:81                            Search::showList()
   front\ticket.php:51                                Search::show()
+2018-03-26 11:44:37 [2@ITHELPDESK]
+  *** MySQL query error:
+  SQL: INSERT
+                   INTO `glpi_notifications_notificationtemplates` (`notifications_id`,`mode`,`notificationtemplates_id`) VALUES (\'5\',\'mailing\',\'48\')
+  Error: Duplicate entry '5-mailing-48' for key 'unicity'
+  Backtrace :
+  inc\commondbtm.class.php:504                       
+  inc\commondbtm.class.php:928                       CommonDBTM->addToDB()
+  ...t\notification_notificationtemplate.form.php:51 CommonDBTM->add()
+2018-03-27 13:40:08 [2@ITHELPDESK]
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_savedsearches_alerts` WHERE `is_active` = \'1\' ORDER BY `users_id`
+  Error: Unknown column 'users_id' in 'order clause'
+  Backtrace :
+  inc\dbmysqliterator.class.php:264                  
+  inc\dbmysql.class.php:540                          DBmysqlIterator->__construct()
+  inc\savedsearch_alert.class.php:325                DBmysql->request()
+  :                                                  SavedSearch_Alert::cronSavedSearchesAlerts()
+  inc\crontask.class.php:832                         call_user_func()
+  front\cron.php:65                                  CronTask::launch()
+2018-03-28 15:26:06 [2@ITHELPDESK]
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_savedsearches_alerts` WHERE `is_active` = \'1\' ORDER BY `users_id`
+  Error: Unknown column 'users_id' in 'order clause'
+  Backtrace :
+  inc\dbmysqliterator.class.php:264                  
+  inc\dbmysql.class.php:540                          DBmysqlIterator->__construct()
+  inc\savedsearch_alert.class.php:325                DBmysql->request()
+  :                                                  SavedSearch_Alert::cronSavedSearchesAlerts()
+  inc\crontask.class.php:832                         call_user_func()
+  front\cron.php:65                                  CronTask::launch()

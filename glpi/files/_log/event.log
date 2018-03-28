@@ -2034,3 +2034,39 @@
 [login] 3: tdinardo log in from IP 172.16.6.78
 2018-03-21 11:16:38 [@ITHELPDESK]
 [login] 3: itservice log in from IP 172.16.6.78
+2018-03-22 08:16:24 [@ITHELPDESK]
+[login] 3: tdinardo log in from IP 172.16.6.81
+2018-03-22 09:40:17 [@ITHELPDESK]
+[login] 3: itsupport log in from IP ::1
+2018-03-22 10:03:50 [@ITHELPDESK]
+[login] 3: hvo log in from IP 172.16.6.81
+2018-03-22 15:01:55 [@ITHELPDESK]
+[login] 3: hvo log in from IP 172.16.6.81
+2018-03-22 15:28:36 [@ITHELPDESK]
+[login] 3: tdinardo log in from IP ::1
+2018-03-22 15:28:53 [@ITHELPDESK]
+[login] 3: itservice log in from IP ::1
+2018-03-22 16:16:39 [@ITHELPDESK]
+[login] 3: tdinardo log in from IP 172.16.6.81
+2018-03-23 08:08:19 [@ITHELPDESK]
+[login] 3: hvo log in from IP 172.16.6.78
+2018-03-26 08:18:19 [@ITHELPDESK]
+[login] 3: Failed login for tdinardo from IP 172.16.6.78
+2018-03-26 08:18:33 [@ITHELPDESK]
+[login] 3: itservice log in from IP 172.16.6.78
+2018-03-26 08:25:57 [@ITHELPDESK]
+[login] 3: hvo log in from IP 172.16.6.78
+2018-03-26 14:17:52 [@ITHELPDESK]
+[login] 3: tdinardo log in from IP 172.16.6.78
+2018-03-26 14:51:32 [@ITHELPDESK]
+[login] 3: Failed login for hvo from IP 172.16.6.78
+2018-03-27 08:10:11 [@ITHELPDESK]
+[login] 3: hvo log in from IP 172.16.6.81
+2018-03-27 13:43:07 [@ITHELPDESK]
+[login] 3: hvo log in from IP 172.16.6.81
+2018-03-27 14:53:10 [@ITHELPDESK]
+[login] 3: hvo log in from IP 172.16.6.81
+2018-03-28 08:04:38 [@ITHELPDESK]
+[login] 3: itservice log in from IP 172.16.6.73
+2018-03-28 09:52:28 [@ITHELPDESK]
+[login] 3: hvo log in from IP 172.16.6.73

@@ -294,6 +294,16 @@ class PluginFormcreatorQuestion extends CommonDBChild
             
          }
       }
+	  
+	  
+	  // Detail inputs 
+	  //If the question is a checkbox and there is no detail input, set it to what was.
+      if (  strcmp($input['fieldtype'], 'price'  ) ) {
+         if (!isset($input['detail'])) {
+			$input['detail'] = $this->fields['detail'];
+            
+         }
+      }
 
 	  
 	  
@@ -865,6 +875,24 @@ class PluginFormcreatorQuestion extends CommonDBChild
       echo '</td>';
       echo '</tr>';
 	  //add quantity done
+	  
+	  //add Details
+
+      echo '</td>';
+
+      echo '<td>';
+	  echo '<label for="detail" id="detail_label" >';
+      echo __('Detail', 'formcreator');
+      echo '</label>';
+      echo '</td>';
+
+      echo '<td colspan="2">';
+      echo '<textarea name="detail" id="detail" rows="10" cols="80"'
+			.'style="width: 90%">'.$this->fields['detail'].'</textarea>';
+      echo '</td>';
+      echo '</tr>';
+	  //add detail done
+	  
 
       echo '<tr class="line1" id="ldap_tr">';
       echo '<td>';
