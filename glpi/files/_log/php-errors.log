@@ -44108,3 +44108,1134 @@ Test
   plugins\formcreator\inc\form_answer.class.php:645  PluginFormcreatorForm_Answer->generateTarget()
   plugins\formcreator\inc\form.class.php:1180        PluginFormcreatorForm_Answer->saveAnswers()
   plugins\formcreator\front\form.form.php:92         PluginFormcreatorForm->saveForm()
+Test
+2018-03-29 12:54:15 [2@ITHELPDESK]
+  *** PHP Warning(2): imap_open(): Couldn't open stream {imap-mail.outlook.com:993/imap/ssl/novalidate-cert/tls/debug}
+  Backtrace :
+  :                                                  
+  inc\mailcollector.class.php:1108                   imap_open()
+  inc\mailcollector.class.php:519                    MailCollector->connect()
+  inc\mailcollector.class.php:1647                   MailCollector->collect()
+  :                                                  MailCollector::cronMailgate()
+  inc\crontask.class.php:832                         call_user_func()
+  front\crontask.form.php:49                         CronTask::launch()
+2018-03-29 12:54:15 [2@ITHELPDESK]
+  *** PHP Warning(2): imap_open(): Couldn't open stream {imap-mail.outlook.com:993/imap/ssl/novalidate-cert/tls/debug}
+  Backtrace :
+  :                                                  
+  inc\mailcollector.class.php:1108                   imap_open()
+  inc\mailcollector.class.php:519                    MailCollector->connect()
+  inc\mailcollector.class.php:1647                   MailCollector->collect()
+  :                                                  MailCollector::cronMailgate()
+  inc\crontask.class.php:832                         call_user_func()
+  front\crontask.form.php:49                         CronTask::launch()
+2018-03-29 12:54:15 [2@ITHELPDESK]
+  *** PHP Notice(8): Unknown: Can't open mailbox {imap-mail.outlook.com:993/imap/ssl/novalidate-cert/tls/debug}: invalid remote specification (errflg=2)
+  Backtrace :
+  :                                                  
+2018-03-29 12:54:15 [2@ITHELPDESK]
+  *** PHP Notice(8): Unknown: Can't open mailbox {imap-mail.outlook.com:993/imap/ssl/novalidate-cert/tls/debug}: invalid remote specification (errflg=2)
+  Backtrace :
+  :                                                  
+2018-03-29 12:54:19 [2@ITHELPDESK]
+  *** PHP Warning(2): imap_open(): Couldn't open stream {imap-mail.outlook.com:993/imap/ssl/novalidate-cert/tls/debug}
+  Backtrace :
+  :                                                  
+  inc\mailcollector.class.php:1108                   imap_open()
+  inc\mailcollector.class.php:519                    MailCollector->connect()
+  inc\mailcollector.class.php:1647                   MailCollector->collect()
+  :                                                  MailCollector::cronMailgate()
+  inc\crontask.class.php:832                         call_user_func()
+  front\crontask.form.php:49                         CronTask::launch()
+2018-03-29 12:54:19 [2@ITHELPDESK]
+  *** PHP Warning(2): imap_open(): Couldn't open stream {imap-mail.outlook.com:993/imap/ssl/novalidate-cert/tls/debug}
+  Backtrace :
+  :                                                  
+  inc\mailcollector.class.php:1108                   imap_open()
+  inc\mailcollector.class.php:519                    MailCollector->connect()
+  inc\mailcollector.class.php:1647                   MailCollector->collect()
+  :                                                  MailCollector::cronMailgate()
+  inc\crontask.class.php:832                         call_user_func()
+  front\crontask.form.php:49                         CronTask::launch()
+2018-03-29 12:54:19 [2@ITHELPDESK]
+  *** PHP Notice(8): Unknown: Can't open mailbox {imap-mail.outlook.com:993/imap/ssl/novalidate-cert/tls/debug}: invalid remote specification (errflg=2)
+  Backtrace :
+  :                                                  
+2018-03-29 12:54:19 [2@ITHELPDESK]
+  *** PHP Notice(8): Unknown: Can't open mailbox {imap-mail.outlook.com:993/imap/ssl/novalidate-cert/tls/debug}: invalid remote specification (errflg=2)
+  Backtrace :
+  :                                                  
+2018-03-29 14:33:23 [2@ITHELPDESK]
+  *** PHP Warning(2): imap_open(): Couldn't open stream {imap-mail.outlook.com:993/imap/ssl/novalidate-cert/tls/debug}
+  Backtrace :
+  :                                                  
+  inc\mailcollector.class.php:1108                   imap_open()
+  inc\mailcollector.class.php:519                    MailCollector->connect()
+  inc\mailcollector.class.php:1647                   MailCollector->collect()
+  :                                                  MailCollector::cronMailgate()
+  inc\crontask.class.php:832                         call_user_func()
+  front\crontask.form.php:49                         CronTask::launch()
+2018-03-29 14:33:23 [2@ITHELPDESK]
+  *** PHP Warning(2): imap_open(): Couldn't open stream {imap-mail.outlook.com:993/imap/ssl/novalidate-cert/tls/debug}
+  Backtrace :
+  :                                                  
+  inc\mailcollector.class.php:1108                   imap_open()
+  inc\mailcollector.class.php:519                    MailCollector->connect()
+  inc\mailcollector.class.php:1647                   MailCollector->collect()
+  :                                                  MailCollector::cronMailgate()
+  inc\crontask.class.php:832                         call_user_func()
+  front\crontask.form.php:49                         CronTask::launch()
+2018-03-29 14:33:23 [2@ITHELPDESK]
+  *** PHP Notice(8): Unknown: Can't open mailbox {imap-mail.outlook.com:993/imap/ssl/novalidate-cert/tls/debug}: invalid remote specification (errflg=2)
+  Backtrace :
+  :                                                  
+2018-03-29 14:33:23 [2@ITHELPDESK]
+  *** PHP Notice(8): Unknown: Can't open mailbox {imap-mail.outlook.com:993/imap/ssl/novalidate-cert/tls/debug}: invalid remote specification (errflg=2)
+  Backtrace :
+  :                                                  
+2018-03-29 15:09:09 [2@ITHELPDESK]
+  *** PHP Warning(2): Missing argument 1 for Html::entity_decode_deep(), called in C:\inetpub\wwwroot\Connex-GLPI\glpi\inc\notificationtemplate.class.php on line 332 and defined
+  Backtrace :
+  inc\html.class.php:107                             
+  inc\notificationtemplate.class.php:332             Html::entity_decode_deep()
+  inc\notificationeventabstract.class.php:103        NotificationTemplate->getTemplateByLanguage()
+  inc\notificationevent.class.php:164                NotificationEventAbstract::raise()
+  inc\ticketfollowup.class.php:470                   NotificationEvent::raiseEvent()
+  inc\commondbtm.class.php:929                       TicketFollowup->post_addItem()
+  front\ticketfollowup.form.php:47                   CommonDBTM->add()
+2018-03-29 15:09:09 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined variable: value
+  Backtrace :
+  inc\html.class.php:109                             
+  inc\notificationtemplate.class.php:332             Html::entity_decode_deep()
+  inc\notificationeventabstract.class.php:103        NotificationTemplate->getTemplateByLanguage()
+  inc\notificationevent.class.php:164                NotificationEventAbstract::raise()
+  inc\ticketfollowup.class.php:470                   NotificationEvent::raiseEvent()
+  inc\commondbtm.class.php:929                       TicketFollowup->post_addItem()
+  front\ticketfollowup.form.php:47                   CommonDBTM->add()
+2018-03-29 15:09:09 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined variable: value
+  Backtrace :
+  inc\html.class.php:110                             
+  inc\notificationtemplate.class.php:332             Html::entity_decode_deep()
+  inc\notificationeventabstract.class.php:103        NotificationTemplate->getTemplateByLanguage()
+  inc\notificationevent.class.php:164                NotificationEventAbstract::raise()
+  inc\ticketfollowup.class.php:470                   NotificationEvent::raiseEvent()
+  inc\commondbtm.class.php:929                       TicketFollowup->post_addItem()
+  front\ticketfollowup.form.php:47                   CommonDBTM->add()
+2018-03-29 15:40:36 [2@ITHELPDESK]
+  *** PHP Warning(2): Missing argument 1 for Html::entity_decode_deep(), called in C:\inetpub\wwwroot\Connex-GLPI\glpi\inc\notificationtemplate.class.php on line 330 and defined
+  Backtrace :
+  inc\html.class.php:107                             
+  inc\notificationtemplate.class.php:330             Html::entity_decode_deep()
+  inc\notificationeventabstract.class.php:103        NotificationTemplate->getTemplateByLanguage()
+  inc\notificationevent.class.php:164                NotificationEventAbstract::raise()
+  inc\ticketfollowup.class.php:470                   NotificationEvent::raiseEvent()
+  inc\commondbtm.class.php:929                       TicketFollowup->post_addItem()
+  front\ticketfollowup.form.php:47                   CommonDBTM->add()
+2018-03-29 15:40:36 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined variable: value
+  Backtrace :
+  inc\html.class.php:109                             
+  inc\notificationtemplate.class.php:330             Html::entity_decode_deep()
+  inc\notificationeventabstract.class.php:103        NotificationTemplate->getTemplateByLanguage()
+  inc\notificationevent.class.php:164                NotificationEventAbstract::raise()
+  inc\ticketfollowup.class.php:470                   NotificationEvent::raiseEvent()
+  inc\commondbtm.class.php:929                       TicketFollowup->post_addItem()
+  front\ticketfollowup.form.php:47                   CommonDBTM->add()
+2018-03-29 15:40:36 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined variable: value
+  Backtrace :
+  inc\html.class.php:110                             
+  inc\notificationtemplate.class.php:330             Html::entity_decode_deep()
+  inc\notificationeventabstract.class.php:103        NotificationTemplate->getTemplateByLanguage()
+  inc\notificationevent.class.php:164                NotificationEventAbstract::raise()
+  inc\ticketfollowup.class.php:470                   NotificationEvent::raiseEvent()
+  inc\commondbtm.class.php:929                       TicketFollowup->post_addItem()
+  front\ticketfollowup.form.php:47                   CommonDBTM->add()
+2018-03-29 15:46:45 [2@ITHELPDESK]
+  *** PHP Warning(2): Missing argument 1 for Html::entity_decode_deep(), called in C:\inetpub\wwwroot\Connex-GLPI\glpi\inc\notificationtemplate.class.php on line 330 and defined
+  Backtrace :
+  inc\html.class.php:107                             
+  inc\notificationtemplate.class.php:330             Html::entity_decode_deep()
+  inc\notificationeventabstract.class.php:103        NotificationTemplate->getTemplateByLanguage()
+  inc\notificationevent.class.php:164                NotificationEventAbstract::raise()
+  inc\ticketfollowup.class.php:470                   NotificationEvent::raiseEvent()
+  inc\commondbtm.class.php:929                       TicketFollowup->post_addItem()
+  front\ticketfollowup.form.php:47                   CommonDBTM->add()
+2018-03-29 15:46:45 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined variable: value
+  Backtrace :
+  inc\html.class.php:109                             
+  inc\notificationtemplate.class.php:330             Html::entity_decode_deep()
+  inc\notificationeventabstract.class.php:103        NotificationTemplate->getTemplateByLanguage()
+  inc\notificationevent.class.php:164                NotificationEventAbstract::raise()
+  inc\ticketfollowup.class.php:470                   NotificationEvent::raiseEvent()
+  inc\commondbtm.class.php:929                       TicketFollowup->post_addItem()
+  front\ticketfollowup.form.php:47                   CommonDBTM->add()
+2018-03-29 15:46:45 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined variable: value
+  Backtrace :
+  inc\html.class.php:110                             
+  inc\notificationtemplate.class.php:330             Html::entity_decode_deep()
+  inc\notificationeventabstract.class.php:103        NotificationTemplate->getTemplateByLanguage()
+  inc\notificationevent.class.php:164                NotificationEventAbstract::raise()
+  inc\ticketfollowup.class.php:470                   NotificationEvent::raiseEvent()
+  inc\commondbtm.class.php:929                       TicketFollowup->post_addItem()
+  front\ticketfollowup.form.php:47                   CommonDBTM->add()
+2018-03-29 15:46:47 [2@ITHELPDESK]
+  *** PHP Warning(2): Missing argument 1 for Html::entity_decode_deep(), called in C:\inetpub\wwwroot\Connex-GLPI\glpi\inc\notificationtemplate.class.php on line 330 and defined
+  Backtrace :
+  inc\html.class.php:107                             
+  inc\notificationtemplate.class.php:330             Html::entity_decode_deep()
+  inc\notificationeventabstract.class.php:103        NotificationTemplate->getTemplateByLanguage()
+  inc\notificationevent.class.php:164                NotificationEventAbstract::raise()
+  inc\mailcollector.class.php:1694                   NotificationEvent::raiseEvent()
+  :                                                  MailCollector::cronMailgateError()
+  inc\crontask.class.php:832                         call_user_func()
+  front\cron.php:65                                  CronTask::launch()
+2018-03-29 15:46:47 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined variable: value
+  Backtrace :
+  inc\html.class.php:109                             
+  inc\notificationtemplate.class.php:330             Html::entity_decode_deep()
+  inc\notificationeventabstract.class.php:103        NotificationTemplate->getTemplateByLanguage()
+  inc\notificationevent.class.php:164                NotificationEventAbstract::raise()
+  inc\mailcollector.class.php:1694                   NotificationEvent::raiseEvent()
+  :                                                  MailCollector::cronMailgateError()
+  inc\crontask.class.php:832                         call_user_func()
+  front\cron.php:65                                  CronTask::launch()
+2018-03-29 15:46:47 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined variable: value
+  Backtrace :
+  inc\html.class.php:110                             
+  inc\notificationtemplate.class.php:330             Html::entity_decode_deep()
+  inc\notificationeventabstract.class.php:103        NotificationTemplate->getTemplateByLanguage()
+  inc\notificationevent.class.php:164                NotificationEventAbstract::raise()
+  inc\mailcollector.class.php:1694                   NotificationEvent::raiseEvent()
+  :                                                  MailCollector::cronMailgateError()
+  inc\crontask.class.php:832                         call_user_func()
+  front\cron.php:65                                  CronTask::launch()
+2018-03-29 16:10:25 [2@ITHELPDESK]
+  *** PHP Warning(2): Missing argument 1 for Html::entity_decode_deep(), called in C:\inetpub\wwwroot\Connex-GLPI\glpi\inc\notificationtemplate.class.php on line 330 and defined
+  Backtrace :
+  inc\html.class.php:107                             
+  inc\notificationtemplate.class.php:330             Html::entity_decode_deep()
+  inc\notificationtemplatetranslation.class.php:499  NotificationTemplate->getTemplateByLanguage()
+  inc\commonglpi.class.php:1010                      NotificationTemplateTranslation->showDebug()
+  inc\commonglpi.class.php:456                       CommonGLPI->showDebugInfo()
+  ajax\common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-03-29 16:10:25 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined variable: value
+  Backtrace :
+  inc\html.class.php:109                             
+  inc\notificationtemplate.class.php:330             Html::entity_decode_deep()
+  inc\notificationtemplatetranslation.class.php:499  NotificationTemplate->getTemplateByLanguage()
+  inc\commonglpi.class.php:1010                      NotificationTemplateTranslation->showDebug()
+  inc\commonglpi.class.php:456                       CommonGLPI->showDebugInfo()
+  ajax\common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-03-29 16:10:25 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined variable: value
+  Backtrace :
+  inc\html.class.php:110                             
+  inc\notificationtemplate.class.php:330             Html::entity_decode_deep()
+  inc\notificationtemplatetranslation.class.php:499  NotificationTemplate->getTemplateByLanguage()
+  inc\commonglpi.class.php:1010                      NotificationTemplateTranslation->showDebug()
+  inc\commonglpi.class.php:456                       CommonGLPI->showDebugInfo()
+  ajax\common.tabs.php:96                            CommonGLPI::displayStandardTab()
+2018-03-29 16:33:04 [2@ITHELPDESK]
+  *** PHP Warning(2): imap_open(): Couldn't open stream {imap-mail.outlook.com:993/imap/ssl/novalidate-cert/tls/debug}
+  Backtrace :
+  :                                                  
+  inc\mailcollector.class.php:1108                   imap_open()
+  inc\mailcollector.class.php:519                    MailCollector->connect()
+  inc\mailcollector.class.php:1647                   MailCollector->collect()
+  :                                                  MailCollector::cronMailgate()
+  inc\crontask.class.php:832                         call_user_func()
+  front\crontask.form.php:49                         CronTask::launch()
+2018-03-29 16:33:04 [2@ITHELPDESK]
+  *** PHP Warning(2): imap_open(): Couldn't open stream {imap-mail.outlook.com:993/imap/ssl/novalidate-cert/tls/debug}
+  Backtrace :
+  :                                                  
+  inc\mailcollector.class.php:1108                   imap_open()
+  inc\mailcollector.class.php:519                    MailCollector->connect()
+  inc\mailcollector.class.php:1647                   MailCollector->collect()
+  :                                                  MailCollector::cronMailgate()
+  inc\crontask.class.php:832                         call_user_func()
+  front\crontask.form.php:49                         CronTask::launch()
+2018-03-29 16:33:04 [2@ITHELPDESK]
+  *** PHP Notice(8): Unknown: Can't open mailbox {imap-mail.outlook.com:993/imap/ssl/novalidate-cert/tls/debug}: invalid remote specification (errflg=2)
+  Backtrace :
+  :                                                  
+2018-03-29 16:33:04 [2@ITHELPDESK]
+  *** PHP Notice(8): Unknown: Can't open mailbox {imap-mail.outlook.com:993/imap/ssl/novalidate-cert/tls/debug}: invalid remote specification (errflg=2)
+  Backtrace :
+  :                                                  
+Test
+2018-04-02 14:10:52 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: show_ticket_categories
+  Backtrace :
+  plugins\formcreator\inc\question.class.php:772     
+  plugins\formcreator\ajax\question.php:13           PluginFormcreatorQuestion->showForm()
+2018-04-02 14:10:52 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: show_ticket_categories_depth
+  Backtrace :
+  plugins\formcreator\inc\question.class.php:784     
+  plugins\formcreator\ajax\question.php:13           PluginFormcreatorQuestion->showForm()
+2018-04-02 14:11:36 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: show_ticket_categories
+  Backtrace :
+  plugins\formcreator\inc\question.class.php:772     
+  plugins\formcreator\ajax\question.php:13           PluginFormcreatorQuestion->showForm()
+2018-04-02 14:11:36 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: show_ticket_categories_depth
+  Backtrace :
+  plugins\formcreator\inc\question.class.php:784     
+  plugins\formcreator\ajax\question.php:13           PluginFormcreatorQuestion->showForm()
+2018-04-02 14:13:58 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: show_ticket_categories
+  Backtrace :
+  plugins\formcreator\inc\question.class.php:772     
+  plugins\formcreator\ajax\question.php:13           PluginFormcreatorQuestion->showForm()
+2018-04-02 14:13:58 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: show_ticket_categories_depth
+  Backtrace :
+  plugins\formcreator\inc\question.class.php:784     
+  plugins\formcreator\ajax\question.php:13           PluginFormcreatorQuestion->showForm()
+2018-04-02 14:52:24 [2@ITHELPDESK]
+  *** PHP Warning(2): trim() expects parameter 1 to be string, array given
+  Backtrace :
+  :                                                  
+  ...zend-i18n\src\Translator\Loader\Gettext.php:143 trim()
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  plugins\formcreator\front\formdisplay.php:2        include()
+2018-04-02 14:52:24 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 1
+  Backtrace :
+  ...zend-i18n\src\Translator\Loader\Gettext.php:146 
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  plugins\formcreator\front\formdisplay.php:2        include()
+2018-04-02 14:52:26 [2@ITHELPDESK]
+  *** PHP Warning(2): trim() expects parameter 1 to be string, array given
+  Backtrace :
+  :                                                  
+  ...zend-i18n\src\Translator\Loader\Gettext.php:143 trim()
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  plugins\formcreator\js\scripts.js.php:2            include()
+2018-04-02 14:52:26 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 1
+  Backtrace :
+  ...zend-i18n\src\Translator\Loader\Gettext.php:146 
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  plugins\formcreator\js\scripts.js.php:2            include()
+2018-04-02 14:53:32 [104@ITHELPDESK]
+  *** PHP Warning(2): trim() expects parameter 1 to be string, array given
+  Backtrace :
+  :                                                  
+  ...zend-i18n\src\Translator\Loader\Gettext.php:143 trim()
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  plugins\formcreator\front\form_answer.form.php:2   include()
+2018-04-02 14:53:32 [104@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 1
+  Backtrace :
+  ...zend-i18n\src\Translator\Loader\Gettext.php:146 
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  plugins\formcreator\front\form_answer.form.php:2   include()
+2018-04-02 14:53:33 [104@ITHELPDESK]
+  *** PHP Warning(2): trim() expects parameter 1 to be string, array given
+  Backtrace :
+  :                                                  
+  ...zend-i18n\src\Translator\Loader\Gettext.php:143 trim()
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  ajax\common.tabs.php:37                            include()
+2018-04-02 14:53:33 [104@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 1
+  Backtrace :
+  ...zend-i18n\src\Translator\Loader\Gettext.php:146 
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  ajax\common.tabs.php:37                            include()
+2018-04-02 14:53:33 [104@ITHELPDESK]
+  *** PHP Warning(2): trim() expects parameter 1 to be string, array given
+  Backtrace :
+  :                                                  
+  ...zend-i18n\src\Translator\Loader\Gettext.php:143 trim()
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  ajax\updatecurrenttab.php:37                       include()
+2018-04-02 14:53:33 [104@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 1
+  Backtrace :
+  ...zend-i18n\src\Translator\Loader\Gettext.php:146 
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  ajax\updatecurrenttab.php:37                       include()
+2018-04-02 14:53:33 [104@ITHELPDESK]
+  *** PHP Warning(2): trim() expects parameter 1 to be string, array given
+  Backtrace :
+  :                                                  
+  ...zend-i18n\src\Translator\Loader\Gettext.php:143 trim()
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  plugins\formcreator\js\scripts.js.php:2            include()
+2018-04-02 14:53:33 [104@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 1
+  Backtrace :
+  ...zend-i18n\src\Translator\Loader\Gettext.php:146 
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  plugins\formcreator\js\scripts.js.php:2            include()
+2018-04-02 14:53:48 [104@ITHELPDESK]
+  *** PHP Warning(2): trim() expects parameter 1 to be string, array given
+  Backtrace :
+  :                                                  
+  ...zend-i18n\src\Translator\Loader\Gettext.php:143 trim()
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  ajax\common.tabs.php:37                            include()
+2018-04-02 14:53:48 [104@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 1
+  Backtrace :
+  ...zend-i18n\src\Translator\Loader\Gettext.php:146 
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  ajax\common.tabs.php:37                            include()
+2018-04-02 14:53:48 [104@ITHELPDESK]
+  *** PHP Warning(2): trim() expects parameter 1 to be string, array given
+  Backtrace :
+  :                                                  
+  ...zend-i18n\src\Translator\Loader\Gettext.php:143 trim()
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  ajax\updatecurrenttab.php:37                       include()
+2018-04-02 14:53:48 [104@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 1
+  Backtrace :
+  ...zend-i18n\src\Translator\Loader\Gettext.php:146 
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  ajax\updatecurrenttab.php:37                       include()
+2018-04-02 14:53:50 [104@ITHELPDESK]
+  *** PHP Warning(2): trim() expects parameter 1 to be string, array given
+  Backtrace :
+  :                                                  
+  ...zend-i18n\src\Translator\Loader\Gettext.php:143 trim()
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  ajax\updatecurrenttab.php:37                       include()
+2018-04-02 14:53:50 [104@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 1
+  Backtrace :
+  ...zend-i18n\src\Translator\Loader\Gettext.php:146 
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  ajax\updatecurrenttab.php:37                       include()
+2018-04-02 14:53:50 [104@ITHELPDESK]
+  *** PHP Warning(2): trim() expects parameter 1 to be string, array given
+  Backtrace :
+  :                                                  
+  ...zend-i18n\src\Translator\Loader\Gettext.php:143 trim()
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  ajax\common.tabs.php:37                            include()
+2018-04-02 14:53:50 [104@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 1
+  Backtrace :
+  ...zend-i18n\src\Translator\Loader\Gettext.php:146 
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  ajax\common.tabs.php:37                            include()
+2018-04-02 14:54:00 [104@ITHELPDESK]
+  *** PHP Warning(2): trim() expects parameter 1 to be string, array given
+  Backtrace :
+  :                                                  
+  ...zend-i18n\src\Translator\Loader\Gettext.php:143 trim()
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  ajax\switchlang.php:37                             include()
+2018-04-02 14:54:00 [104@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 1
+  Backtrace :
+  ...zend-i18n\src\Translator\Loader\Gettext.php:146 
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  ajax\switchlang.php:37                             include()
+2018-04-02 14:54:06 [104@ITHELPDESK]
+  *** PHP Warning(2): trim() expects parameter 1 to be string, array given
+  Backtrace :
+  :                                                  
+  ...zend-i18n\src\Translator\Loader\Gettext.php:143 trim()
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  front\user.form.php:39                             include()
+2018-04-02 14:54:06 [104@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 1
+  Backtrace :
+  ...zend-i18n\src\Translator\Loader\Gettext.php:146 
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  front\user.form.php:39                             include()
+2018-04-02 14:58:46 [2@ITHELPDESK]
+  *** PHP Warning(2): trim() expects parameter 1 to be string, array given
+  Backtrace :
+  :                                                  
+  ...zend-i18n\src\Translator\Loader\Gettext.php:143 trim()
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  front\preference.php:39                            include()
+2018-04-02 14:58:46 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 1
+  Backtrace :
+  ...zend-i18n\src\Translator\Loader\Gettext.php:146 
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  front\preference.php:39                            include()
+2018-04-02 14:58:47 [2@ITHELPDESK]
+  *** PHP Warning(2): trim() expects parameter 1 to be string, array given
+  Backtrace :
+  :                                                  
+  ...zend-i18n\src\Translator\Loader\Gettext.php:143 trim()
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  front\cron.php:42                                  include()
+2018-04-02 14:58:47 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 1
+  Backtrace :
+  ...zend-i18n\src\Translator\Loader\Gettext.php:146 
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  front\cron.php:42                                  include()
+2018-04-02 14:58:47 [2@ITHELPDESK]
+  *** PHP Warning(2): trim() expects parameter 1 to be string, array given
+  Backtrace :
+  :                                                  
+  ...zend-i18n\src\Translator\Loader\Gettext.php:143 trim()
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  ajax\updatecurrenttab.php:37                       include()
+2018-04-02 14:58:47 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 1
+  Backtrace :
+  ...zend-i18n\src\Translator\Loader\Gettext.php:146 
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  ajax\updatecurrenttab.php:37                       include()
+2018-04-02 14:58:48 [2@ITHELPDESK]
+  *** PHP Warning(2): trim() expects parameter 1 to be string, array given
+  Backtrace :
+  :                                                  
+  ...zend-i18n\src\Translator\Loader\Gettext.php:143 trim()
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  ajax\common.tabs.php:37                            include()
+2018-04-02 14:58:48 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 1
+  Backtrace :
+  ...zend-i18n\src\Translator\Loader\Gettext.php:146 
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  ajax\common.tabs.php:37                            include()
+2018-04-02 14:58:49 [2@ITHELPDESK]
+  *** PHP Warning(2): trim() expects parameter 1 to be string, array given
+  Backtrace :
+  :                                                  
+  ...zend-i18n\src\Translator\Loader\Gettext.php:143 trim()
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  ajax\switchlang.php:37                             include()
+2018-04-02 14:58:49 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 1
+  Backtrace :
+  ...zend-i18n\src\Translator\Loader\Gettext.php:146 
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  ajax\switchlang.php:37                             include()
+2018-04-02 14:58:52 [2@ITHELPDESK]
+  *** PHP Warning(2): trim() expects parameter 1 to be string, array given
+  Backtrace :
+  :                                                  
+  ...zend-i18n\src\Translator\Loader\Gettext.php:143 trim()
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  front\user.form.php:39                             include()
+2018-04-02 14:58:52 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 1
+  Backtrace :
+  ...zend-i18n\src\Translator\Loader\Gettext.php:146 
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  front\user.form.php:39                             include()
+2018-04-02 15:20:03 [2@ITHELPDESK]
+  *** PHP Warning(2): trim() expects parameter 1 to be string, array given
+  Backtrace :
+  :                                                  
+  ...zend-i18n\src\Translator\Loader\Gettext.php:143 trim()
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  plugins\formcreator\front\form.form.php:2          include()
+2018-04-02 15:20:03 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 1
+  Backtrace :
+  ...zend-i18n\src\Translator\Loader\Gettext.php:146 
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  plugins\formcreator\front\form.form.php:2          include()
+2018-04-02 15:20:04 [2@ITHELPDESK]
+  *** PHP Warning(2): trim() expects parameter 1 to be string, array given
+  Backtrace :
+  :                                                  
+  ...zend-i18n\src\Translator\Loader\Gettext.php:143 trim()
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  front\cron.php:42                                  include()
+2018-04-02 15:20:04 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 1
+  Backtrace :
+  ...zend-i18n\src\Translator\Loader\Gettext.php:146 
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  front\cron.php:42                                  include()
+2018-04-02 15:20:04 [2@ITHELPDESK]
+  *** PHP Warning(2): trim() expects parameter 1 to be string, array given
+  Backtrace :
+  :                                                  
+  ...zend-i18n\src\Translator\Loader\Gettext.php:143 trim()
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  ajax\updatecurrenttab.php:37                       include()
+2018-04-02 15:20:04 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 1
+  Backtrace :
+  ...zend-i18n\src\Translator\Loader\Gettext.php:146 
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  ajax\updatecurrenttab.php:37                       include()
+2018-04-02 15:20:04 [2@ITHELPDESK]
+  *** PHP Warning(2): trim() expects parameter 1 to be string, array given
+  Backtrace :
+  :                                                  
+  ...zend-i18n\src\Translator\Loader\Gettext.php:143 trim()
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  ajax\common.tabs.php:37                            include()
+2018-04-02 15:20:04 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 1
+  Backtrace :
+  ...zend-i18n\src\Translator\Loader\Gettext.php:146 
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  ajax\common.tabs.php:37                            include()
+2018-04-02 15:20:04 [2@ITHELPDESK]
+  *** PHP Warning(2): trim() expects parameter 1 to be string, array given
+  Backtrace :
+  :                                                  
+  ...zend-i18n\src\Translator\Loader\Gettext.php:143 trim()
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  plugins\formcreator\js\scripts.js.php:2            include()
+2018-04-02 15:20:04 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 1
+  Backtrace :
+  ...zend-i18n\src\Translator\Loader\Gettext.php:146 
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  plugins\formcreator\js\scripts.js.php:2            include()
+2018-04-02 15:24:25 [2@ITHELPDESK]
+  *** PHP Warning(2): trim() expects parameter 1 to be string, array given
+  Backtrace :
+  :                                                  
+  ...zend-i18n\src\Translator\Loader\Gettext.php:143 trim()
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  ajax\switchlang.php:37                             include()
+2018-04-02 15:24:25 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 1
+  Backtrace :
+  ...zend-i18n\src\Translator\Loader\Gettext.php:146 
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  ajax\switchlang.php:37                             include()
+2018-04-02 15:24:35 [2@ITHELPDESK]
+  *** PHP Warning(2): trim() expects parameter 1 to be string, array given
+  Backtrace :
+  :                                                  
+  ...zend-i18n\src\Translator\Loader\Gettext.php:143 trim()
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  front\user.form.php:39                             include()
+2018-04-02 15:24:35 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 1
+  Backtrace :
+  ...zend-i18n\src\Translator\Loader\Gettext.php:146 
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  front\user.form.php:39                             include()
+2018-04-02 15:33:19 [2@ITHELPDESK]
+  *** PHP Warning(2): trim() expects parameter 1 to be string, array given
+  Backtrace :
+  :                                                  
+  ...zend-i18n\src\Translator\Loader\Gettext.php:143 trim()
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  plugins\formcreator\front\form.form.php:2          include()
+2018-04-02 15:33:19 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 1
+  Backtrace :
+  ...zend-i18n\src\Translator\Loader\Gettext.php:146 
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  plugins\formcreator\front\form.form.php:2          include()
+2018-04-02 15:33:20 [2@ITHELPDESK]
+  *** PHP Warning(2): trim() expects parameter 1 to be string, array given
+  Backtrace :
+  :                                                  
+  ...zend-i18n\src\Translator\Loader\Gettext.php:143 trim()
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  ajax\common.tabs.php:37                            include()
+2018-04-02 15:33:20 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 1
+  Backtrace :
+  ...zend-i18n\src\Translator\Loader\Gettext.php:146 
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  ajax\common.tabs.php:37                            include()
+2018-04-02 15:33:20 [2@ITHELPDESK]
+  *** PHP Warning(2): trim() expects parameter 1 to be string, array given
+  Backtrace :
+  :                                                  
+  ...zend-i18n\src\Translator\Loader\Gettext.php:143 trim()
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  ajax\updatecurrenttab.php:37                       include()
+2018-04-02 15:33:20 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 1
+  Backtrace :
+  ...zend-i18n\src\Translator\Loader\Gettext.php:146 
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  ajax\updatecurrenttab.php:37                       include()
+2018-04-02 15:33:21 [2@ITHELPDESK]
+  *** PHP Warning(2): trim() expects parameter 1 to be string, array given
+  Backtrace :
+  :                                                  
+  ...zend-i18n\src\Translator\Loader\Gettext.php:143 trim()
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  plugins\formcreator\js\scripts.js.php:2            include()
+2018-04-02 15:33:21 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 1
+  Backtrace :
+  ...zend-i18n\src\Translator\Loader\Gettext.php:146 
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  plugins\formcreator\js\scripts.js.php:2            include()
+2018-04-02 15:33:59 [2@ITHELPDESK]
+  *** PHP Warning(2): trim() expects parameter 1 to be string, array given
+  Backtrace :
+  :                                                  
+  ...zend-i18n\src\Translator\Loader\Gettext.php:143 trim()
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  ajax\switchlang.php:37                             include()
+2018-04-02 15:33:59 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 1
+  Backtrace :
+  ...zend-i18n\src\Translator\Loader\Gettext.php:146 
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  ajax\switchlang.php:37                             include()
+2018-04-02 15:34:03 [2@ITHELPDESK]
+  *** PHP Warning(2): trim() expects parameter 1 to be string, array given
+  Backtrace :
+  :                                                  
+  ...zend-i18n\src\Translator\Loader\Gettext.php:143 trim()
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  front\user.form.php:39                             include()
+2018-04-02 15:34:03 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 1
+  Backtrace :
+  ...zend-i18n\src\Translator\Loader\Gettext.php:146 
+  ...ork\zend-i18n\src\Translator\Translator.php:720 Zend\I18n\Translator\Loader\Gettext->load()
+  ...ork\zend-i18n\src\Translator\Translator.php:592 Zend\I18n\Translator\Translator->loadMessagesFromFiles()
+  ...ork\zend-i18n\src\Translator\Translator.php:442 Zend\I18n\Translator\Translator->loadMessages()
+  ...ork\zend-i18n\src\Translator\Translator.php:356 Zend\I18n\Translator\Translator->getTranslatedMessage()
+  inc\autoload.function.php:115                      Zend\I18n\Translator\Translator->translate()
+  plugins\formcreator\setup.php:144                  __()
+  inc\plugin.class.php:145                           plugin_init_formcreator()
+  inc\includes.php:118                               Plugin::load()
+  front\user.form.php:39                             include()
