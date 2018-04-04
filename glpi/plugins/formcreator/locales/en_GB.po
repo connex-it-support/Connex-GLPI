@@ -109,8 +109,8 @@ msgstr "Import forms"
 
 #: inc/form.class.php:221 inc/form.class.php:235 inc/form.class.php:288
 #: inc/form.class.php:342
-msgid "All langages"
-msgstr "All langages"
+msgid "All languages"
+msgstr "All languages"
 
 #: inc/form.class.php:222 inc/form.class.php:275 inc/form_profile.class.php:36
 msgid "Public access"
@@ -914,3 +914,7 @@ msgstr "Hi,\\nWe are sorry to inform you that your request cannot be considered 
 #: install/update_0.0_2.5.php:383
 msgid "Formcreator - Sync service catalog issues"
 msgstr "Formcreator - Sync service catalog issues"
+
+#: install/update_0.0_2.5.php:383
+msgid "Submit Ticket"
+msgstr "Test"

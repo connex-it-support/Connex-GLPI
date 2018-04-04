@@ -5908,7 +5908,8 @@ class Html {
            "<span class='sr-only'>" . __('Help') . "</span>";
       echo "</a></li>";
 
-      if (!GLPI_DEMO_MODE) {
+     /* Removal of language changing 
+	  if (!GLPI_DEMO_MODE) {
          echo "<li id='language_link'><a href='".$CFG_GLPI["root_doc"].
                     "/front/preference.php?forcetab=User\$1' title=\"".
                     addslashes(Dropdown::getLanguageName($_SESSION['glpilanguage']))."\">".
@@ -5917,6 +5918,7 @@ class Html {
          echo "<li id='language_link'><span>" .
             Dropdown::getLanguageName($_SESSION['glpilanguage']) . "</span></li>";
       }
+	  */
 
       echo "<li id='c_recherche'>\n";
       if ($full === true) {

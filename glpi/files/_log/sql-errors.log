@@ -1892,3 +1892,14 @@
   :                                                  SavedSearch_Alert::cronSavedSearchesAlerts()
   inc\crontask.class.php:832                         call_user_func()
   front\crontask.form.php:49                         CronTask::launch()
+2018-04-03 15:09:21 [@ITHELPDESK]
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_savedsearches_alerts` WHERE `is_active` = \'1\' ORDER BY `users_id`
+  Error: Unknown column 'users_id' in 'order clause'
+  Backtrace :
+  inc\dbmysqliterator.class.php:264                  
+  inc\dbmysql.class.php:540                          DBmysqlIterator->__construct()
+  inc\savedsearch_alert.class.php:325                DBmysql->request()
+  :                                                  SavedSearch_Alert::cronSavedSearchesAlerts()
+  inc\crontask.class.php:832                         call_user_func()
+  front\cron.php:65                                  CronTask::launch()
