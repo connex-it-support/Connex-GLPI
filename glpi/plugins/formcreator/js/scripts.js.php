@@ -681,11 +681,12 @@ function getCost(text){
 	//If the parameter is total, will have to index to total's text specifically as the total text contains other costs as well
 	
 	if (text == "total"){
-		temp = temp.substring(temp.indexOf("Total Cost: $")+13); //13 is the length of "Total Cost: $"
+		var subTemp = "Total Cost: $"; //text to index to if looking for total cost
+ 		temp = temp.substring(temp.indexOf(subTemp)+subTemp.length) ; //index past the total cost. What is left should be just the integer total.
 		
-	//Else, index to the dollar sign	
+	//Else, index to the dollar sign of the corresponding string.	
 	} else{
-		temp = temp.substring(temp.indexOf("$")+1); //the +1 removes the dollar sign	
+		temp = temp.substring(temp.indexOf("$")+1); //the +1 moves the index passed the dollar sign	
 	}	
 		//The remaining text is a string so will need to parse the value from the text.
 		temp =parseInt( temp ) ;

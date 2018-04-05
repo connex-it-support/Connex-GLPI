@@ -66355,4 +66355,1812 @@
 2018-04-05 09:19:27 [104@ITHELPDESK]
 2 - SERVER -> CLIENT: 221 2.0.0 Service closing transmission channel
 2018-04-05 09:19:27 [104@ITHELPDESK]
+3 - Connection: closed2018-04-05 15:13:56 [2@ITHELPDESK]
+3 - Connection: opening to smtp.office365.com:587, timeout=300, options=array (
+  'ssl' => 
+  array (
+    'verify_peer' => false,
+    'verify_peer_name' => false,
+    'allow_self_signed' => true,
+  ),
+)2018-04-05 15:13:56 [2@ITHELPDESK]
+3 - Connection: opened2018-04-05 15:13:56 [2@ITHELPDESK]
+2 - SERVER -> CLIENT: 220 YTXPR0101CA0060.outlook.office365.com Microsoft ESMTP MAIL Service ready at Thu, 5 Apr 2018 19:13:57 +0000
+2018-04-05 15:13:56 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: EHLO ithelpdesk.connexservice.ca
+2018-04-05 15:13:56 [2@ITHELPDESK]
+2 - SERVER -> CLIENT: 250-YTXPR0101CA0060.outlook.office365.com Hello [24.244.219.98]
+250-SIZE 157286400
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-STARTTLS
+250-8BITMIME
+250 SMTPUTF8
+2018-04-05 15:13:56 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: STARTTLS
+2018-04-05 15:13:56 [2@ITHELPDESK]
+2 - SERVER -> CLIENT: 220 2.0.0 SMTP server ready
+2018-04-05 15:13:57 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: EHLO ithelpdesk.connexservice.ca
+2018-04-05 15:13:57 [2@ITHELPDESK]
+2 - SERVER -> CLIENT: 250-YTXPR0101CA0060.outlook.office365.com Hello [24.244.219.98]
+250-SIZE 157286400
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-AUTH LOGIN XOAUTH2
+250-8BITMIME
+250 SMTPUTF8
+2018-04-05 15:13:57 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: AUTH LOGIN
+2018-04-05 15:13:57 [2@ITHELPDESK]
+2 - SERVER -> CLIENT: 334 VXNlcm5hbWU6
+2018-04-05 15:13:57 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: aHZvQGNvbm5leHNlcnZpY2UuY2E=
+2018-04-05 15:13:57 [2@ITHELPDESK]
+2 - SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+2018-04-05 15:13:57 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: QmxvY2tib3gyMQ==
+2018-04-05 15:13:58 [2@ITHELPDESK]
+2 - SERVER -> CLIENT: 235 2.7.0 Authentication successful target host YTOPR0101MB1388.CANPRD01.PROD.OUTLOOK.COM
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: MAIL FROM:<hvo@connexservice.ca>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+2 - SERVER -> CLIENT: 250 2.1.0 Sender OK
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: RCPT TO:<itsupport@connexservice.ca>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+2 - SERVER -> CLIENT: 250 2.1.5 Recipient OK
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: DATA
+2018-04-05 15:13:58 [2@ITHELPDESK]
+2 - SERVER -> CLIENT: 354 Start mail input; end with <CRLF>.<CRLF>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: Date: Thu, 5 Apr 2018 15:13:56 -0400
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: To: itservice <itsupport@connexservice.ca>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: From: IT Support <hvo@connexservice.ca>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: Reply-To: IT Support <itsupport@connexservice.ca>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: Subject: [Connex Helpdesk #0000319] April 5th - New Hire Form
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: Message-ID: <GLPI-319.1522955636.20295@ITHELPDESK>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.24 (https://github.com/PHPMailer/PHPMailer)
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: Auto-Submitted: auto-generated
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: X-Auto-Response-Suppress: OOF, DR, NDR, RN, NRN
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: In-Reply-To: <GLPI-Ticket-319>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: MIME-Version: 1.0
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: Content-Type: multipart/alternative;
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 	boundary="b1_d724305cbd3f300efe87a12dbf24fe93"
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: This is a multi-part message in MIME format.
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: --b1_d724305cbd3f300efe87a12dbf24fe93
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: ##ENDFOREACHtasks##:
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: http://localhost/GLPII/index.php?redirect=ticket_319&amp;noAUTO=1
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: Opening date: 05-04-2018 15:13
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: Status: New
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: Employee Hardware &amp; Software Request Form
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: This form is designed to be used by Hiring Managers when requesting hardware or
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: software for new employees or changes to existing employees. We require 5
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: business days for setup &amp; hardware delivery. Hardware and software items are
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: subject to budget approval and vendor availability.
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: Employee Information:
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: Last Name:
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 5th
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: First Name:
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: April
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: Department:
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER:  Test
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: Title:
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER:  Test
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: Manager:
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER:  Tiny
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: Office Phone #:
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER:  416
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: Location:
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: Richmond Hill
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: Hardware Requirements:
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: Desktop/Laptop:
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: Lenovo T470 (Connex) - $1700
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: Hardware Info:
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 15.4 inch / Core i7 / 8GB RAM500 GB HDDWindows 7/ Windows 10Microsoft Office
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 2010Sophos Anti-VirusMicrosoft OneDriveVPNMouseLaptop bag
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: SPECIAL NOTES:
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: If a desk phone is required, please forward an email to
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: support@connexservice.ca.
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: Software Requirements:
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: ItemCost Per ItemQuantityCost of UpgradeMicrosoft Vision Standard$3202$640iPhone
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 7 (Corporate plan - $65/month)$6001$600TOTAL:$1240
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: SIMS Profiles required:
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: Name of employee to copy SIMS security from:
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: Desktop/Laptop Costs: $1700
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: Upgrade Items Costs: $1240
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: Total Cost: $2940
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: -- 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: Thank you for submitting your form to the Connex Telecommunications Help Desk.
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: We will followup to your ticket as soon as possible.
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: --b1_d724305cbd3f300efe87a12dbf24fe93
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: Content-Type: text/html; charset=utf-8
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER:                         'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'><html>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER:                         <head>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER:                          <META http-equiv='Content-Type' content='text/html; charset=utf-8'>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER:                          <title>[Connex Helpdesk #0000319] April 5th - New Hire Form</title>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER:                          <style type='text/css'>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER:                            <style>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: ..email_table{
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-color: #000000; 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER:   margin-left: auto;
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER:   margin-right: auto;
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-style: solid;
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-width:1px;
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER:   width:100%;
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: }
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: ..email_td{
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-color: #000000; 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-style: solid;
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-width:1px;
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER:   width:25%;
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER:  vertical-align: middle;
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: }
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: ..email_th{
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-color: #000000; 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-style: solid;
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-width:1px;
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER:  vertical-align: middle;
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: }
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: </style>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER:                          </style>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER:                         </head>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER:                         <body>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <!-- description{ color: inherit; background: #ebebeb; border-style: solid;border-color: #8d8d8d; border-width: 0px 1px 1px 0px; }    -->
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <div>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <p>Ticket Link: <a href="http://ithelpdesk.connexservice.ca/front/ticket.form.php?id=0000319">Your Ticket Page</a></p>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <p>Opening date: 05-04-2018 15:13</p>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <p>Requester: itservice</p>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <p>Status: New</p>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <p align="center"> <strong>Employee Hardware & Software Request Form</strong></p>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <p>This form is designed to be used by Hiring Managers when requesting hardware or software for new employees or changes to existing employees. We require 5 business days for setup & hardware delivery. Hardware and software items are subject to budget approval and vendor availability.</p>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <table class ="email_table" style="border-color: #000000; margin-left: auto; margin-right: auto;" border="----" width="90%">
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <tbody>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr style="height: 30px;">
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <th class="email_th" style="height: 30px; text-align: center;" colspan="4"><strong>Employee Information:</strong></th>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr style="height: 30.1591px;">
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30.1591px; padding-left: 1em;" width="20%">Last Name:</td>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30.1591px; padding-left: 1em;" width="30%">5th</td>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30.1591px; padding-left: 1em;" width="20%">First Name:</td>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30.1591px; padding-left: 1em;" width="30%">April</td>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr style="height: 30px;">
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" width="20%">Department:</td>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" width="30%"> Test</td>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" width="20%">Title:</td>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" width="30%"> Test</td>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr style="height: 30px;">
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" width="20%">Manager:</td>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" width="30%"> Tiny</td>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" width="20%">Office Phone #:</td>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" width="30%"> 416</td>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr style="height: 30px;">
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" width="20%">Location:</td>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" width="30%">Richmond Hill</td>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" width="20%"> </td>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" width="30%"> </td>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: </tbody>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: </table>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <p> </p>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <table class ="email_table" style="border-color: #000000; margin-left: auto; margin-right: auto;" border="----" width="90%">
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <tbody>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <th class="email_th" style="height: 30px; text-align: center;" colspan="4"><strong>Hardware Requirements:</strong></th>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" width="20%">Desktop/Laptop:</td>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" colspan="3"><strong>Lenovo T470 (Connex) - $1700</strong><br>Hardware Info:<br><br><ul><li>15.4 inch / Core i7 / 8GB RAM</li><li>500 GB HDD</li><li>Windows 7/ Windows 10</li><li>Microsoft Office 2010</li><li>Sophos Anti-Virus</li><li>Microsoft OneDrive</li><li>VPN</li><li>Mouse</li><li>Laptop bag</li></ul></td>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" width="20%">SPECIAL NOTES:</td>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" colspan="3"></td>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" colspan="4">If a desk phone is required, please forward an email to support@connexservice.ca.</td>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: </tbody>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: </table>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <p> </p>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <table class ="email_table" style="border-color: #000000; margin-left: auto; margin-right: auto;" border="----" width="90%">
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <tbody>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <th class="email_th" style="height: 30px; text-align: center;" colspan="4"><strong>Software Requirements:</strong></th>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em; padding: 15px;" colspan="4"><table style="border-color: #000000; margin-left: auto; margin-right: auto;" border="----" width="50%"><tbody><tr><td>Item</td><td>Cost Per Item</td><td>Quantity</td><td>Cost of Upgrade</td></tr><tr><td>Microsoft Vision Standard</td><td>$320</td><td>2</td><td>$640</td></tr><tr><td>iPhone 7 (Corporate plan - $65/month)</td><td>$600</td><td>1</td><td>$600</td></tr><tr><td colspan="2">TOTAL:</td><td id="total" colspan="2">$1240</td></tr></tbody></table></td>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" width="20%">SIMS Profiles required:</td>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="padding-left: 1em;" colspan="3"></td>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" width="20%">Name of employee to copy SIMS security from:</td>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="padding-left: 1em;" colspan="3"> </td>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: </tbody>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: </table>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: <p style="text-align: center;"><strong>Desktop/Laptop Costs: $1700<br>Upgrade Items Costs: $1240<br>Total Cost: $2940</strong></p></div><br><br>Thank you for submitting your form to the Connex Telecommunications Help Desk. We will followup to your ticket as soon as possible.
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: </body></html>
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: --b1_d724305cbd3f300efe87a12dbf24fe93--
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:13:58 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: .
+2018-04-05 15:13:59 [2@ITHELPDESK]
+2 - SERVER -> CLIENT: 250 2.6.0 <GLPI-319.1522955636.20295@ITHELPDESK> [InternalId=18184891532513, Hostname=YTOPR0101MB1388.CANPRD01.PROD.OUTLOOK.COM] 11336 bytes in 0.324, 34.068 KB/sec Queued mail for delivery
+2018-04-05 15:13:59 [2@ITHELPDESK]
+1 - CLIENT -> SERVER: QUIT
+2018-04-05 15:13:59 [2@ITHELPDESK]
+2 - SERVER -> CLIENT: 221 2.0.0 Service closing transmission channel
+2018-04-05 15:13:59 [2@ITHELPDESK]
+3 - Connection: closed2018-04-05 15:31:04 [104@ITHELPDESK]
+3 - Connection: opening to smtp.office365.com:587, timeout=300, options=array (
+  'ssl' => 
+  array (
+    'verify_peer' => false,
+    'verify_peer_name' => false,
+    'allow_self_signed' => true,
+  ),
+)2018-04-05 15:31:04 [104@ITHELPDESK]
+3 - Connection: opened2018-04-05 15:31:04 [104@ITHELPDESK]
+2 - SERVER -> CLIENT: 220 YTXPR0101CA0033.outlook.office365.com Microsoft ESMTP MAIL Service ready at Thu, 5 Apr 2018 19:31:04 +0000
+2018-04-05 15:31:04 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: EHLO ithelpdesk.connexservice.ca
+2018-04-05 15:31:04 [104@ITHELPDESK]
+2 - SERVER -> CLIENT: 250-YTXPR0101CA0033.outlook.office365.com Hello [24.244.219.98]
+250-SIZE 157286400
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-STARTTLS
+250-8BITMIME
+250 SMTPUTF8
+2018-04-05 15:31:04 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: STARTTLS
+2018-04-05 15:31:04 [104@ITHELPDESK]
+2 - SERVER -> CLIENT: 220 2.0.0 SMTP server ready
+2018-04-05 15:31:05 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: EHLO ithelpdesk.connexservice.ca
+2018-04-05 15:31:05 [104@ITHELPDESK]
+2 - SERVER -> CLIENT: 250-YTXPR0101CA0033.outlook.office365.com Hello [24.244.219.98]
+250-SIZE 157286400
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-AUTH LOGIN XOAUTH2
+250-8BITMIME
+250 SMTPUTF8
+2018-04-05 15:31:05 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: AUTH LOGIN
+2018-04-05 15:31:05 [104@ITHELPDESK]
+2 - SERVER -> CLIENT: 334 VXNlcm5hbWU6
+2018-04-05 15:31:05 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: aHZvQGNvbm5leHNlcnZpY2UuY2E=
+2018-04-05 15:31:05 [104@ITHELPDESK]
+2 - SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+2018-04-05 15:31:05 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: QmxvY2tib3gyMQ==
+2018-04-05 15:31:06 [104@ITHELPDESK]
+2 - SERVER -> CLIENT: 235 2.7.0 Authentication successful target host YQBPR0101MB1378.CANPRD01.PROD.OUTLOOK.COM
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: MAIL FROM:<hvo@connexservice.ca>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+2 - SERVER -> CLIENT: 250 2.1.0 Sender OK
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: RCPT TO:<hvo@connexservice.ca>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+2 - SERVER -> CLIENT: 250 2.1.5 Recipient OK
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: DATA
+2018-04-05 15:31:06 [104@ITHELPDESK]
+2 - SERVER -> CLIENT: 354 Start mail input; end with <CRLF>.<CRLF>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Date: Thu, 5 Apr 2018 15:31:04 -0400
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: To: Henry Vo <hvo@connexservice.ca>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: From: IT Support <hvo@connexservice.ca>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Reply-To: IT Support <itsupport@connexservice.ca>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Subject: [Connex Helpdesk #0000320] Format Test 7 - New Hire Form
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Message-ID: <GLPI-320.1522956663.20102@ITHELPDESK>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.24 (https://github.com/PHPMailer/PHPMailer)
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Auto-Submitted: auto-generated
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: X-Auto-Response-Suppress: OOF, DR, NDR, RN, NRN
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: In-Reply-To: <GLPI-Ticket-320>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: MIME-Version: 1.0
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Content-Type: multipart/alternative;
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 	boundary="b1_7b9d6466a40a572180948516d2f2d8df"
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: This is a multi-part message in MIME format.
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: --b1_7b9d6466a40a572180948516d2f2d8df
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: ##ENDFOREACHtasks##:
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: http://localhost/GLPII/index.php?redirect=ticket_320&amp;noAUTO=1
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Opening date: 05-04-2018 15:31
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Status: New
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Employee Hardware &amp; Software Request Form
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: This form is designed to be used by Hiring Managers when requesting hardware or
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: software for new employees or changes to existing employees. We require 5
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: business days for setup &amp; hardware delivery. Hardware and software items are
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: subject to budget approval and vendor availability.
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Employee Information:
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Last Name:
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Test 7
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: First Name:
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:  Format
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Department:
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:  IT 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Title:
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Assistant
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Manager:
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Tiny
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Office Phone #:
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 416
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Location:
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Richmond Hill
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Hardware Requirements:
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Desktop/Laptop:
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Lenovo Desktop - $1200
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Hardware Info:
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 8GB500GB HDDWindows 7 / Windows 10Microsoft Office 2010Sophos
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Anti-VirusMicrosoft OneDrive22inch Lenovo MonitorKeyboard &amp; Mouse
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: SPECIAL NOTES:
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: If a desk phone is required, please forward an email to
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: support@connexservice.ca.
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Software Requirements:
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: ItemCost Per ItemQuantityCost of UpgradeLenovo 23 inch Monitor$2001$200Microsoft
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Vision Standard$3201$320TOTAL:$520
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: SIMS Profiles required:
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Name of employee to copy SIMS security from:
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Desktop/Laptop Costs: $1200
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Upgrade Items Costs: $520
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Total Cost: $1720
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: -- 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Thank you for submitting your form to the Connex Telecommunications Help Desk.
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: We will followup to your ticket as soon as possible.
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: --b1_7b9d6466a40a572180948516d2f2d8df
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Content-Type: text/html; charset=utf-8
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:                         'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'><html>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:                         <head>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:                          <META http-equiv='Content-Type' content='text/html; charset=utf-8'>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:                          <title>[Connex Helpdesk #0000320] Format Test 7 - New Hire Form</title>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:                          <style type='text/css'>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:                            <style>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: ..email_table{
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-color: #000000; 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   margin-left: auto;
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   margin-right: auto;
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-style: solid;
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-width:1px;
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   width:100%;
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: }
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: ..email_td{
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-color: #000000; 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-style: solid;
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-width:1px;
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   width:25%;
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:  vertical-align: middle;
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: }
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: ..email_th{
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-color: #000000; 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-style: solid;
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-width:1px;
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:  vertical-align: middle;
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: }
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </style>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:                          </style>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:                         </head>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:                         <body>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <!-- description{ color: inherit; background: #ebebeb; border-style: solid;border-color: #8d8d8d; border-width: 0px 1px 1px 0px; }    -->
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <div>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <p>Ticket Link: <a href="http://ithelpdesk.connexservice.ca/front/ticket.form.php?id=0000320">Your Ticket Page</a></p>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <p>Opening date: 05-04-2018 15:31</p>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <p>Requester: Henry Vo</p>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <p>Status: New</p>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <p align="center"> <strong>Employee Hardware & Software Request Form</strong></p>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <p>This form is designed to be used by Hiring Managers when requesting hardware or software for new employees or changes to existing employees. We require 5 business days for setup & hardware delivery. Hardware and software items are subject to budget approval and vendor availability.</p>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <table class ="email_table" style="border-color: #000000; margin-left: auto; margin-right: auto;" border="----" width="90%">
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tbody>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr style="height: 30px;">
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <th class="email_th" style="height: 30px; text-align: center;" colspan="4"><strong>Employee Information:</strong></th>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr style="height: 30.1591px;">
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30.1591px; padding-left: 1em;" width="20%">Last Name:</td>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30.1591px; padding-left: 1em;" width="30%">Test 7</td>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30.1591px; padding-left: 1em;" width="20%">First Name:</td>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30.1591px; padding-left: 1em;" width="30%"> Format</td>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr style="height: 30px;">
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" width="20%">Department:</td>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" width="30%"> IT </td>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" width="20%">Title:</td>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" width="30%">Assistant</td>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr style="height: 30px;">
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" width="20%">Manager:</td>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" width="30%">Tiny</td>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" width="20%">Office Phone #:</td>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" width="30%">416</td>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr style="height: 30px;">
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" width="20%">Location:</td>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" width="30%">Richmond Hill</td>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" width="20%"> </td>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" width="30%"> </td>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tbody>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </table>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <p> </p>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <table class ="email_table" style="border-color: #000000; margin-left: auto; margin-right: auto;" border="----" width="90%">
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tbody>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <th class="email_th" style="height: 30px; text-align: center;" colspan="4"><strong>Hardware Requirements:</strong></th>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" width="20%">Desktop/Laptop:</td>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" colspan="3"><strong>Lenovo Desktop - $1200</strong><br>Hardware Info:<br><br><ul><li>8GB</li><li>500GB HDD</li><li>Windows 7 / Windows 10</li><li>Microsoft Office 2010</li><li>Sophos Anti-Virus</li><li>Microsoft OneDrive</li><li>22inch Lenovo Monitor</li><li>Keyboard & Mouse</li></ul></td>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" width="20%">SPECIAL NOTES:</td>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" colspan="3"></td>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" colspan="4">If a desk phone is required, please forward an email to support@connexservice.ca.</td>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tbody>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </table>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <p> </p>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <table class ="email_table" style="border-color: #000000; margin-left: auto; margin-right: auto;" border="----" width="90%">
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tbody>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <th class="email_th" style="height: 30px; text-align: center;" colspan="4"><strong>Software Requirements:</strong></th>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em; padding: 15px;" colspan="4"><table class="email_table" style="border-color: #000000; margin-left: auto; margin-right: auto;" border="----" width="50%"><tbody><tr><th class="email_th">Item</th><th class="email_th">Cost Per Item</th><th class="email_th">Quantity</th><th class="email_th">Cost of Upgrade</th></tr><tr><td class="email_td">Lenovo 23 inch Monitor</td><td class="email_td">$200</td><td class="email_td">1</td><td class="email_td">$200</td></tr><tr><td class="email_td">Microsoft Vision Standard</td><td class="email_td">$320</td><td class="email_td">1</td><td class="email_td">$320</td></tr><tr><td colspan="2">TOTAL:</td><td id="total" colspan="2">$520</td></tr></tbody></table></td>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" width="20%">SIMS Profiles required:</td>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="padding-left: 1em;" colspan="3"></td>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="height: 30px; padding-left: 1em;" width="20%">Name of employee to copy SIMS security from:</td>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="email_td" style="padding-left: 1em;" colspan="3"> </td>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tbody>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </table>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <p style="text-align: center;"><strong>Desktop/Laptop Costs: $1200<br>Upgrade Items Costs: $520<br>Total Cost: $1720</strong></p></div><br><br>Thank you for submitting your form to the Connex Telecommunications Help Desk. We will followup to your ticket as soon as possible.
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </body></html>
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: --b1_7b9d6466a40a572180948516d2f2d8df--
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:31:06 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: .
+2018-04-05 15:31:07 [104@ITHELPDESK]
+2 - SERVER -> CLIENT: 250 2.6.0 <GLPI-320.1522956663.20102@ITHELPDESK> [InternalId=25293062408888, Hostname=YQBPR0101MB1378.CANPRD01.PROD.OUTLOOK.COM] 11793 bytes in 0.379, 30.371 KB/sec Queued mail for delivery
+2018-04-05 15:31:07 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: QUIT
+2018-04-05 15:31:07 [104@ITHELPDESK]
+2 - SERVER -> CLIENT: 221 2.0.0 Service closing transmission channel
+2018-04-05 15:31:07 [104@ITHELPDESK]
+3 - Connection: closed2018-04-05 15:34:22 [104@ITHELPDESK]
+3 - Connection: opening to smtp.office365.com:587, timeout=300, options=array (
+  'ssl' => 
+  array (
+    'verify_peer' => false,
+    'verify_peer_name' => false,
+    'allow_self_signed' => true,
+  ),
+)2018-04-05 15:34:22 [104@ITHELPDESK]
+3 - Connection: opened2018-04-05 15:34:22 [104@ITHELPDESK]
+2 - SERVER -> CLIENT: 220 YTOPR0101CA0049.outlook.office365.com Microsoft ESMTP MAIL Service ready at Thu, 5 Apr 2018 19:34:23 +0000
+2018-04-05 15:34:22 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: EHLO ithelpdesk.connexservice.ca
+2018-04-05 15:34:22 [104@ITHELPDESK]
+2 - SERVER -> CLIENT: 250-YTOPR0101CA0049.outlook.office365.com Hello [24.244.219.98]
+250-SIZE 157286400
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-STARTTLS
+250-8BITMIME
+250 SMTPUTF8
+2018-04-05 15:34:22 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: STARTTLS
+2018-04-05 15:34:22 [104@ITHELPDESK]
+2 - SERVER -> CLIENT: 220 2.0.0 SMTP server ready
+2018-04-05 15:34:22 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: EHLO ithelpdesk.connexservice.ca
+2018-04-05 15:34:22 [104@ITHELPDESK]
+2 - SERVER -> CLIENT: 250-YTOPR0101CA0049.outlook.office365.com Hello [24.244.219.98]
+250-SIZE 157286400
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-AUTH LOGIN XOAUTH2
+250-8BITMIME
+250 SMTPUTF8
+2018-04-05 15:34:22 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: AUTH LOGIN
+2018-04-05 15:34:22 [104@ITHELPDESK]
+2 - SERVER -> CLIENT: 334 VXNlcm5hbWU6
+2018-04-05 15:34:22 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: aHZvQGNvbm5leHNlcnZpY2UuY2E=
+2018-04-05 15:34:22 [104@ITHELPDESK]
+2 - SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+2018-04-05 15:34:22 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: QmxvY2tib3gyMQ==
+2018-04-05 15:34:23 [104@ITHELPDESK]
+2 - SERVER -> CLIENT: 235 2.7.0 Authentication successful target host YQBPR0101MB1377.CANPRD01.PROD.OUTLOOK.COM
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: MAIL FROM:<hvo@connexservice.ca>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+2 - SERVER -> CLIENT: 250 2.1.0 Sender OK
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: RCPT TO:<hvo@connexservice.ca>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+2 - SERVER -> CLIENT: 250 2.1.5 Recipient OK
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: DATA
+2018-04-05 15:34:23 [104@ITHELPDESK]
+2 - SERVER -> CLIENT: 354 Start mail input; end with <CRLF>.<CRLF>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Date: Thu, 5 Apr 2018 15:34:22 -0400
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: To: Henry Vo <hvo@connexservice.ca>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: From: IT Support <hvo@connexservice.ca>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Reply-To: IT Support <itsupport@connexservice.ca>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Subject: [Connex Helpdesk #0000321] Helpdesk Ticket Test 1 - Incident - Software
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Message-ID: <GLPI-321.1522956862.20209@ITHELPDESK>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.24 (https://github.com/PHPMailer/PHPMailer)
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Auto-Submitted: auto-generated
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: X-Auto-Response-Suppress: OOF, DR, NDR, RN, NRN
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: In-Reply-To: <GLPI-Ticket-321>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: MIME-Version: 1.0
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Content-Type: multipart/alternative;
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 	boundary="b1_449c21cccd4c6c2c450b8a553188cdb6"
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: This is a multi-part message in MIME format.
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: --b1_449c21cccd4c6c2c450b8a553188cdb6
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: ##ENDFOREACHtasks##:
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: http://localhost/GLPII/index.php?redirect=ticket_321&amp;noAUTO=1
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Opening date: 05-04-2018 15:34
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Status: New
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Ticket Type 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Incident 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Hardware Type
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:  - 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Software
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: TeamViewer 12
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Adobe Acrobat Reader DC 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Description
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Test email
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Model #: 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Serial #: 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Location
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Richmond Hill 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Teamviewer Information
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: ID 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:  123 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Password
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 123 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: -- 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Thank you for submitting your form to the Connex Telecommunications Help Desk.
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: We will followup to your ticket as soon as possible.
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: --b1_449c21cccd4c6c2c450b8a553188cdb6
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Content-Type: text/html; charset=utf-8
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:                         'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'><html>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:                         <head>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:                          <META http-equiv='Content-Type' content='text/html; charset=utf-8'>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:                          <title>[Connex Helpdesk #0000321] Helpdesk Ticket Test 1 - Incident - Software</title>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:                          <style type='text/css'>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:                            <style>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: ..email_table{
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-color: #000000; 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   margin-left: auto;
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   margin-right: auto;
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-style: solid;
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-width:1px;
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   width:100%;
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: }
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: ..email_td{
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-color: #000000; 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-style: solid;
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-width:1px;
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   width:25%;
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:  vertical-align: middle;
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: }
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: ..email_th{
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-color: #000000; 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-style: solid;
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-width:1px;
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:  vertical-align: middle;
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: }
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </style>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:                          </style>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:                         </head>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:                         <body>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <!-- description{ color: inherit; background: #ebebeb; border-style: solid;border-color: #8d8d8d; border-width: 0px 1px 1px 0px; }    -->
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <div>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <p>Ticket Link: <a href="http://ithelpdesk.connexservice.ca/front/ticket.form.php?id=0000321">Your Ticket Page</a></p>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <p>Opening date: 05-04-2018 15:34</p>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <p>Requester: Henry Vo</p>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <p>Status: New</p>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <table style="border-color: #000000; margin-left: auto; margin-right: auto;" border="----" width="90%">
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tbody>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr style="height: 36px;">
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td style="padding-left: 2em; height: 36px;"><strong>Ticket Type </strong></td>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td style="padding-left: 2em; height: 36px;">Incident </td>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr style="height: 36px;">
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td style="padding-left: 2em; height: 36px;"><strong>Hardware Type</strong></td>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td style="padding-left: 2em; height: 36px;"> - </td>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr style="height: 36px;">
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td style="padding-left: 2em; height: 36px;"><strong>Software</strong></td>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td style="padding-left: 2em; height: 36px;"><br />TeamViewer 12<br />Adobe Acrobat Reader DC  </td>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr style="height: 80px;">
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td style="padding-left: 2em; height: 160.358px;" rowspan="3"><strong>Description</strong></td>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td style="padding-left: 2em; height: 80px;"><p>Test email</p></td>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr style="height: 40.3579px;">
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td style="padding-left: 2em; height: 40.3579px;">Model #: </td>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr style="height: 40px;">
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td style="padding-left: 2em; height: 40px;">Serial #: </td>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr style="height: 36px;">
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td style="padding-left: 2em; height: 36px;"><strong>Location</strong></td>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td style="padding-left: 2em; height: 36px;">Richmond Hill  </td>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr style="height: 36px;">
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td style="padding-left: 2em; height: 36px; text-align: center;" colspan="2"><span style="text-decoration: underline;"><strong>Teamviewer Information</strong></span></td>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr style="height: 36px;">
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td style="padding-left: 2em; height: 36px;"><strong>ID </strong></td>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td style="padding-left: 2em; height: 36px;"> 123  </td>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr style="height: 36px;">
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td style="padding-left: 2em; height: 36px;"><strong>Password</strong></td>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td style="padding-left: 2em; height: 36px;">123  </td>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tbody>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </table></div><br><br>Thank you for submitting your form to the Connex Telecommunications Help Desk. We will followup to your ticket as soon as possible.
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </body></html>
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: --b1_449c21cccd4c6c2c450b8a553188cdb6--
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:34:23 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: .
+2018-04-05 15:34:24 [104@ITHELPDESK]
+2 - SERVER -> CLIENT: 250 2.6.0 <GLPI-321.1522956862.20209@ITHELPDESK> [InternalId=10922101836757, Hostname=YQBPR0101MB1377.CANPRD01.PROD.OUTLOOK.COM] 7771 bytes in 1.097, 6.916 KB/sec Queued mail for delivery
+2018-04-05 15:34:24 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: QUIT
+2018-04-05 15:34:24 [104@ITHELPDESK]
+2 - SERVER -> CLIENT: 221 2.0.0 Service closing transmission channel
+2018-04-05 15:34:24 [104@ITHELPDESK]
+3 - Connection: closed2018-04-05 15:49:08 [104@ITHELPDESK]
+3 - Connection: opening to smtp.office365.com:587, timeout=300, options=array (
+  'ssl' => 
+  array (
+    'verify_peer' => false,
+    'verify_peer_name' => false,
+    'allow_self_signed' => true,
+  ),
+)2018-04-05 15:49:08 [104@ITHELPDESK]
+3 - Connection: opened2018-04-05 15:49:08 [104@ITHELPDESK]
+2 - SERVER -> CLIENT: 220 YQBPR0101CA0026.outlook.office365.com Microsoft ESMTP MAIL Service ready at Thu, 5 Apr 2018 19:49:09 +0000
+2018-04-05 15:49:08 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: EHLO ithelpdesk.connexservice.ca
+2018-04-05 15:49:08 [104@ITHELPDESK]
+2 - SERVER -> CLIENT: 250-YQBPR0101CA0026.outlook.office365.com Hello [24.244.219.98]
+250-SIZE 157286400
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-STARTTLS
+250-8BITMIME
+250 SMTPUTF8
+2018-04-05 15:49:08 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: STARTTLS
+2018-04-05 15:49:08 [104@ITHELPDESK]
+2 - SERVER -> CLIENT: 220 2.0.0 SMTP server ready
+2018-04-05 15:49:09 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: EHLO ithelpdesk.connexservice.ca
+2018-04-05 15:49:09 [104@ITHELPDESK]
+2 - SERVER -> CLIENT: 250-YQBPR0101CA0026.outlook.office365.com Hello [24.244.219.98]
+250-SIZE 157286400
+250-PIPELINING
+250-DSN
+250-ENHANCEDSTATUSCODES
+250-AUTH LOGIN XOAUTH2
+250-8BITMIME
+250 SMTPUTF8
+2018-04-05 15:49:09 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: AUTH LOGIN
+2018-04-05 15:49:09 [104@ITHELPDESK]
+2 - SERVER -> CLIENT: 334 VXNlcm5hbWU6
+2018-04-05 15:49:09 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: aHZvQGNvbm5leHNlcnZpY2UuY2E=
+2018-04-05 15:49:09 [104@ITHELPDESK]
+2 - SERVER -> CLIENT: 334 UGFzc3dvcmQ6
+2018-04-05 15:49:09 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: QmxvY2tib3gyMQ==
+2018-04-05 15:49:11 [104@ITHELPDESK]
+2 - SERVER -> CLIENT: 235 2.7.0 Authentication successful target host YTXPR0101MB1389.CANPRD01.PROD.OUTLOOK.COM
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: MAIL FROM:<hvo@connexservice.ca>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+2 - SERVER -> CLIENT: 250 2.1.0 Sender OK
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: RCPT TO:<hvo@connexservice.ca>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+2 - SERVER -> CLIENT: 250 2.1.5 Recipient OK
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: DATA
+2018-04-05 15:49:11 [104@ITHELPDESK]
+2 - SERVER -> CLIENT: 354 Start mail input; end with <CRLF>.<CRLF>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Date: Thu, 5 Apr 2018 15:49:08 -0400
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: To: Henry Vo <hvo@connexservice.ca>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: From: IT Support <hvo@connexservice.ca>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Reply-To: IT Support <itsupport@connexservice.ca>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Subject: [Connex Helpdesk #0000322] Helpdesk Ticket Test 2 - Incident - Hardware
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Message-ID: <GLPI-322.1522957748.7076@ITHELPDESK>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: X-Mailer: PHPMailer 5.2.24 (https://github.com/PHPMailer/PHPMailer)
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Auto-Submitted: auto-generated
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: X-Auto-Response-Suppress: OOF, DR, NDR, RN, NRN
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: In-Reply-To: <GLPI-Ticket-322>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: MIME-Version: 1.0
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Content-Type: multipart/alternative;
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 	boundary="b1_d54314115e298d69281dd5d6f5e6deea"
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: This is a multi-part message in MIME format.
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: --b1_d54314115e298d69281dd5d6f5e6deea
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Content-Type: text/plain; charset=us-ascii
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: ##ENDFOREACHtasks##:
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: http://localhost/GLPII/index.php?redirect=ticket_322&amp;noAUTO=1
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Opening date: 05-04-2018 15:49
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Status: New
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Ticket Type 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Incident 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Hardware Type
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Desktop - 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Software
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Description
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: test
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Model #: 1212
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Serial #: 32
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Location
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Richmond Hill 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Teamviewer Information
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: ID 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:  12 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Password
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:  1235 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: -- 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Thank you for submitting your form to the Connex Telecommunications Help Desk.
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: We will followup to your ticket as soon as possible.
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: --b1_d54314115e298d69281dd5d6f5e6deea
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Content-Type: text/html; charset=utf-8
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: Content-Transfer-Encoding: 8bit
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:                         'http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd'><html>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:                         <head>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:                          <META http-equiv='Content-Type' content='text/html; charset=utf-8'>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:                          <title>[Connex Helpdesk #0000322] Helpdesk Ticket Test 2 - Incident - Hardware</title>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:                          <style type='text/css'>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:                            <style>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: ..email_table{
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-color: #000000; 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   margin-left: auto;
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   margin-right: auto;
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-style: solid;
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-width:1px;
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   width:100%;
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: }
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: ..email_td{
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-color: #000000; 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-style: solid;
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-width:1px;
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   width:25%;
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:  vertical-align: middle;
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: }
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: ..email_th{
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-color: #000000; 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-style: solid;
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-width:1px;
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:  vertical-align: middle;
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: }
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: ..help_table{
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-color: #000000; 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-style: solid;
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-width:1px;
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:  margin-left: auto; 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:  margin-right: auto;
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: padding-left: 2em;
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: }
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: ..help_td{
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:  height: 40px;
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: padding-left: 2em;
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-color: #000000; 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-style: solid;
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-width:1px;
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: }
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: ..help_desc{
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   padding-left: 2em;
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-color: #000000; 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-style: solid;
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:   border-width:1px;
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: }
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </style>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:                          </style>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:                         </head>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER:                         <body>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <!-- description{ color: inherit; background: #ebebeb; border-style: solid;border-color: #8d8d8d; border-width: 0px 1px 1px 0px; }    -->
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <div>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <p>Ticket Link: <a href="http://ithelpdesk.connexservice.ca/front/ticket.form.php?id=0000322">Your Ticket Page</a></p>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <p>Opening date: 05-04-2018 15:49</p>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <p>Requester: Henry Vo</p>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <p>Status: New</p>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <table class="help_table" style="border-color: #000000; margin-left: auto; margin-right: auto;" border="----" width="90%">
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tbody>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr style="height: 36px;">
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="help_td" style="padding-left: 2em; height: 36px;"><strong>Ticket Type </strong></td>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="help_td" style="padding-left: 2em; height: 36px;">Incident </td>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr style="height: 36px;">
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="help_td" style="padding-left: 2em; height: 36px;"><strong>Hardware Type</strong></td>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="help_td" style="padding-left: 2em; height: 36px;">Desktop - </td>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr style="height: 36px;">
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="help_td" style="padding-left: 2em; height: 36px;"><strong>Software</strong></td>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="help_td" style="padding-left: 2em; height: 36px;">  </td>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr style="height: 80px;">
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="help_desc" style="padding-left: 2em; height: 160.358px;" rowspan="3"><strong>Description</strong></td>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="help_td" style="padding-left: 2em; height: 80px;"><p>test</p></td>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr style="height: 40.3579px;">
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="help_td" style="padding-left: 2em; height: 40.3579px;">Model #:  1212</td>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr style="height: 40px;">
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="help_td" style="padding-left: 2em; height: 40px;">Serial #:  32</td>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr style="height: 36px;">
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="help_td" style="padding-left: 2em; height: 36px;"><strong>Location</strong></td>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="help_td" style="padding-left: 2em; height: 36px;">Richmond Hill  </td>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr style="height: 36px;">
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="help_td" style="padding-left: 2em; height: 36px; text-align: center;" colspan="2"><span style="text-decoration: underline;"><strong>Teamviewer Information</strong></span></td>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr style="height: 36px;">
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="help_td" style="padding-left: 2em; height: 36px;"><strong>ID </strong></td>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="help_td" style="padding-left: 2em; height: 36px;"> 12  </td>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <tr style="height: 36px;">
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="help_td" style="padding-left: 2em; height: 36px;"><strong>Password</strong></td>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: <td class="help_td" style="padding-left: 2em; height: 36px;"> 1235  </td>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tr>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </tbody>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </table></div><br><br>Thank you for submitting your form to the Connex Telecommunications Help Desk. We will followup to your ticket as soon as possible.
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: </body></html>
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: --b1_d54314115e298d69281dd5d6f5e6deea--
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: 
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: .
+2018-04-05 15:49:11 [104@ITHELPDESK]
+2 - SERVER -> CLIENT: 250 2.6.0 <GLPI-322.1522957748.7076@ITHELPDESK> [InternalId=25258702671791, Hostname=YTXPR0101MB1389.CANPRD01.PROD.OUTLOOK.COM] 8095 bytes in 0.384, 20.568 KB/sec Queued mail for delivery
+2018-04-05 15:49:11 [104@ITHELPDESK]
+1 - CLIENT -> SERVER: QUIT
+2018-04-05 15:49:11 [104@ITHELPDESK]
+2 - SERVER -> CLIENT: 221 2.0.0 Service closing transmission channel
+2018-04-05 15:49:11 [104@ITHELPDESK]
 3 - Connection: closed

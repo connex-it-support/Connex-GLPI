@@ -777,8 +777,8 @@ EOS;
 				$items = explode("\r\n", $question_line['values']);
 				
 				//Table setup for upgrade items
-				$value = '<table style="border-color: #000000; margin-left: auto; margin-right: auto;" border="----" width="50%">';
-				$value.= '<tbody><tr><td>Item</td><td>Cost Per Item</td><td>Quantity</td><td>Cost of Upgrade</td></tr>';
+				$value = '<table class="email_table" style="border-color: #000000; margin-left: auto; margin-right: auto;" border="----" width="50%">';
+				$value.= '<tbody><tr><th class="email_th">Item</th><th class="email_th">Cost Per Item</th><th class="email_th">Quantity</th><th class="email_th">Cost of Upgrade</th></tr>';
 				
 				//Answer is stored as a json string so we need to convert it to an array
 				$answers = json_decode($question_line['answer']);
@@ -790,7 +790,7 @@ EOS;
 					//if( in_array($item,$answers)){
 						if($answers[$key]>0 ){
 							$fieldTotal+= intval($prices[$key]*$answers[$key]);
-							$value.= '<tr><td>'. $item.'</td><td>$'. $prices[$key].'</td><td>'.$answers[$key].'</td><td>$'. intval($prices[$key]*$answers[$key]).'</td></tr>';
+							$value.= '<tr><td class="email_td">'. $item.'</td><td class="email_td">$'. $prices[$key].'</td><td class="email_td">'.$answers[$key].'</td><td class="email_td">$'. intval($prices[$key]*$answers[$key]).'</td></tr>';
 						
 						}//end if
 				}//end for each
