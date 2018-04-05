@@ -1521,16 +1521,36 @@ span.fc_list_icon {
 	
 
 }
-p.cost_text{
+.cost_text{
 		color: red;
 		font-size: 130%;
 		text-align:center;
 		font-weight: bold;
 }
 
-p.total_text{
-		color: red;
-		font-size: 150%;
+.total_text{
+
+		font-size: 130%;
 		text-align:center;
 		font-weight: bold;
+}
+
+.total_tr{
+		
+		font-size:130%;
+		text-align:left;
+		border-color: #000000;
+		border-style: solid;
+		border-width:2px;
+		
+}
+
+
+.total_border{
+		margin:auto;
+		border-color: #000000;
+		width: 50%;
+		border-style: solid;
+		border-width:2px;
+	
 }

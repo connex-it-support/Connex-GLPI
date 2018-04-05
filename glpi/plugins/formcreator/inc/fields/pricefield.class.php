@@ -133,6 +133,8 @@ class PluginFormcreatorPriceField extends PluginFormcreatorField
             	var total_value = getCost("total");		
             	var total_text = document.getElementById("total").innerHTML;
 				
+
+				
 				
 				//index to $ of the current field
             	var start = total_text.indexOf("'.$this->fields['name'].' Costs: $");
@@ -141,11 +143,12 @@ class PluginFormcreatorPriceField extends PluginFormcreatorField
 				
 				//if start is not -1, then it was found and get index of break after the cost
             	if (start!=-1){ 
-            		end = total_text.substring(start).indexOf("<br>") + start; 
+            		end = total_text.substring(start).indexOf("</td></tr>") + start; 
             	}
             	
             	//The cost text to be set the p tag at bottom of field.
             	var display = "'.$this->fields['name'].' Costs: $" + total;
+				var displayForTotal = "<tr class= \"total_tr\"><td>'.$this->fields['name'].' Costs:</td><td>$" + total + "</td></tr>";
             	document.getElementById("cost_"+field).innerHTML = display;
             	
 				/*
@@ -158,16 +161,16 @@ class PluginFormcreatorPriceField extends PluginFormcreatorField
             	
 				//If cost of the current field has been calculated before, replace the old version with the updated version
             	if (end>=0){
-            		total_text =total_text.replace(total_text.substring(start,end), display);
+            		total_text =total_text.replace(total_text.substring(start,end), displayForTotal);
             	}
             	
 				//If previous current cost has been calculated before, only apply the updated text to the total p tag.
             	if (start != -1){
-            		document.getElementById("total").innerHTML= total_text.substring(0,total_text.indexOf("Total Cost: $")) + "Total Cost: $" +total_value;
+            		document.getElementById("total").innerHTML= total_text.substring(0,total_text.indexOf("<tr class= \"total_tr\"><td>Total Cost:</td><td>$")) + "<tr class= \"total_tr\"><td>Total Cost:</td><td>$" +total_value + "</td></tr>";
             		return;
 				//This field has not been added to the total text yet so add it.
             	} else{
-            		document.getElementById("total").innerHTML= total_text.substring(0,total_text.indexOf("Total Cost: $"))  + display + "<br><br>"+ "Total Cost: $" +total_value;
+            		document.getElementById("total").innerHTML= "<table class= \"total_border\">" +displayForTotal + "<tr class= \"total_tr\"><td>Total Cost:</td><td>$" +total_value + "</td></tr></table>";
             		return;
             	}
 

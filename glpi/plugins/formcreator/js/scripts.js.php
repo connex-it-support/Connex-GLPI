@@ -671,6 +671,9 @@ function formcreatorChangeActorAssigned(value) {
 
 function getCost(text){
 	//if there is nothing in that paragraph, 0 is returned as the cost
+	
+	var totalSub = '<tr class= "total_tr"><td>Total Cost:</td><td>$';
+
 	if (document.getElementById(text).innerHTML =="")  {
 		return 0;
 	}
@@ -681,7 +684,8 @@ function getCost(text){
 	//If the parameter is total, will have to index to total's text specifically as the total text contains other costs as well
 	
 	if (text == "total"){
-		temp = temp.substring(temp.indexOf("Total Cost: $")+13); //13 is the length of "Total Cost: $"
+		temp = temp.substring(temp.indexOf(totalSub)+totalSub.length);
+		temp = temp.substring(0, temp.indexOf("</td></tr>")); 
 		
 	//Else, index to the dollar sign	
 	} else{
