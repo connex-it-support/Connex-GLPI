@@ -290,7 +290,7 @@ class NotificationTemplate extends CommonDBTM {
             if (!empty($template_datas['content_html'])) {
                // Encode in HTML all chars
                $data_html = Html::entities_deep($data);
-               $data_html = Html::nl2br_deep($data_html);
+           //    $data_html = Html::nl2br_deep($data_html);
                // Restore HTML tags
                if (count($target->html_tags)) {
                   foreach ($target->html_tags as $tag) {

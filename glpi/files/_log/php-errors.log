@@ -46411,3 +46411,46 @@ Test
 2018-04-03 11:44:26 [2@ITHELPDESK]
   From MassiveAction::__construct() in C:\inetpub\wwwroot\Connex-GLPI\glpi\inc\massiveaction.class.php line 266
   Implementation error ! 
+2018-04-04 09:52:43 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: prices
+  Backtrace :
+  plugins\formcreator\inc\question.class.php:284     
+  plugins\formcreator\inc\question.class.php:343     PluginFormcreatorQuestion->checkBeforeSave()
+  inc\commondbtm.class.php:891                       PluginFormcreatorQuestion->prepareInputForAdd()
+  plugins\formcreator\inc\question.class.php:1281    CommonDBTM->add()
+  plugins\formcreator\front\question.form.php:47     PluginFormcreatorQuestion->duplicate()
+2018-04-04 09:52:43 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: quantity
+  Backtrace :
+  plugins\formcreator\inc\question.class.php:293     
+  plugins\formcreator\inc\question.class.php:343     PluginFormcreatorQuestion->checkBeforeSave()
+  inc\commondbtm.class.php:891                       PluginFormcreatorQuestion->prepareInputForAdd()
+  plugins\formcreator\inc\question.class.php:1281    CommonDBTM->add()
+  plugins\formcreator\front\question.form.php:47     PluginFormcreatorQuestion->duplicate()
+2018-04-04 09:52:43 [2@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: detail
+  Backtrace :
+  plugins\formcreator\inc\question.class.php:303     
+  plugins\formcreator\inc\question.class.php:343     PluginFormcreatorQuestion->checkBeforeSave()
+  inc\commondbtm.class.php:891                       PluginFormcreatorQuestion->prepareInputForAdd()
+  plugins\formcreator\inc\question.class.php:1281    CommonDBTM->add()
+  plugins\formcreator\front\question.form.php:47     PluginFormcreatorQuestion->duplicate()
+2018-04-04 12:02:54 [104@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 3
+  Backtrace :
+  plugins\formcreator\inc\targetbase.class.php:817   
+  ...ins\formcreator\inc\targetticket.class.php:1086 PluginFormcreatorTargetBase->parseTags()
+  plugins\formcreator\inc\form_answer.class.php:894  PluginFormcreatorTargetTicket->save()
+  plugins\formcreator\inc\form_answer.class.php:645  PluginFormcreatorForm_Answer->generateTarget()
+  plugins\formcreator\inc\form.class.php:1180        PluginFormcreatorForm_Answer->saveAnswers()
+  plugins\formcreator\front\form.form.php:92         PluginFormcreatorForm->saveForm()
+2018-04-04 12:02:54 [104@ITHELPDESK]
+  *** PHP Notice(8): Undefined offset: 3
+  Backtrace :
+  plugins\formcreator\inc\targetbase.class.php:817   
+  ...ins\formcreator\inc\targetticket.class.php:1092 PluginFormcreatorTargetBase->parseTags()
+  plugins\formcreator\inc\form_answer.class.php:894  PluginFormcreatorTargetTicket->save()
+  plugins\formcreator\inc\form_answer.class.php:645  PluginFormcreatorForm_Answer->generateTarget()
+  plugins\formcreator\inc\form.class.php:1180        PluginFormcreatorForm_Answer->saveAnswers()
+  plugins\formcreator\front\form.form.php:92         PluginFormcreatorForm->saveForm()
+Test

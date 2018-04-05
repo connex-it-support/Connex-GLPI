@@ -2336,8 +2336,9 @@ class User extends CommonDBTM {
          } else {
             echo "<tr><td colspan='2'></td></tr>";
          }
-
-         echo "<tr class='tab_bg_1'>";
+		
+        /* Removal of language changing
+		echo "<tr class='tab_bg_1'>";
 
          if (!GLPI_DEMO_MODE) {
             $langrand = mt_rand();
@@ -2349,6 +2350,7 @@ class User extends CommonDBTM {
             echo "<td colspan='2'>&nbsp;</td>";
          }
          echo "</tr>";
+		 */
 
          //do some rights verification
          if (!$extauth

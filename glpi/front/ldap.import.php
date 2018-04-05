@@ -66,7 +66,7 @@ if ($_SESSION['ldap_import']['action'] == 'show') {
        && ($_SESSION['ldap_import']['authldaps_id'] != NOT_AVAILABLE)
        && (isset($_POST['search']) || isset($_GET['start']) || isset($_POST['glpilist_limit']))) {
 
-      echo "<br />";
+      echo "1<br />";
       AuthLdap::searchUser($authldap);
    }
 }

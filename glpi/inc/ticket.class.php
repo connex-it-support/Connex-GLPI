@@ -3521,7 +3521,7 @@ class Ticket extends CommonITILObject {
                    self::ASSIGNED => _x('status', 'Processing (assigned)'),
                 //   self::PLANNED  => _x('status', 'Processing (planned)'),
                 //   self::WAITING  => __('Pending'),
-              //     self::SOLVED   => _x('status', 'Solved'),
+                //   self::SOLVED   => _x('status', 'Solved'),
                    self::CLOSED   => _x('status', 'Closed')];
 
       if ($withmetaforsearch) {

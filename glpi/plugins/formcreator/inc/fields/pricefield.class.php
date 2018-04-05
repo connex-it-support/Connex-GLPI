@@ -167,7 +167,7 @@ class PluginFormcreatorPriceField extends PluginFormcreatorField
             		return;
 				//This field has not been added to the total text yet so add it.
             	} else{
-            		document.getElementById("total").innerHTML= total_text.substring(0,total_text.indexOf("Total Cost: $"))  + display + "<br>"+ "Total Cost: $" +total_value;
+            		document.getElementById("total").innerHTML= total_text.substring(0,total_text.indexOf("Total Cost: $"))  + display + "<br><br>"+ "Total Cost: $" +total_value;
             		return;
             	}
 
@@ -278,7 +278,7 @@ class PluginFormcreatorPriceField extends PluginFormcreatorField
 								
 								return;
 							} else{
-								document.getElementById("total").innerHTML= total_text.substring(0,total_text.indexOf("Total Cost: $")) + display +"<br>"+ "Total Cost: $" +total_value;
+								document.getElementById("total").innerHTML= total_text.substring(0,total_text.indexOf("Total Cost: $")) + display +"<br><br>"+ "Total Cost: $" +total_value;
 								return;
 							}
 						}

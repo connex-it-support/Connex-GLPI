@@ -1903,3 +1903,36 @@
   :                                                  SavedSearch_Alert::cronSavedSearchesAlerts()
   inc\crontask.class.php:832                         call_user_func()
   front\cron.php:65                                  CronTask::launch()
+2018-04-04 10:45:01 [2@ITHELPDESK]
+  *** MySQL query error:
+  SQL: INSERT
+                   INTO `glpi_notifications_notificationtemplates` (`notifications_id`,`mode`,`notificationtemplates_id`) VALUES (\'4\',\'mailing\',\'4\')
+  Error: Duplicate entry '4-mailing-4' for key 'unicity'
+  Backtrace :
+  inc\commondbtm.class.php:504                       
+  inc\commondbtm.class.php:928                       CommonDBTM->addToDB()
+  ...t\notification_notificationtemplate.form.php:51 CommonDBTM->add()
+2018-04-04 11:04:44 [2@ITHELPDESK]
+  *** MySQL query error:
+  SQL: UPDATE `glpi_plugin_formcreator_issues`
+                       SET `comment` = \'&lt;p&gt;&lt;strong&gt;Ticket Type &lt;/strong&gt;Request &lt;strong&gt;Hardware Type&lt;/strong&gt;-&lt;strong&gt;Software&lt;/strong&gt;&lt;br /&gt;Sophos Anti-Virus&lt;br /&gt;Microsoft OneDrive  &lt;strong&gt;Description&lt;/strong&gt;&lt;/p&gt;\\\' WHERE `id` =\'232\'
+  Error: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '232'' at line 2
+  Backtrace :
+  inc\commondbtm.class.php:433                       
+  inc\commondbtm.class.php:1233                      CommonDBTM->updateInDB()
+  plugins\formcreator\hook.php:280                   CommonDBTM->update()
+  :                                                  plugin_formcreator_hook_update_ticket()
+  inc\plugin.class.php:1258                          call_user_func()
+  inc\commondbtm.class.php:1235                      Plugin::doHook()
+  front\ticket.form.php:77                           CommonDBTM->update()
+2018-04-04 15:56:21 [104@ITHELPDESK]
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_savedsearches_alerts` WHERE `is_active` = \'1\' ORDER BY `users_id`
+  Error: Unknown column 'users_id' in 'order clause'
+  Backtrace :
+  inc\dbmysqliterator.class.php:264                  
+  inc\dbmysql.class.php:540                          DBmysqlIterator->__construct()
+  inc\savedsearch_alert.class.php:325                DBmysql->request()
+  :                                                  SavedSearch_Alert::cronSavedSearchesAlerts()
+  inc\crontask.class.php:832                         call_user_func()
+  front\cron.php:65                                  CronTask::launch()

@@ -983,19 +983,24 @@ class Config extends CommonDBTM {
       echo "<tr><th colspan='4'>" . __('Personalization') . "</th></tr>";
 
       echo "<tr class='tab_bg_2'>";
-      echo "<td width='30%'>" . ($userpref?__('Language'):__('Default language')) . "</td>";
+     /* echo "<td width='30%'>" . ($userpref?__('Language'):__('Default language')) . "</td>";
       echo "<td width='20%'>";
       if (Config::canUpdate()
           || !GLPI_DEMO_MODE) {
          Dropdown::showLanguages("language", ['value' => $data["language"]]);
       } else {
          echo "&nbsp;";
-      }
+      }*/
+
+	  
 
       echo "<td width='30%'>" . __('Date format') ."</td>";
       echo "<td width='20%'>";
       Dropdown::showFromArray('date_format', Toolbox::phpDateFormats(), ['value' => $data["date_format"]]);
-      echo "</td></tr>";
+      echo "</td>";
+	  
+	  	  echo "<td width='30%'></td>";
+	   echo "<td width='20%'></td></tr>";
 
       echo "<tr class='tab_bg_2'>";
       echo "<td>".__('Display order of surnames firstnames')."</td><td>";
