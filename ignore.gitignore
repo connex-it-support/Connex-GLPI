@@ -1,5 +1,5 @@
 # Ignore logs
-files/_log/
+_log/
 
 # Ignore session logs
-files/_sessions/
+_sessions/
