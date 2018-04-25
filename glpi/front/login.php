@@ -34,10 +34,8 @@
 * @brief
 * @since version 0.85 in front
 */
-
 include ('../inc/includes.php');
-
-
+print_r($_POST);
 if (!isset($_SESSION["glpicookietest"]) || ($_SESSION["glpicookietest"] != 'testcookie')) {
    if (!is_writable(GLPI_SESSION_DIR)) {
       Html::redirect($CFG_GLPI['root_doc'] . "/index.php?error=2");
@@ -75,6 +73,7 @@ if (isset($_POST['redirect']) && (strlen($_POST['redirect']) > 0)) {
 $auth = new Auth();
 
 
+
 // now we can continue with the process...
 if ($auth->login($login, $password, (isset($_REQUEST["noAUTO"])?$_REQUEST["noAUTO"]:false), $remember)) {
    Auth::redirectIfAuthenticated();
@@ -89,3 +88,4 @@ if ($auth->login($login, $password, (isset($_REQUEST["noAUTO"])?$_REQUEST["noAUT
    Html::nullFooter();
    exit();
 }
+

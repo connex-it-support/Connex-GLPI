@@ -112,19 +112,24 @@ $GO_FIELDS['entities_id']['massiveaction'] = false;
 $GO_FIELDS['notepad']['name']       = _n('Note', 'Notes', 2);
 $GO_FIELDS['notepad']['input_type'] = 'multitext';
 
+
+
+
 /*
 
-Use the template below if you want to add another field to assets. When the fields are added, go to Setup> Objects Managment > asset > fields.
-At the bottom of the page there should be a dropdown with the new field you added. Move it up and down to set up its location on the asset form.
-Select Preview on the left side of this page to see how the asset form will look.
+Use the template below if you want to add another field to assets. When the fields are added, go to Setup> Objects Managment > asset > fields. Refresh the page
+using ctrl+F5 if it does not show up. At the bottom of the page there should be a dropdown with the new field you added. Move it up and down to set up its 
+location on the asset form. Select Preview on the left side of this page to see how the asset form will look.
 
 You can also update the new field for multiple assets at once by going to the assets page and checking the assets you want.
 When you have selected the assets you want to update, click the Actions button at the top or bottom of the page and fill in what you want to update.
+
+Replace 'variable name', 'Field Name', and 'input type to use' with the desired names.
 ///////////////New Field Template/////////////////
 
 
 $GO_FIELDS['variable name']['name']       = __("Field Name");
-$GO_FIELDS['variable name']['input_type'] = 'text';
+$GO_FIELDS['variable name']['input_type'] = 'input type to use';
 
 */
 

@@ -92,8 +92,9 @@ class Search {
     * @return nothing
    **/
    static function showList($itemtype, $params) {
-
+	
       $data = self::prepareDatasForSearch($itemtype, $params);
+	  
       self::constructSQL($data);
       self::constructDatas($data);
       self::displayDatas($data);

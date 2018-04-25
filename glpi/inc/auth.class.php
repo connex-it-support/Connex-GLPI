@@ -572,7 +572,7 @@ class Auth extends CommonGLPI {
    */
    function Login($login_name, $login_password, $noauto = false, $remember_me = false) {
       global $DB, $CFG_GLPI;
-
+		
       $this->getAuthMethods();
       $this->user_present  = 1;
       $this->auth_succeded = false;
@@ -581,8 +581,9 @@ class Auth extends CommonGLPI {
 
       // Trim login_name : avoid LDAP search errors
       $login_name = trim($login_name);
-
+		
       if (!$noauto && ($authtype = self::checkAlternateAuthSystems())) {
+		  	print_r($_POST);
          if ($this->getAlternateAuthSystemsUserLogin($authtype)
              && !empty($this->user->fields['name'])) {
             // Used for log when login process failed
@@ -593,6 +594,7 @@ class Auth extends CommonGLPI {
             $user_dn                           = false;
 
             $ldapservers = [];
+
             //if LDAP enabled too, get user's infos from LDAP
             if (Toolbox::canUseLdap()) {
                //User has already authenticate, at least once : it's ldap server if filled
@@ -609,6 +611,7 @@ class Auth extends CommonGLPI {
                      $ldapservers[] = $ldap_config;
                   }
                }
+			   
                foreach ($ldapservers as $ldap_method) {
                   $ds = AuthLdap::connectToServer($ldap_method["host"],
                                                   $ldap_method["port"],
@@ -640,6 +643,7 @@ class Auth extends CommonGLPI {
                   }
                }
             }
+			
             if ((count($ldapservers) == 0)
                 && ($authtype == self::EXTERNAL)) {
                // Case of using external auth and no LDAP servers, so get data from external auth
@@ -1064,10 +1068,11 @@ class Auth extends CommonGLPI {
     */
    static function checkAlternateAuthSystems($redirect = false, $redirect_string = '') {
       global $CFG_GLPI;
-
+	  
       if (isset($_GET["noAUTO"]) || isset($_POST["noAUTO"])) {
          return false;
       }
+
       $redir_string = "";
       if (!empty($redirect_string)) {
          $redir_string = "?redirect=".$redirect_string;
@@ -1087,6 +1092,7 @@ class Auth extends CommonGLPI {
       //Look for the field in $_SERVER AND $_REQUEST
       // MoYo : checking REQUEST create a security hole for me !
       $ssovariable = Dropdown::getDropdownName('glpi_ssovariables', $CFG_GLPI["ssovariables_id"]);
+	 
       if ($CFG_GLPI["ssovariables_id"]
           && ((isset($_SERVER[$ssovariable]) && !empty($_SERVER[$ssovariable]))
               /*|| (isset($_REQUEST[$ssovariable]) && !empty($_REQUEST[$ssovariable]))*/)) {

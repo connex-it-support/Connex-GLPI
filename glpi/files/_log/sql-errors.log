@@ -1936,3 +1936,69 @@
   :                                                  SavedSearch_Alert::cronSavedSearchesAlerts()
   inc\crontask.class.php:832                         call_user_func()
   front\cron.php:65                                  CronTask::launch()
+2018-04-06 15:32:25 [@ITHELPDESK]
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_savedsearches_alerts` WHERE `is_active` = \'1\' ORDER BY `users_id`
+  Error: Unknown column 'users_id' in 'order clause'
+  Backtrace :
+  inc\dbmysqliterator.class.php:264                  
+  inc\dbmysql.class.php:540                          DBmysqlIterator->__construct()
+  inc\savedsearch_alert.class.php:325                DBmysql->request()
+  :                                                  SavedSearch_Alert::cronSavedSearchesAlerts()
+  inc\crontask.class.php:832                         call_user_func()
+  front\cron.php:65                                  CronTask::launch()
+2018-04-09 12:35:43 [@ITHELPDESK]
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_savedsearches_alerts` WHERE `is_active` = \'1\' ORDER BY `users_id`
+  Error: Unknown column 'users_id' in 'order clause'
+  Backtrace :
+  inc\dbmysqliterator.class.php:264                  
+  inc\dbmysql.class.php:540                          DBmysqlIterator->__construct()
+  inc\savedsearch_alert.class.php:325                DBmysql->request()
+  :                                                  SavedSearch_Alert::cronSavedSearchesAlerts()
+  inc\crontask.class.php:832                         call_user_func()
+  front\cron.php:65                                  CronTask::launch()
+2018-04-13 11:39:25 [2@ITHELPDESK]
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_savedsearches_alerts` WHERE `is_active` = \'1\' ORDER BY `users_id`
+  Error: Unknown column 'users_id' in 'order clause'
+  Backtrace :
+  inc\dbmysqliterator.class.php:264                  
+  inc\dbmysql.class.php:540                          DBmysqlIterator->__construct()
+  inc\savedsearch_alert.class.php:325                DBmysql->request()
+  :                                                  SavedSearch_Alert::cronSavedSearchesAlerts()
+  inc\crontask.class.php:832                         call_user_func()
+  front\cron.php:65                                  CronTask::launch()
+2018-04-16 15:28:16 [@ITHELPDESK]
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_savedsearches_alerts` WHERE `is_active` = \'1\' ORDER BY `users_id`
+  Error: Unknown column 'users_id' in 'order clause'
+  Backtrace :
+  inc\dbmysqliterator.class.php:264                  
+  inc\dbmysql.class.php:540                          DBmysqlIterator->__construct()
+  inc\savedsearch_alert.class.php:325                DBmysql->request()
+  :                                                  SavedSearch_Alert::cronSavedSearchesAlerts()
+  inc\crontask.class.php:832                         call_user_func()
+  front\cron.php:65                                  CronTask::launch()
+2018-04-20 14:39:50 [@ITHELPDESK]
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_savedsearches_alerts` WHERE `is_active` = \'1\' ORDER BY `users_id`
+  Error: Unknown column 'users_id' in 'order clause'
+  Backtrace :
+  inc\dbmysqliterator.class.php:264                  
+  inc\dbmysql.class.php:540                          DBmysqlIterator->__construct()
+  inc\savedsearch_alert.class.php:325                DBmysql->request()
+  :                                                  SavedSearch_Alert::cronSavedSearchesAlerts()
+  inc\crontask.class.php:832                         call_user_func()
+  front\cron.php:65                                  CronTask::launch()
+2018-04-24 10:20:54 [2@ITHELPDESK]
+  *** MySQL query error:
+  SQL: SELECT * FROM `glpi_savedsearches_alerts` WHERE `is_active` = \'1\' ORDER BY `users_id`
+  Error: Unknown column 'users_id' in 'order clause'
+  Backtrace :
+  inc\dbmysqliterator.class.php:264                  
+  inc\dbmysql.class.php:540                          DBmysqlIterator->__construct()
+  inc\savedsearch_alert.class.php:325                DBmysql->request()
+  :                                                  SavedSearch_Alert::cronSavedSearchesAlerts()
+  inc\crontask.class.php:832                         call_user_func()
+  front\cron.php:65                                  CronTask::launch()

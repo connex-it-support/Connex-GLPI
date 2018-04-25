@@ -39,7 +39,8 @@ include ('../inc/includes.php');
 Session::checkLoginUser();
 
 if ($_SESSION["glpiactiveprofile"]["interface"] == "helpdesk") {
-   Html::helpHeader(Ticket::getTypeName(Session::getPluralNumber()), '', $_SESSION["glpiname"]);
+
+  Html::helpHeader(Ticket::getTypeName(Session::getPluralNumber()), '', $_SESSION["glpiname"]);
 } else {
    Html::header(Ticket::getTypeName(Session::getPluralNumber()), '', "helpdesk", "ticket");
 }

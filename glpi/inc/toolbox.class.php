@@ -316,7 +316,8 @@ class Toolbox {
     * @see clean_cross_side_scripting_deep
    **/
    static function unclean_cross_side_scripting_deep($value) {
-
+	// print_r($value);
+	 // return $value;
       $in  = ['<', '>'];
       $out = ['&lt;', '&gt;'];
 

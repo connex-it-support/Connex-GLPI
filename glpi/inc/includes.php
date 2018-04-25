@@ -34,6 +34,7 @@
 * @brief
 */
 
+
 if (!defined('GLPI_ROOT')) {
    define('GLPI_ROOT', dirname(__DIR__));
 }
@@ -167,9 +168,12 @@ if (GLPI_USE_CSRF_CHECK
     // ALL plugins need to be CSRF compliant
     /*&& Plugin::isAllPluginsCSRFCompliant()*/) {
    // No ajax pages
+ 
    if (!preg_match(':'.$CFG_GLPI['root_doc'].'(/plugins/[^/]*|)/ajax/:', $_SERVER['REQUEST_URI'])) {
+
       Session::checkCSRF($_POST);
    }
 }
+
 // SET new global Token
 $CURRENTCSRFTOKEN = '';

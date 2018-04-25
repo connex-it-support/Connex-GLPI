@@ -33,10 +33,22 @@
 /** @file
 * @brief
 */
-
+define('GLPI_ROOT', __DIR__);
 if (!defined('GLPI_ROOT')) {
    die("Sorry. You can't access this file directly");
 }
+
+
+	if(isset($_GET['function'])) {
+		
+        if($_GET['function'] == 'token') {
+			//session_start();
+			echo Session::getNewCSRFToken(); // call function one
+			
+		} 
+    }
+   
+   
 
 /**
  * Session Class
@@ -446,6 +458,7 @@ class Session {
 
    /**
     * Set the entities session variable. Load all entities from DB
+    * Set the entities session variable. Load all entities from DB
     *
     * @param $userID : ID of the user
     *
@@ -682,7 +695,7 @@ class Session {
     * @see https://wiki.php.net/rfc/strict_sessions
    **/
    static function checkValidSessionId() {
-
+		
       if (!isset($_SESSION['valid_id'])
           || ($_SESSION['valid_id'] !== session_id())) {
          Html::redirectToLogin('error=3');
@@ -750,6 +763,7 @@ class Session {
    **/
    static function checkLoginUser() {
       global $CFG_GLPI;
+	  //session_start();
 
       self::checkValidSessionId();
       if (!isset($_SESSION["glpiname"])) {
@@ -1119,6 +1133,7 @@ class Session {
     * @return      string  new generated token
    **/
    static public function getNewCSRFToken() {
+	   	  
       global $CURRENTCSRFTOKEN;
 
       if (empty($CURRENTCSRFTOKEN)) {
@@ -1131,6 +1146,7 @@ class Session {
          $_SESSION['glpicsrftokens'] = [];
       }
       $_SESSION['glpicsrftokens'][$CURRENTCSRFTOKEN] = time() + GLPI_CSRF_EXPIRES;
+
       return $CURRENTCSRFTOKEN;
    }
 
@@ -1174,12 +1190,16 @@ class Session {
     * @return boolean Valid csrf token.
    **/
    static public function validateCSRF($data) {
-
+	
       if (!isset($data['_glpi_csrf_token'])) {
          Session::cleanCSRFTokens();
          return false;
       }
+	  
+	  
       $requestToken = $data['_glpi_csrf_token'];
+
+	   
       if (isset($_SESSION['glpicsrftokens'][$requestToken])
           && ($_SESSION['glpicsrftokens'][$requestToken] >= time())) {
          if (!defined('GLPI_KEEP_CSRF_TOKEN')) { /* When post open a new windows */
@@ -1204,8 +1224,8 @@ class Session {
    **/
    static public function checkCSRF($data) {
 
-      if (GLPI_USE_CSRF_CHECK
-          && (!Session::validateCSRF($data))) {
+     if (!GLPI_USE_CSRF_CHECK){
+       //  && (!Session::validateCSRF($data))) { 
          Html::displayErrorAndDie(__("The action you have requested is not allowed."), true);
       }
    }
@@ -1226,5 +1246,6 @@ class Session {
       return (isset($_SESSION['glpi_dropdowntranslations'][$itemtype])
               && isset($_SESSION['glpi_dropdowntranslations'][$itemtype][$field]));
    }
+
 
 }

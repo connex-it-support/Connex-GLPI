@@ -46454,3 +46454,1040 @@ Test
   plugins\formcreator\inc\form.class.php:1180        PluginFormcreatorForm_Answer->saveAnswers()
   plugins\formcreator\front\form.form.php:92         PluginFormcreatorForm->saveForm()
 Test
+2018-04-06 16:44:00 [@ITHELPDESK]
+  From DBmysql::optimize_tables() in C:\inetpub\wwwroot\Connex-GLPI\glpi\inc\dbmysql.class.php line 558
+  Cannot launch automatic action : crashed tables detected 
+2018-04-09 14:14:33 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: first
+  Backtrace :
+  front\login.php:78                                 
+2018-04-09 14:14:33 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: second
+  Backtrace :
+  front\login.php:80                                 
+2018-04-09 14:14:33 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined variable: login
+  Backtrace :
+  front\login.php:84                                 
+2018-04-09 14:14:33 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined variable: password
+  Backtrace :
+  front\login.php:84                                 
+2018-04-09 14:14:33 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined variable: remember
+  Backtrace :
+  front\login.php:84                                 
+2018-04-09 14:14:33 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined variable: REDIRECT
+  Backtrace :
+  front\login.php:93                                 
+2018-04-09 14:14:47 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: first
+  Backtrace :
+  front\login.php:78                                 
+2018-04-09 14:14:47 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: second
+  Backtrace :
+  front\login.php:80                                 
+2018-04-09 14:14:47 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined variable: login
+  Backtrace :
+  front\login.php:84                                 
+2018-04-09 14:14:47 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined variable: password
+  Backtrace :
+  front\login.php:84                                 
+2018-04-09 14:14:47 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined variable: remember
+  Backtrace :
+  front\login.php:84                                 
+2018-04-09 14:14:47 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined variable: REDIRECT
+  Backtrace :
+  front\login.php:93                                 
+2018-04-09 14:15:39 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: first
+  Backtrace :
+  front\login.php:78                                 
+2018-04-09 14:15:39 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: second
+  Backtrace :
+  front\login.php:80                                 
+Test
+Test
+2018-04-16 15:13:27 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  front\stat_manager.php:43                          
+2018-04-16 15:13:27 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  front\stat_manager.php:44                          
+2018-04-19 11:26:14 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1218 session_start()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:173 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:42 include()
+2018-04-19 11:37:06 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1218 session_start()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:173 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:42 include()
+2018-04-19 11:50:12 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1218 session_start()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:173 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 11:50:18 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1218 session_start()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:173 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 11:50:18 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1218 session_start()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:173 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 11:50:19 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1218 session_start()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:173 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 11:50:19 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1218 session_start()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:173 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 11:50:19 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1218 session_start()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:173 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 11:50:19 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1218 session_start()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:173 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 12:00:55 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1219 session_start()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:173 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 12:06:30 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1220 session_start()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:173 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 12:06:30 [@ITHELPDESK]
+  *** PHP Notice(8): Array to string conversion
+  Backtrace :
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1196 
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1223 Session::validateCSRF()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:173 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 12:13:02 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1220 session_start()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:173 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 12:13:02 [@ITHELPDESK]
+  *** PHP Notice(8): Array to string conversion
+  Backtrace :
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1196 
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1223 Session::validateCSRF()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:173 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 12:17:38 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1220 session_start()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:173 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 12:17:38 [@ITHELPDESK]
+  *** PHP Notice(8): Array to string conversion
+  Backtrace :
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1196 
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1223 Session::validateCSRF()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:173 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 12:40:35 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1222 session_start()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:173 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 12:40:35 [@ITHELPDESK]
+  *** PHP Notice(8): Array to string conversion
+  Backtrace :
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1198 
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1225 Session::validateCSRF()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:173 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 12:41:17 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1222 session_start()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:173 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 12:41:17 [@ITHELPDESK]
+  *** PHP Notice(8): Array to string conversion
+  Backtrace :
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1198 
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1225 Session::validateCSRF()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:173 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 12:42:33 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1222 session_start()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 12:42:33 [@ITHELPDESK]
+  *** PHP Notice(8): Array to string conversion
+  Backtrace :
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1198 
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1225 Session::validateCSRF()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 12:43:34 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1222 session_start()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 12:43:34 [@ITHELPDESK]
+  *** PHP Notice(8): Array to string conversion
+  Backtrace :
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1198 
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1225 Session::validateCSRF()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 12:44:24 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1222 session_start()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 12:48:28 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1222 session_start()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 12:51:17 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1223 session_start()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 12:52:59 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1223 session_start()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 12:57:10 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1223 session_start()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 13:02:18 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1223 session_start()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 13:02:25 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1223 session_start()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 13:03:03 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1223 session_start()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 13:03:35 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1223 session_start()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 14:03:00 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1223 session_start()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 14:04:19 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1224 session_start()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 14:04:19 [@ITHELPDESK]
+  *** PHP Notice(8): Array to string conversion
+  Backtrace :
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1200 
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1227 Session::validateCSRF()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 14:04:40 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1224 session_start()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 14:05:40 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1224 session_start()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 14:10:09 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1224 session_start()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 14:10:15 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1224 session_start()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 14:10:31 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1224 session_start()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 14:10:33 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1224 session_start()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 14:10:41 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1224 session_start()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:43 include()
+2018-04-19 15:55:51 [2@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1224 session_start()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:44 include()
+2018-04-19 15:55:51 [2@ITHELPDESK]
+  *** PHP Warning(2): Cannot modify header information - headers already sent by (output started at C:\inetpub\wwwroot\Connex-GLPI\glpi\inc\session.class.php:1200)
+  Backtrace :
+  :                                                  
+  ...wwroot\Connex-GLPI\glpi\inc\html.class.php:1759 header()
+  ...wwwroot\Connex-GLPI\glpi\inc\html.class.php:851 Html::nullHeader()
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1228 Html::displayErrorAndDie()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:44 include()
+2018-04-19 15:55:51 [2@ITHELPDESK]
+  *** PHP Warning(2): Cannot modify header information - headers already sent by (output started at C:\inetpub\wwwroot\Connex-GLPI\glpi\inc\session.class.php:1200)
+  Backtrace :
+  :                                                  
+  ...wwroot\Connex-GLPI\glpi\inc\html.class.php:1952 header()
+  ...wwroot\Connex-GLPI\glpi\inc\html.class.php:1762 Html::header_nocache()
+  ...wwwroot\Connex-GLPI\glpi\inc\html.class.php:851 Html::nullHeader()
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1228 Html::displayErrorAndDie()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:44 include()
+2018-04-19 15:55:51 [2@ITHELPDESK]
+  *** PHP Warning(2): Cannot modify header information - headers already sent by (output started at C:\inetpub\wwwroot\Connex-GLPI\glpi\inc\session.class.php:1200)
+  Backtrace :
+  :                                                  
+  ...wwroot\Connex-GLPI\glpi\inc\html.class.php:1953 header()
+  ...wwroot\Connex-GLPI\glpi\inc\html.class.php:1762 Html::header_nocache()
+  ...wwwroot\Connex-GLPI\glpi\inc\html.class.php:851 Html::nullHeader()
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1228 Html::displayErrorAndDie()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:44 include()
+2018-04-19 15:55:51 [2@ITHELPDESK]
+  *** PHP Warning(2): Cannot modify header information - headers already sent by (output started at C:\inetpub\wwwroot\Connex-GLPI\glpi\inc\session.class.php:1200)
+  Backtrace :
+  :                                                  
+  ...wwroot\Connex-GLPI\glpi\inc\html.class.php:1114 header()
+  ...wwroot\Connex-GLPI\glpi\inc\html.class.php:1768 Html::includeHeader()
+  ...wwwroot\Connex-GLPI\glpi\inc\html.class.php:851 Html::nullHeader()
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1228 Html::displayErrorAndDie()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:44 include()
+2018-04-19 15:55:51 [2@ITHELPDESK]
+  *** PHP Warning(2): Cannot modify header information - headers already sent by (output started at C:\inetpub\wwwroot\Connex-GLPI\glpi\inc\session.class.php:1200)
+  Backtrace :
+  :                                                  
+  ...wwroot\Connex-GLPI\glpi\inc\html.class.php:1116 header()
+  ...wwroot\Connex-GLPI\glpi\inc\html.class.php:1768 Html::includeHeader()
+  ...wwwroot\Connex-GLPI\glpi\inc\html.class.php:851 Html::nullHeader()
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1228 Html::displayErrorAndDie()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:44 include()
+2018-04-19 15:55:51 [2@ITHELPDESK]
+  *** PHP Warning(2): Cannot modify header information - headers already sent by (output started at C:\inetpub\wwwroot\Connex-GLPI\glpi\inc\session.class.php:1200)
+  Backtrace :
+  :                                                  
+  ...wwroot\Connex-GLPI\glpi\inc\html.class.php:1952 header()
+  ...wwroot\Connex-GLPI\glpi\inc\html.class.php:1119 Html::header_nocache()
+  ...wwroot\Connex-GLPI\glpi\inc\html.class.php:1768 Html::includeHeader()
+  ...wwwroot\Connex-GLPI\glpi\inc\html.class.php:851 Html::nullHeader()
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1228 Html::displayErrorAndDie()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:44 include()
+2018-04-19 15:55:51 [2@ITHELPDESK]
+  *** PHP Warning(2): Cannot modify header information - headers already sent by (output started at C:\inetpub\wwwroot\Connex-GLPI\glpi\inc\session.class.php:1200)
+  Backtrace :
+  :                                                  
+  ...wwroot\Connex-GLPI\glpi\inc\html.class.php:1953 header()
+  ...wwroot\Connex-GLPI\glpi\inc\html.class.php:1119 Html::header_nocache()
+  ...wwroot\Connex-GLPI\glpi\inc\html.class.php:1768 Html::includeHeader()
+  ...wwwroot\Connex-GLPI\glpi\inc\html.class.php:851 Html::nullHeader()
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1228 Html::displayErrorAndDie()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:44 include()
+2018-04-19 16:00:04 [2@ITHELPDESK]
+  *** PHP Warning(2): Cannot modify header information - headers already sent by (output started at C:\inetpub\wwwroot\Connex-GLPI\glpi\inc\session.class.php:1200)
+  Backtrace :
+  :                                                  
+  ...wwroot\Connex-GLPI\glpi\inc\html.class.php:1759 header()
+  ...wwwroot\Connex-GLPI\glpi\inc\html.class.php:851 Html::nullHeader()
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1227 Html::displayErrorAndDie()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:44 include()
+2018-04-19 16:00:04 [2@ITHELPDESK]
+  *** PHP Warning(2): Cannot modify header information - headers already sent by (output started at C:\inetpub\wwwroot\Connex-GLPI\glpi\inc\session.class.php:1200)
+  Backtrace :
+  :                                                  
+  ...wwroot\Connex-GLPI\glpi\inc\html.class.php:1952 header()
+  ...wwroot\Connex-GLPI\glpi\inc\html.class.php:1762 Html::header_nocache()
+  ...wwwroot\Connex-GLPI\glpi\inc\html.class.php:851 Html::nullHeader()
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1227 Html::displayErrorAndDie()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:44 include()
+2018-04-19 16:00:04 [2@ITHELPDESK]
+  *** PHP Warning(2): Cannot modify header information - headers already sent by (output started at C:\inetpub\wwwroot\Connex-GLPI\glpi\inc\session.class.php:1200)
+  Backtrace :
+  :                                                  
+  ...wwroot\Connex-GLPI\glpi\inc\html.class.php:1953 header()
+  ...wwroot\Connex-GLPI\glpi\inc\html.class.php:1762 Html::header_nocache()
+  ...wwwroot\Connex-GLPI\glpi\inc\html.class.php:851 Html::nullHeader()
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1227 Html::displayErrorAndDie()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:44 include()
+2018-04-19 16:00:04 [2@ITHELPDESK]
+  *** PHP Warning(2): Cannot modify header information - headers already sent by (output started at C:\inetpub\wwwroot\Connex-GLPI\glpi\inc\session.class.php:1200)
+  Backtrace :
+  :                                                  
+  ...wwroot\Connex-GLPI\glpi\inc\html.class.php:1114 header()
+  ...wwroot\Connex-GLPI\glpi\inc\html.class.php:1768 Html::includeHeader()
+  ...wwwroot\Connex-GLPI\glpi\inc\html.class.php:851 Html::nullHeader()
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1227 Html::displayErrorAndDie()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:44 include()
+2018-04-19 16:00:04 [2@ITHELPDESK]
+  *** PHP Warning(2): Cannot modify header information - headers already sent by (output started at C:\inetpub\wwwroot\Connex-GLPI\glpi\inc\session.class.php:1200)
+  Backtrace :
+  :                                                  
+  ...wwroot\Connex-GLPI\glpi\inc\html.class.php:1116 header()
+  ...wwroot\Connex-GLPI\glpi\inc\html.class.php:1768 Html::includeHeader()
+  ...wwwroot\Connex-GLPI\glpi\inc\html.class.php:851 Html::nullHeader()
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1227 Html::displayErrorAndDie()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:44 include()
+2018-04-19 16:00:04 [2@ITHELPDESK]
+  *** PHP Warning(2): Cannot modify header information - headers already sent by (output started at C:\inetpub\wwwroot\Connex-GLPI\glpi\inc\session.class.php:1200)
+  Backtrace :
+  :                                                  
+  ...wwroot\Connex-GLPI\glpi\inc\html.class.php:1952 header()
+  ...wwroot\Connex-GLPI\glpi\inc\html.class.php:1119 Html::header_nocache()
+  ...wwroot\Connex-GLPI\glpi\inc\html.class.php:1768 Html::includeHeader()
+  ...wwwroot\Connex-GLPI\glpi\inc\html.class.php:851 Html::nullHeader()
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1227 Html::displayErrorAndDie()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:44 include()
+2018-04-19 16:00:04 [2@ITHELPDESK]
+  *** PHP Warning(2): Cannot modify header information - headers already sent by (output started at C:\inetpub\wwwroot\Connex-GLPI\glpi\inc\session.class.php:1200)
+  Backtrace :
+  :                                                  
+  ...wwroot\Connex-GLPI\glpi\inc\html.class.php:1953 header()
+  ...wwroot\Connex-GLPI\glpi\inc\html.class.php:1119 Html::header_nocache()
+  ...wwroot\Connex-GLPI\glpi\inc\html.class.php:1768 Html::includeHeader()
+  ...wwwroot\Connex-GLPI\glpi\inc\html.class.php:851 Html::nullHeader()
+  ...oot\Connex-GLPI\glpi\inc\session.class.php:1227 Html::displayErrorAndDie()
+  ...b\wwwroot\Connex-GLPI\glpi\inc\includes.php:174 Session::checkCSRF()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:44 include()
+2018-04-20 09:34:45 [@ITHELPDESK]
+  *** PHP Warning(2): Cannot modify header information - headers already sent by (output started at C:\inetpub\wwwroot\Connex-GLPI\glpi\inc\auth.class.php:1071)
+  Backtrace :
+  :                                                  
+  index.php:74                                       header()
+2018-04-20 09:40:35 [@ITHELPDESK]
+  *** PHP Warning(2): session_regenerate_id(): Cannot regenerate session id - headers already sent
+  Backtrace :
+  ...root\Connex-GLPI\glpi\inc\toolbox.class.php:587 
+  :                                                  Toolbox::userErrorHandlerDebug()
+  ...root\Connex-GLPI\glpi\inc\session.class.php:102 session_regenerate_id()
+  ...wwwroot\Connex-GLPI\glpi\inc\auth.class.php:817 Session::init()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:92 Auth->Login()
+2018-04-20 09:40:54 [@ITHELPDESK]
+  *** PHP Warning(2): session_regenerate_id(): Cannot regenerate session id - headers already sent
+  Backtrace :
+  ...root\Connex-GLPI\glpi\inc\toolbox.class.php:587 
+  :                                                  Toolbox::userErrorHandlerDebug()
+  ...root\Connex-GLPI\glpi\inc\session.class.php:102 session_regenerate_id()
+  ...wwwroot\Connex-GLPI\glpi\inc\auth.class.php:817 Session::init()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:92 Auth->Login()
+2018-04-20 10:16:21 [@ITHELPDESK]
+  *** PHP Warning(2): session_regenerate_id(): Cannot regenerate session id - headers already sent
+  Backtrace :
+  ...root\Connex-GLPI\glpi\inc\toolbox.class.php:587 
+  :                                                  Toolbox::userErrorHandlerDebug()
+  ...root\Connex-GLPI\glpi\inc\session.class.php:102 session_regenerate_id()
+  ...wwwroot\Connex-GLPI\glpi\inc\auth.class.php:817 Session::init()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:92 Auth->Login()
+2018-04-20 10:16:22 [@ITHELPDESK]
+  *** PHP Warning(2): session_regenerate_id(): Cannot regenerate session id - headers already sent
+  Backtrace :
+  ...root\Connex-GLPI\glpi\inc\toolbox.class.php:587 
+  :                                                  Toolbox::userErrorHandlerDebug()
+  ...root\Connex-GLPI\glpi\inc\session.class.php:102 session_regenerate_id()
+  ...wwwroot\Connex-GLPI\glpi\inc\auth.class.php:817 Session::init()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:92 Auth->Login()
+2018-04-20 11:44:09 [@ITHELPDESK]
+  *** PHP Warning(2): Cannot modify header information - headers already sent by (output started at C:\inetpub\wwwroot\Connex-GLPI\glpi\index.php:44)
+  Backtrace :
+  :                                                  
+  index.php:74                                       header()
+2018-04-20 12:20:21 [@ITHELPDESK]
+  *** PHP Warning(2): session_regenerate_id(): Cannot regenerate session id - headers already sent
+  Backtrace :
+  ...root\Connex-GLPI\glpi\inc\toolbox.class.php:587 
+  :                                                  Toolbox::userErrorHandlerDebug()
+  ...root\Connex-GLPI\glpi\inc\session.class.php:102 session_regenerate_id()
+  ...wwwroot\Connex-GLPI\glpi\inc\auth.class.php:817 Session::init()
+  ...pub\wwwroot\Connex-GLPI\glpi\front\login.php:99 Auth->Login()
+2018-04-20 14:39:23 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined variable: GLPI_CONFIG
+  Backtrace :
+  index.php:72                                       
+2018-04-20 14:39:35 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined variable: GLPI_CONFIG
+  Backtrace :
+  index.php:72                                       
+2018-04-20 14:39:49 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined variable: GLPI_CFG
+  Backtrace :
+  index.php:72                                       
+2018-04-20 14:41:09 [@ITHELPDESK]
+  *** PHP Warning(2): Cannot modify header information - headers already sent by (output started at C:\inetpub\wwwroot\Connex-GLPI\glpi\index.php:72)
+  Backtrace :
+  :                                                  
+  index.php:74                                       header()
+2018-04-20 14:50:42 [104@ITHELPDESK]
+  *** PHP Notice(8): Use of undefined constant GLPI_DIRECT - assumed 'GLPI_DIRECT'
+  Backtrace :
+2018-04-20 15:04:21 [@ITHELPDESK]
+  *** PHP Warning(2): Cannot modify header information - headers already sent by (output started at C:\inetpub\wwwroot\Connex-GLPI\glpi\index.php:72)
+  Backtrace :
+  :                                                  
+  index.php:74                                       header()
+2018-04-20 15:44:21 [@ITHELPDESK]
+  *** PHP Warning(2): Cannot modify header information - headers already sent by (output started at C:\inetpub\wwwroot\Connex-GLPI\glpi\index.php:72)
+  Backtrace :
+  :                                                  
+  index.php:74                                       header()
+2018-04-20 15:44:55 [@ITHELPDESK]
+  *** PHP Warning(2): Cannot modify header information - headers already sent by (output started at C:\inetpub\wwwroot\Connex-GLPI\glpi\index.php:72)
+  Backtrace :
+  :                                                  
+  index.php:74                                       header()
+2018-04-20 16:21:32 [@ITHELPDESK]
+  *** PHP Warning(2): Cannot modify header information - headers already sent by (output started at C:\inetpub\wwwroot\Connex-GLPI\glpi\index.php:72)
+  Backtrace :
+  :                                                  
+  index.php:74                                       header()
+2018-04-20 16:27:11 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  front\ticket.php:41                                
+2018-04-20 16:30:12 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  inc\session.class.php:698                          session_start()
+  inc\session.class.php:768                          Session::checkValidSessionId()
+  front\ticket.php:39                                Session::checkLoginUser()
+2018-04-20 16:54:44 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  inc\session.class.php:699                          session_start()
+  inc\session.class.php:769                          Session::checkValidSessionId()
+  front\ticket.php:39                                Session::checkLoginUser()
+2018-04-20 16:56:17 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  inc\session.class.php:766                          session_start()
+  front\ticket.php:39                                Session::checkLoginUser()
+2018-04-23 09:28:12 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  inc\session.class.php:766                          session_start()
+  front\ticket.php:39                                Session::checkLoginUser()
+2018-04-23 09:46:50 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  inc\session.class.php:766                          session_start()
+  front\ticket.php:39                                Session::checkLoginUser()
+2018-04-23 10:54:20 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  inc\session.class.php:766                          session_start()
+  front\ticket.php:39                                Session::checkLoginUser()
+2018-04-23 10:55:30 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  inc\session.class.php:766                          session_start()
+  front\ticket.php:39                                Session::checkLoginUser()
+2018-04-23 10:55:50 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  front\ticket.php:41                                
+2018-04-23 10:55:50 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  inc\session.class.php:766                          session_start()
+  ajax\searchrow.php:45                              Session::checkLoginUser()
+  inc\search.class.php:1887                          include()
+  inc\search.class.php:80                            Search::showGenericSearch()
+  front\ticket.php:51                                Search::show()
+2018-04-23 11:10:58 [2@ITHELPDESK]
+  *** PHP Catchable Fatal Error(4096): Object of class DOMDocument could not be converted to string
+  Backtrace :
+2018-04-23 11:33:47 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  front\ticket.php:41                                
+2018-04-23 11:33:48 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  inc\session.class.php:766                          session_start()
+  ajax\searchrow.php:45                              Session::checkLoginUser()
+  inc\search.class.php:1887                          include()
+  inc\search.class.php:80                            Search::showGenericSearch()
+  front\ticket.php:51                                Search::show()
+2018-04-23 11:34:07 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  front\ticket.php:41                                
+2018-04-23 11:34:07 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  inc\session.class.php:766                          session_start()
+  ajax\searchrow.php:45                              Session::checkLoginUser()
+  inc\search.class.php:1887                          include()
+  inc\search.class.php:80                            Search::showGenericSearch()
+  front\ticket.php:51                                Search::show()
+2018-04-23 11:42:13 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  front\ticket.php:41                                
+2018-04-23 11:42:13 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  inc\session.class.php:766                          session_start()
+  ajax\searchrow.php:45                              Session::checkLoginUser()
+  inc\search.class.php:1887                          include()
+  inc\search.class.php:80                            Search::showGenericSearch()
+  front\ticket.php:51                                Search::show()
+2018-04-23 11:44:58 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  front\ticket.php:41                                
+2018-04-23 11:44:58 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  inc\session.class.php:766                          session_start()
+  ajax\searchrow.php:45                              Session::checkLoginUser()
+  inc\search.class.php:1887                          include()
+  inc\search.class.php:80                            Search::showGenericSearch()
+  front\ticket.php:51                                Search::show()
+2018-04-23 11:45:02 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  front\ticket.php:41                                
+2018-04-23 11:45:03 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  inc\session.class.php:766                          session_start()
+  ajax\searchrow.php:45                              Session::checkLoginUser()
+  inc\search.class.php:1887                          include()
+  inc\search.class.php:80                            Search::showGenericSearch()
+  front\ticket.php:51                                Search::show()
+2018-04-23 11:46:06 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  front\ticket.php:41                                
+2018-04-23 11:46:07 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  inc\session.class.php:766                          session_start()
+  ajax\searchrow.php:45                              Session::checkLoginUser()
+  inc\search.class.php:1887                          include()
+  inc\search.class.php:80                            Search::showGenericSearch()
+  front\ticket.php:51                                Search::show()
+2018-04-23 11:47:23 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  front\ticket.php:41                                
+2018-04-23 11:47:23 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  inc\session.class.php:766                          session_start()
+  ajax\searchrow.php:45                              Session::checkLoginUser()
+  inc\search.class.php:1887                          include()
+  inc\search.class.php:80                            Search::showGenericSearch()
+  front\ticket.php:51                                Search::show()
+2018-04-23 11:47:34 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  front\ticket.php:41                                
+2018-04-23 11:47:34 [@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  inc\session.class.php:766                          session_start()
+  ajax\searchrow.php:45                              Session::checkLoginUser()
+  inc\search.class.php:1887                          include()
+  inc\search.class.php:80                            Search::showGenericSearch()
+  front\ticket.php:51                                Search::show()
+2018-04-23 11:48:59 [2@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  inc\session.class.php:766                          session_start()
+  ajax\searchrow.php:45                              Session::checkLoginUser()
+  inc\search.class.php:1887                          include()
+  inc\search.class.php:80                            Search::showGenericSearch()
+  front\ticket.php:51                                Search::show()
+2018-04-23 11:48:59 [2@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  inc\session.class.php:766                          session_start()
+  ajax\searchoption.php:46                           Session::checkLoginUser()
+  ajax\searchrow.php:185                             include()
+  inc\search.class.php:1887                          include()
+  inc\search.class.php:80                            Search::showGenericSearch()
+  front\ticket.php:51                                Search::show()
+2018-04-23 11:48:59 [2@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  inc\session.class.php:766                          session_start()
+  ajax\searchoptionvalue.php:46                      Session::checkLoginUser()
+  ajax\searchoption.php:102                          include()
+  ajax\searchrow.php:185                             include()
+  inc\search.class.php:1887                          include()
+  inc\search.class.php:80                            Search::showGenericSearch()
+  front\ticket.php:51                                Search::show()
+2018-04-23 11:50:44 [2@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  inc\session.class.php:766                          session_start()
+  ajax\searchrow.php:45                              Session::checkLoginUser()
+  inc\search.class.php:1887                          include()
+  inc\search.class.php:80                            Search::showGenericSearch()
+  front\ticket.php:51                                Search::show()
+2018-04-23 11:50:44 [2@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  inc\session.class.php:766                          session_start()
+  ajax\searchoption.php:46                           Session::checkLoginUser()
+  ajax\searchrow.php:185                             include()
+  inc\search.class.php:1887                          include()
+  inc\search.class.php:80                            Search::showGenericSearch()
+  front\ticket.php:51                                Search::show()
+2018-04-23 11:50:44 [2@ITHELPDESK]
+  *** PHP Notice(8): A session had already been started - ignoring session_start()
+  Backtrace :
+  :                                                  
+  inc\session.class.php:766                          session_start()
+  ajax\searchoptionvalue.php:46                      Session::checkLoginUser()
+  ajax\searchoption.php:102                          include()
+  ajax\searchrow.php:185                             include()
+  inc\search.class.php:1887                          include()
+  inc\search.class.php:80                            Search::showGenericSearch()
+  front\ticket.php:51                                Search::show()
+2018-04-23 11:57:49 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  front\ticket.php:41                                
+2018-04-23 12:01:32 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  front\ticket.php:41                                
+2018-04-23 12:01:57 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  front\ticket.php:41                                
+2018-04-23 12:04:13 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  front\ticket.php:41                                
+2018-04-23 12:14:54 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  front\ticket.php:41                                
+2018-04-23 13:55:58 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  front\ticket.php:41                                
+2018-04-23 14:02:22 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiname
+  Backtrace :
+  front\ticket.php:43                                
+2018-04-23 14:02:41 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiname
+  Backtrace :
+  front\ticket.php:43                                
+2018-04-23 14:03:01 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiname
+  Backtrace :
+  front\ticket.php:43                                
+2018-04-23 14:08:52 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined variable: SESSION
+  Backtrace :
+  front\ticket.php:40                                
+2018-04-23 14:08:52 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiname
+  Backtrace :
+  front\ticket.php:43                                
+2018-04-23 14:09:07 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiname
+  Backtrace :
+  front\ticket.php:43                                
+2018-04-23 14:09:07 [@ITHELPDESK]
+  *** PHP Warning(2): Cannot modify header information - headers already sent by (output started at C:\inetpub\wwwroot\Connex-GLPI\glpi\front\ticket.php:40)
+  Backtrace :
+  :                                                  
+  inc\html.class.php:1114                            header()
+  inc\html.class.php:1661                            Html::includeHeader()
+  front\ticket.php:43                                Html::helpHeader()
+2018-04-23 14:09:07 [@ITHELPDESK]
+  *** PHP Warning(2): Cannot modify header information - headers already sent by (output started at C:\inetpub\wwwroot\Connex-GLPI\glpi\front\ticket.php:40)
+  Backtrace :
+  :                                                  
+  inc\html.class.php:1116                            header()
+  inc\html.class.php:1661                            Html::includeHeader()
+  front\ticket.php:43                                Html::helpHeader()
+2018-04-23 14:09:07 [@ITHELPDESK]
+  *** PHP Warning(2): Cannot modify header information - headers already sent by (output started at C:\inetpub\wwwroot\Connex-GLPI\glpi\front\ticket.php:40)
+  Backtrace :
+  :                                                  
+  inc\html.class.php:1952                            header()
+  inc\html.class.php:1119                            Html::header_nocache()
+  inc\html.class.php:1661                            Html::includeHeader()
+  front\ticket.php:43                                Html::helpHeader()
+2018-04-23 14:09:07 [@ITHELPDESK]
+  *** PHP Warning(2): Cannot modify header information - headers already sent by (output started at C:\inetpub\wwwroot\Connex-GLPI\glpi\front\ticket.php:40)
+  Backtrace :
+  :                                                  
+  inc\html.class.php:1953                            header()
+  inc\html.class.php:1119                            Html::header_nocache()
+  inc\html.class.php:1661                            Html::includeHeader()
+  front\ticket.php:43                                Html::helpHeader()
+2018-04-23 14:13:17 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiname
+  Backtrace :
+  front\ticket.php:43                                
+2018-04-23 14:13:50 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiname
+  Backtrace :
+  front\ticket.php:43                                
+2018-04-23 14:18:55 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiname
+  Backtrace :
+  front\ticket.php:43                                
+2018-04-23 14:20:35 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiname
+  Backtrace :
+  front\ticket.php:43                                
+2018-04-23 15:08:59 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiname
+  Backtrace :
+  front\ticket.php:43                                
+2018-04-23 16:06:16 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiname
+  Backtrace :
+  front\ticket.php:43                                
+2018-04-23 16:07:39 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  front\ticket.php:41                                
+2018-04-23 16:15:07 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  front\ticket.php:41                                
+2018-04-23 16:15:13 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  front\ticket.php:41                                
+2018-04-23 16:19:46 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  front\ticket.php:41                                
+2018-04-23 16:20:12 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  front\ticket.php:41                                
+2018-04-23 16:22:30 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  front\ticket.php:41                                
+2018-04-23 16:24:11 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  front\ticket.php:41                                
+2018-04-23 16:24:21 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  front\ticket.php:41                                
+2018-04-24 09:03:05 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  front\ticket.php:41                                
+2018-04-24 09:19:57 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  front\ticket.php:41                                
+2018-04-24 09:20:17 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  front\ticket.php:41                                
+2018-04-24 09:20:39 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  front\ticket.php:41                                
+2018-04-24 09:20:40 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  front\ticket.php:41                                
+2018-04-24 09:21:15 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  front\ticket.php:41                                
+2018-04-24 09:34:47 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  front\ticket.php:41                                
+2018-04-24 09:36:44 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  front\ticket.php:41                                
+2018-04-24 09:47:40 [@ITHELPDESK]
+  *** PHP Notice(8): Undefined index: glpiactiveprofile
+  Backtrace :
+  front\ticket.php:41                                
+2018-04-24 10:00:54 [2@ITHELPDESK]
+  *** PHP Warning(2): Cannot modify header information - headers already sent by (output started at C:\inetpub\wwwroot\Connex-GLPI\glpi\front\ticket.php:38)
+  Backtrace :
+  :                                                  
+  inc\html.class.php:1114                            header()
+  inc\html.class.php:1434                            Html::includeHeader()
+  front\ticket.php:45                                Html::header()
+2018-04-24 10:00:54 [2@ITHELPDESK]
+  *** PHP Warning(2): Cannot modify header information - headers already sent by (output started at C:\inetpub\wwwroot\Connex-GLPI\glpi\front\ticket.php:38)
+  Backtrace :
+  :                                                  
+  inc\html.class.php:1116                            header()
+  inc\html.class.php:1434                            Html::includeHeader()
+  front\ticket.php:45                                Html::header()
+2018-04-24 10:00:54 [2@ITHELPDESK]
+  *** PHP Warning(2): Cannot modify header information - headers already sent by (output started at C:\inetpub\wwwroot\Connex-GLPI\glpi\front\ticket.php:38)
+  Backtrace :
+  :                                                  
+  inc\html.class.php:1952                            header()
+  inc\html.class.php:1119                            Html::header_nocache()
+  inc\html.class.php:1434                            Html::includeHeader()
+  front\ticket.php:45                                Html::header()
+2018-04-24 10:00:54 [2@ITHELPDESK]
+  *** PHP Warning(2): Cannot modify header information - headers already sent by (output started at C:\inetpub\wwwroot\Connex-GLPI\glpi\front\ticket.php:38)
+  Backtrace :
+  :                                                  
+  inc\html.class.php:1953                            header()
+  inc\html.class.php:1119                            Html::header_nocache()
+  inc\html.class.php:1434                            Html::includeHeader()
+  front\ticket.php:45                                Html::header()
