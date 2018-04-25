@@ -1,0 +1,5 @@
+# Ignore logs
+files/_log/
+
+# Ignore session logs
+files/_sessions/

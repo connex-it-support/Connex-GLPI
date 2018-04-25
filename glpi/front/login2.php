@@ -131,7 +131,7 @@ if (!isset($_SESSION["glpicookietest"]) || ($_SESSION["glpicookietest"] != 'test
 		</script>';
 		
 	} else {	
-		echo 'login faileds';
+		echo 'login failed';
 
 	
 	}
