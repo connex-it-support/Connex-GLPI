@@ -35,7 +35,7 @@
 * @since version 0.85 in front
 */
 include ('../inc/includes.php');
-print_r($_POST);
+
 if (!isset($_SESSION["glpicookietest"]) || ($_SESSION["glpicookietest"] != 'testcookie')) {
    if (!is_writable(GLPI_SESSION_DIR)) {
       Html::redirect($CFG_GLPI['root_doc'] . "/index.php?error=2");

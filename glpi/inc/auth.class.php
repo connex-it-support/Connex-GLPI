@@ -583,7 +583,7 @@ class Auth extends CommonGLPI {
       $login_name = trim($login_name);
 		
       if (!$noauto && ($authtype = self::checkAlternateAuthSystems())) {
-		  	print_r($_POST);
+
          if ($this->getAlternateAuthSystemsUserLogin($authtype)
              && !empty($this->user->fields['name'])) {
             // Used for log when login process failed
