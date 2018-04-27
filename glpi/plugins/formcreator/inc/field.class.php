@@ -44,40 +44,6 @@ abstract class PluginFormcreatorField implements PluginFormcreatorFieldInterface
 	 
       $this->displayField($canEdit);
 	  
-
-	  	  //quantity is not null means there are quantities
-	  if ($this->fields['quantity'] != null){
-		 echo ' 
-			<script type="text/javascript">
-			var id = '.$this->fields['id'].';
-			var current_total ="";
-			
-			
-			if (parseInt( document.getElementById("cost_"+id).innerHTML  )){
-				current = parseInt( document.getElementById("cost_"+id).innerHTML  );
-			}
-			
-			if (parseInt( document.getElementById(total).innerHTML  )){
-				current = parseInt( document.getElementById(total).innerHTML  );
-			}
-			
-			
-		//	current_total = parseInt( document.getElementById("cost_"+id).innerHTML  ) + parseInt( document.getElementById("total").innerHTML ) ;
-
-	
-		
-				document.getElementById("total").innerHTML = current_total;
-				
-				
-
-		   
-		   if ( isNaN(document.getElementById("total").innerHTML)){
-			   	document.getElementById("total").innerHTML = "";
-		   }
-		   
-			</script>';
-	  } 
-
       echo '</div>';
 
       echo '</div>';
